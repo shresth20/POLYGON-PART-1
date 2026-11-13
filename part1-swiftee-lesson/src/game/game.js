@@ -2352,9 +2352,12 @@
     return new Promise(function (resolve) {
       var lines = {}; (spec.cards || []).forEach(function (c) { lines[c.id] = c; });
       var cards = Stage.summaryCards ? Stage.summaryCards() : [];
-      var busy = false, over = false, offs = [];
+      var busy = false, over = false, offs = [], owed = false;
       if (global.Input) Input.mode('polygon');
-      var ready = function () { busy = false; if (nextBtn) nextBtn.classList.remove('wait'); if (Stage.summaryReplay) Stage.summaryReplay(null); };
+      var ready = function () {
+        busy = false; if (nextBtn) nextBtn.classList.remove('wait'); if (Stage.summaryReplay) Stage.summaryReplay(null);
+        if (owed) onNext();          // Next was tapped while a card was being told again: it counts now
+      };
       var end = function () {
         if (over) return; over = true;
         offs.forEach(function (f) { f(); }); offs = [];
@@ -2363,7 +2366,10 @@
       };
       var onNext = function (e) {
         if (e) e.preventDefault();
-        if (over || busy) return;
+        if (over) return;
+        // a tap while a card is being told again was swallowed (the button only dimmed): now the line is cut
+        // short and the lesson moves on as soon as the card settles
+        if (busy) { if (!owed) { owed = true; if (global.SFX) SFX.play('select'); if (global.VO && VO.stop) VO.stop(); } return; }
         if (global.SFX) SFX.play('select');
         end(); resolve({ result: 'tap' });
       };
