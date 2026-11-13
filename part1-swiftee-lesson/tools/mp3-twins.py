@@ -3,7 +3,7 @@
 MP3 twins for Ogg files, timed to match: LAME's 1105-sample priming (encoder + decoder delay, no LAME tag
 from lameenc) is cut from the front of the input, so a decoded twin lines up with its Ogg sample for sample
 (sprite windows and word timings stay valid).
-  --mode voice: mono 24 kHz 64 kbps | sfx: 44.1 kHz, channels kept, 96 kbps | music: 32 kHz stereo 80 kbps
+  --mode voice: mono 24 kHz 48 kbps | sfx: 44.1 kHz, channels kept, 96 kbps | music: 32 kHz stereo 80 kbps
 ~/.cache/popo-voice311/bin/python part1-swiftee-lesson/tools/mp3-twins.py --mode voice <files/dirs...>"""
 import sys, os, argparse, io
 import numpy as np, soundfile as sf, lameenc
@@ -11,7 +11,7 @@ from math import gcd
 from scipy.signal import resample_poly
 ap = argparse.ArgumentParser(); ap.add_argument('--mode', default='voice'); ap.add_argument('--force', action='store_true'); ap.add_argument('paths', nargs='+')
 a = ap.parse_args()
-MODE = {'voice': (24000, 64, 1), 'sfx': (44100, 96, None), 'music': (32000, 80, 2)}[a.mode]
+MODE = {'voice': (24000, 48, 1), 'sfx': (44100, 96, None), 'music': (32000, 80, 2)}[a.mode]
 DELAY = 1105
 def oggs(p):
     if os.path.isdir(p):
