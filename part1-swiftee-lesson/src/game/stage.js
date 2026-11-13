@@ -1933,7 +1933,9 @@
   var SUM = {
     card: { cx: 500, cy: 322, w: 300 },
     shape: { cx: 500, cy: 326, r: 86 },
-    mini: { w: 132, x: [[80, 224], [776, 920]], y: [200, 378], zoom: 1.12, plate: { w: 118, h: 27, size: 15.5, rim: 2 } },
+    // the collected cards' columns sit 32 in from the screen's edges (14 read as cut off on an iPad's rounded,
+    // cased screen)
+    mini: { w: 132, x: [[98, 240], [760, 902]], y: [200, 378], zoom: 1.12, plate: { w: 118, h: 27, size: 15.5, rim: 2 } },
     enterMs: 420, collectMs: 580
   };
 
