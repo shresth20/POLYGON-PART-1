@@ -2493,8 +2493,9 @@
         var asWebp = p.replace(/\.avif$/, '.webp');
         if (/\/hd\//.test(p) ? !hd : hd && /^assets\/char\/[^/]+$/.test(p) && v[asWebp.replace('assets/char/', 'assets/char/hd/')]) return;
         if (/\.avif$/.test(p) ? !avif : avif && /\.webp$/.test(p) && v[p.replace(/\.webp$/, '.avif')]) return;
-        if (/\.ogg$/.test(p)) {
-          if (!ogg) return;
+        // the sounds in the format engine.js assetUrl picks: Ogg, or the MP3 twins where Ogg will not play (older iPads)
+        if (/\.(ogg|mp3)$/.test(p)) {
+          if (ogg ? !/\.ogg$/.test(p) : !/\.mp3$/.test(p)) return;
           var take = /\/vo-lines(?:-([a-z]+))?\./.exec(p);
           if (take && (take[1] || 'en') !== (LANG ? (LANG.voice ? LANG.lang : '-') : 'en')) return;
           sound.push(p);

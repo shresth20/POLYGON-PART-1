@@ -3,12 +3,18 @@
   'use strict';
   var I = global.I18N;
   var BASE = 'assets/vo/' + (I && I.on && I.voice ? I.lang + '/' : '');
-  var playsOgg = (function () {
+  // Every clip ships twice: Ogg Opus (small) and an MP3 twin beside it (tools/mp3-twins.py), because an iPad
+  // before iPadOS 18.4 cannot play Ogg at all and the lesson went silent there. The format is chosen once;
+  // a browser that says it plays Ogg and then cannot is moved to the MP3s by the first clip that fails.
+  var canPlay = function (type) {
     try {
       var a = document.createElement('audio');
-      return !!(a.canPlayType && a.canPlayType('audio/ogg; codecs="opus"'));
+      return !!(a.canPlayType && a.canPlayType(type));
     } catch (e) { return false; }
-  }());
+  };
+  var playsOgg = canPlay('audio/ogg; codecs="opus"');
+  var playsMp3 = canPlay('audio/mpeg');
+  var EXT = playsOgg ? '.ogg' : '.mp3';
   var current = null, known = {};   // known[id] = false once a clip has failed to load
   var liveId = null;
   var index = null, secs = {}, revs = {}, wordMs = {}, spokenMs = {};
@@ -23,7 +29,7 @@
     wordMs = (j && j.words) || {};
     spokenMs = (j && j.spoken) || {};
   }
-  var silent = !!(I && I.on && !I.voice) || !playsOgg;
+  var silent = !!(I && I.on && !I.voice) || (!playsOgg && !playsMp3);
   function loadIndex() {
     if (silent) { index = {}; indexSettled = true; return Promise.resolve(); }
     if (indexWait || indexSettled) return indexWait;
@@ -57,8 +63,15 @@
   /** The clip's own file, as the server has it. */
   function rawUrl(id) {
     var v = revs[id];
-    // (off the disk there is no cache to outwit, and no query on a file path)
-    return BASE + id + '.ogg' + (v && !offDisk ? '?v=' + v : '');
+    // (off the disk there is no cache to outwit, and no query on a file path; the twin is made from the Ogg,
+    // so the Ogg's revision names it too)
+    return BASE + id + EXT + (v && !offDisk ? '?v=' + v : '');
+  }
+  /** An Ogg this browser could not play after all: the MP3s from here on. True if there is one to try. */
+  function toMp3(src) {
+    if (EXT !== '.ogg' || !playsMp3 || !/\.ogg(\?|$)/.test(src || '')) return false;
+    EXT = '.mp3';
+    return true;
   }
   function url(id) {
     var u = rawUrl(id);
@@ -142,15 +155,24 @@
     a.preload = 'auto';
     a.volume = 0.95;
     if (hiddenNow()) a.muted = true;
+    var src0 = a.src || '', tried = false;
+    // a fetched copy (blob:) that will not play: the file itself; an Ogg that will not play: its MP3 twin
+    function retry() {
+      if (tried || current !== a) return tried;
+      var src = a.src || src0, next = null;
+      if (/^blob:/.test(src) || toMp3(src)) next = rawUrl(id);
+      if (!next || next === src) return false;
+      var b = null;
+      try { b = new Audio(next); } catch (e) { b = null; }
+      if (!b) return false;
+      tried = true;
+      try { a.pause(); } catch (e) {}
+      start(b, id);
+      return true;
+    }
     a.addEventListener('error', function () {
       if (current !== a) return;              // an element already replaced is nothing to us
-      var next = null, src = a.src || '';
-      if (/^blob:/.test(src)) next = rawUrl(id);
-      if (next && next !== src) {
-        var b = null;
-        try { b = new Audio(next); } catch (e) { b = null; }
-        if (b) { start(b, id); return; }
-      }
+      if (retry()) return;
       known[id] = false;
       if (global.console) console.warn('[VO] missing or failed: ' + url(id));
       current = null; liveId = null; voiceBus(false); done();
@@ -172,7 +194,9 @@
       }
     }, 250);
     var p = a.play();
-    if (p && p.catch) p.catch(function () {
+    if (p && p.catch) p.catch(function (err) {
+      // a format it cannot play: the twin (its error event may come second, or not at all)
+      if (err && err.name === 'NotSupportedError' && retry()) return;
       // refused (autoplay policy) or failed: release anything waiting on it
       if (global.console) console.warn('[VO] could not play ' + id);
       if (current === a) { current = null; liveId = null; voiceBus(false); done(); }
@@ -192,7 +216,7 @@
         a.preload = 'auto';
         a.addEventListener('error', function () {
           delete warm[id];
-          if (/^blob:/.test(a.src || '')) return;                          // play() will try the file itself
+          if (/^blob:/.test(a.src || '') || /\.ogg(\?|$)/.test(a.src || '')) return;   // play() will try the file, or its MP3 twin
           known[id] = false;
         });
         warm[id] = a;

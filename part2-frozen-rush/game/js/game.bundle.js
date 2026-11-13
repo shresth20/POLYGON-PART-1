@@ -26,16 +26,27 @@
 const ASSET_V = {
   "assets/art/Bubble.svg": "523bce06",
   "assets/art/cover.webp": "ff13073d",
+  "assets/audio/bgm-ice-hunt.mp3": "492edc4a",
   "assets/audio/bgm-ice-hunt.ogg": "b21f6325",
+  "assets/audio/dragon-studio-cartoon-blinking-372481.mp3": "1005482c",
   "assets/audio/dragon-studio-cartoon-blinking-372481.ogg": "47c7ec06",
+  "assets/audio/dragon-studio-heavy-boulder-thud-515257.mp3": "69411d03",
   "assets/audio/dragon-studio-heavy-boulder-thud-515257.ogg": "1fae815f",
+  "assets/audio/dragon-studio-heavy-whoosh-06-414584.mp3": "18469a43",
   "assets/audio/dragon-studio-heavy-whoosh-06-414584.ogg": "5359c6d6",
+  "assets/audio/floraphonic-punchy-taps-ui-5-183901.mp3": "0baacb6e",
   "assets/audio/floraphonic-punchy-taps-ui-5-183901.ogg": "55a3df1a",
+  "assets/audio/freesound_community-foot_steps_snow_heavy-38297.mp3": "251eca09",
   "assets/audio/freesound_community-foot_steps_snow_heavy-38297.ogg": "d8667973",
+  "assets/audio/themediaguy-earthquake-rumble-amp-cracking-379298.mp3": "0b8ff1b6",
   "assets/audio/themediaguy-earthquake-rumble-amp-cracking-379298.ogg": "8bbdca1f",
+  "assets/audio/universfield-ground-impact-352053.mp3": "03780d4b",
   "assets/audio/universfield-ground-impact-352053.ogg": "5dd46c29",
+  "assets/audio/universfield-sad-trumpet-278822.mp3": "6cea8c94",
   "assets/audio/universfield-sad-trumpet-278822.ogg": "547e1717",
+  "assets/audio/vo-lines-hi.mp3": "ec152866",
   "assets/audio/vo-lines-hi.ogg": "f5613559",
+  "assets/audio/vo-lines.mp3": "20813034",
   "assets/audio/vo-lines.ogg": "b7146887",
   "assets/char/bear.webp": "ac7771ee",
   "assets/char/duo-celebrate.webp": "7845cb0a",
@@ -117,16 +128,27 @@ const ASSET_V = {
 const ASSET_SIZE = {
   "assets/art/Bubble.svg": 719,
   "assets/art/cover.webp": 155692,
+  "assets/audio/bgm-ice-hunt.mp3": 2309400,
   "assets/audio/bgm-ice-hunt.ogg": 1461742,
+  "assets/audio/dragon-studio-cartoon-blinking-372481.mp3": 13392,
   "assets/audio/dragon-studio-cartoon-blinking-372481.ogg": 10542,
+  "assets/audio/dragon-studio-heavy-boulder-thud-515257.mp3": 25488,
   "assets/audio/dragon-studio-heavy-boulder-thud-515257.ogg": 14360,
+  "assets/audio/dragon-studio-heavy-whoosh-06-414584.mp3": 36720,
   "assets/audio/dragon-studio-heavy-whoosh-06-414584.ogg": 23504,
+  "assets/audio/floraphonic-punchy-taps-ui-5-183901.mp3": 24624,
   "assets/audio/floraphonic-punchy-taps-ui-5-183901.ogg": 6708,
+  "assets/audio/freesound_community-foot_steps_snow_heavy-38297.mp3": 62208,
   "assets/audio/freesound_community-foot_steps_snow_heavy-38297.ogg": 41552,
+  "assets/audio/themediaguy-earthquake-rumble-amp-cracking-379298.mp3": 85536,
   "assets/audio/themediaguy-earthquake-rumble-amp-cracking-379298.ogg": 49730,
+  "assets/audio/universfield-ground-impact-352053.mp3": 17712,
   "assets/audio/universfield-ground-impact-352053.ogg": 10775,
+  "assets/audio/universfield-sad-trumpet-278822.mp3": 34992,
   "assets/audio/universfield-sad-trumpet-278822.ogg": 25266,
+  "assets/audio/vo-lines-hi.mp3": 572928,
   "assets/audio/vo-lines-hi.ogg": 313049,
+  "assets/audio/vo-lines.mp3": 702912,
   "assets/audio/vo-lines.ogg": 407680,
   "assets/char/bear.webp": 41536,
   "assets/char/duo-celebrate.webp": 602602,
@@ -1012,7 +1034,28 @@ function webpUrl(src) {
   return v ? src + '?v=' + v : src;
 }
 
+/* Every sound ships twice: Ogg Opus, and an MP3 twin beside it (part1-swiftee-lesson/tools/mp3-twins.py). An
+   iPad before iPadOS 18.4 cannot play or decode Ogg, and the runner was silent there: no voice, no effects, no
+   music. A browser that says it plays Ogg and then cannot decode one is moved to the MP3s (noOgg). */
+let oggOk = null;
+function playsOgg() {
+  if (oggOk === null) {
+    try { oggOk = !!new Audio().canPlayType('audio/ogg; codecs="opus"'); } catch (e) { oggOk = false; }
+  }
+  return oggOk;
+}
+/** Ogg failed to decode here: MP3s from now on. True if the sound has a twin to try. */
+function noOgg(src) {
+  if (!/\.ogg$/.test(src) || !ASSET_V[src.slice(0, -4) + '.mp3']) return false;
+  oggOk = false;
+  return true;
+}
+
 function assetUrl(src) {
+  if (src.endsWith('.ogg') && !playsOgg()) {
+    const mp3 = src.slice(0, -4) + '.mp3';
+    if (ASSET_V[mp3]) src = mp3;
+  }
   if (src.endsWith('.webp') && showsAvif()) {
     const avif = src.slice(0, -5) + '.avif';
     if (ASSET_V[avif]) src = avif;
@@ -1835,6 +1878,9 @@ class AudioManager {
       const play = () => { const q = el.play(); if (q && q.catch) q.catch(() => {}); };
       NET.get(url).then(blob => {
         const chain = (blob ? [URL.createObjectURL(blob)] : []).concat([url]);
+        // an Ogg that will not play here after all: its MP3 twin, last
+        const twin = M.src.slice(0, -4) + '.mp3';
+        if (/\.ogg\?/.test(url) && ASSET_V[twin]) chain.push(twin + '?v=' + ASSET_V[twin]);
         let k = 0;
         const next = () => {
           if (k > 0 && chain[k - 1].startsWith('blob:')) { try { URL.revokeObjectURL(chain[k - 1]); } catch (e) { /* gone */ } }
@@ -1898,7 +1944,8 @@ class AudioManager {
               const blob = await NET.get(assetUrl(cue.src));
               return blob ? this.ctx.decodeAudioData(await blob.arrayBuffer()) : get(assetUrl(cue.src));
             };
-            return fromNet();
+            // an Ogg this browser could not decode after all: the MP3 twin
+            try { return await fromNet(); } catch (e) { if (noOgg(cue.src)) return get(assetUrl(cue.src)); throw e; }
           })());
         }
         const buf = await byUrl.get(cue.src);
@@ -2045,7 +2092,15 @@ class AudioManager {
       if (!this.ctx) { this.voLoading = false; return; }     // try again when the context opens
       if (!this.voBytes) await this.fetchVo();
       if (!this.voBytes) throw new Error('no voice bytes');
-      this.vo = await this.ctx.decodeAudioData(this.voBytes.slice(0));
+      try { this.vo = await this.ctx.decodeAudioData(this.voBytes.slice(0)); }
+      catch (e) {
+        // an Ogg this browser could not decode after all: the MP3 twin (the same windows, timed to match)
+        if (!noOgg(V.src)) throw e;
+        this.voBytes = null; this._voFetch = null;
+        await this.fetchVo();
+        if (!this.voBytes) throw e;
+        this.vo = await this.ctx.decodeAudioData(this.voBytes.slice(0));
+      }
       this._sayPending();
     } catch (e) {
       // let a later attempt try again: a decode that failed once is not fatal

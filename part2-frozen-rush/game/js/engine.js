@@ -20,7 +20,28 @@ export function webpUrl(src) {
   return v ? src + '?v=' + v : src;
 }
 
+/* Every sound ships twice: Ogg Opus, and an MP3 twin beside it (part1-swiftee-lesson/tools/mp3-twins.py). An
+   iPad before iPadOS 18.4 cannot play or decode Ogg, and the runner was silent there: no voice, no effects, no
+   music. A browser that says it plays Ogg and then cannot decode one is moved to the MP3s (noOgg). */
+let oggOk = null;
+export function playsOgg() {
+  if (oggOk === null) {
+    try { oggOk = !!new Audio().canPlayType('audio/ogg; codecs="opus"'); } catch (e) { oggOk = false; }
+  }
+  return oggOk;
+}
+/** Ogg failed to decode here: MP3s from now on. True if the sound has a twin to try. */
+export function noOgg(src) {
+  if (!/\.ogg$/.test(src) || !ASSET_V[src.slice(0, -4) + '.mp3']) return false;
+  oggOk = false;
+  return true;
+}
+
 export function assetUrl(src) {
+  if (src.endsWith('.ogg') && !playsOgg()) {
+    const mp3 = src.slice(0, -4) + '.mp3';
+    if (ASSET_V[mp3]) src = mp3;
+  }
   if (src.endsWith('.webp') && showsAvif()) {
     const avif = src.slice(0, -5) + '.avif';
     if (ASSET_V[avif]) src = avif;
@@ -843,6 +864,9 @@ class AudioManager {
       const play = () => { const q = el.play(); if (q && q.catch) q.catch(() => {}); };
       NET.get(url).then(blob => {
         const chain = (blob ? [URL.createObjectURL(blob)] : []).concat([url]);
+        // an Ogg that will not play here after all: its MP3 twin, last
+        const twin = M.src.slice(0, -4) + '.mp3';
+        if (/\.ogg\?/.test(url) && ASSET_V[twin]) chain.push(twin + '?v=' + ASSET_V[twin]);
         let k = 0;
         const next = () => {
           if (k > 0 && chain[k - 1].startsWith('blob:')) { try { URL.revokeObjectURL(chain[k - 1]); } catch (e) { /* gone */ } }
@@ -906,7 +930,8 @@ class AudioManager {
               const blob = await NET.get(assetUrl(cue.src));
               return blob ? this.ctx.decodeAudioData(await blob.arrayBuffer()) : get(assetUrl(cue.src));
             };
-            return fromNet();
+            // an Ogg this browser could not decode after all: the MP3 twin
+            try { return await fromNet(); } catch (e) { if (noOgg(cue.src)) return get(assetUrl(cue.src)); throw e; }
           })());
         }
         const buf = await byUrl.get(cue.src);
@@ -1053,7 +1078,15 @@ class AudioManager {
       if (!this.ctx) { this.voLoading = false; return; }     // try again when the context opens
       if (!this.voBytes) await this.fetchVo();
       if (!this.voBytes) throw new Error('no voice bytes');
-      this.vo = await this.ctx.decodeAudioData(this.voBytes.slice(0));
+      try { this.vo = await this.ctx.decodeAudioData(this.voBytes.slice(0)); }
+      catch (e) {
+        // an Ogg this browser could not decode after all: the MP3 twin (the same windows, timed to match)
+        if (!noOgg(V.src)) throw e;
+        this.voBytes = null; this._voFetch = null;
+        await this.fetchVo();
+        if (!this.voBytes) throw e;
+        this.vo = await this.ctx.decodeAudioData(this.voBytes.slice(0));
+      }
       this._sayPending();
     } catch (e) {
       // let a later attempt try again: a decode that failed once is not fatal
