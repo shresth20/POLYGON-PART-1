@@ -5328,15 +5328,6 @@
       r.style.animationDelay = (delay || 0) + 'ms';
       return r;
     };
-    var sparkle = function (p) {
-      [[-9, -7], [8, -9], [10, 6]].forEach(function (d, i) {
-        var sx = p.x + d[0], sy = p.y + d[1], z = 2.3;
-        var s = mk('path', { d: 'M' + sx + ' ' + (sy - z) + ' L' + (sx + z * 0.3) + ' ' + (sy - z * 0.3) + ' L' + (sx + z) + ' ' + sy + ' L' + (sx + z * 0.3) + ' ' + (sy + z * 0.3) +
-                                ' L' + sx + ' ' + (sy + z) + ' L' + (sx - z * 0.3) + ' ' + (sy + z * 0.3) + ' L' + (sx - z) + ' ' + sy + ' L' + (sx - z * 0.3) + ' ' + (sy - z * 0.3) + ' Z',
-                             fill: '#fff6c8', 'class': 'teach-spark' }, fx);
-        s.style.animationDelay = (i * 140) + 'ms';
-      });
-    };
     var grow = function (a, b, delay, bad, diag) {
       var l = litLine(fx, { x1: a.x, y1: a.y, x2: a.x, y2: a.y, 'stroke-width': bad ? 2.3 : 1.9, 'stroke-linecap': 'butt',
                             'stroke-dasharray': diag ? '4.2 3.4' : 'none' }, { bad: bad })[0];
@@ -5353,11 +5344,6 @@
         global.requestAnimationFrame(step);
       });
       return l;
-    };
-    var breathe = function () {
-      if (reduced() || !copy.animate) return;
-      copy.style.transformBox = 'fill-box'; copy.style.transformOrigin = 'center';
-      try { copy.animate([{ scale: '1' }, { scale: '1.05' }, { scale: '1' }], { duration: 900, easing: 'ease-in-out' }); } catch (e) {}
     };
     var api = {
       concave: dent >= 0,
