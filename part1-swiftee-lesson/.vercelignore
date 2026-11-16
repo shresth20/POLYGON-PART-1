@@ -4,6 +4,7 @@ tools
 docs
 artifacts
 assets/source
+assets/VO-MR
 swiftee-in-use
 serve.js
 package-lock.json

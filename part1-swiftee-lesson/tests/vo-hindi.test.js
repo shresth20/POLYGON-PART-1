@@ -82,8 +82,8 @@ function voIn(lang) {
 }
 t('English reads assets/vo/', JSON.stringify(voIn('en')) === '["assets/vo/index.json"]', voIn('en'));
 t('Hindi reads assets/vo/hi/', JSON.stringify(voIn('hi')) === '["assets/vo/hi/index.json"]', voIn('hi'));
-t('Marathi (no recordings) reads nothing', voIn('mr').length === 0, voIn('mr'));
-t('engine.js swaps in the Hindi take when the game speaks Hindi', /VO_TAKES\s*=\s*\{\s*hi:\s*VO_HI\s*\}/.test(engine) && /if \(VO_TAKE\) CFG\.vo = VO_TAKE;/.test(engine));
+t('Telugu (no recordings) reads nothing', voIn('te').length === 0, voIn('te'));
+t('engine.js swaps in the Hindi take when the game speaks Hindi', /VO_TAKES\s*=\s*\{\s*hi:\s*VO_HI\b/.test(engine) && /if \(VO_TAKE\) CFG\.vo = VO_TAKE;/.test(engine));
 
 /* ---- THE MAP ---- */
 const { recordings } = require('../tools/vo-hindi.js');

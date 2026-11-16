@@ -113,6 +113,16 @@ moving — and then the lesson's own Next moves on. Next on the last scene fades
 - `?story=0` starts straight at screen 1 (the lesson's own suites use it); the review bar
   (`?dev=1`) lists the story as screen 0.
 
+## The voice in other languages
+
+`?lan=hi` and `?lan=mr` are spoken; the other languages are shown and silent.
+
+- **Hindi** — the user's recordings, cut by `tools/build-vo-hindi.js` (docs/VO-HINDI.md).
+- **Marathi** — generated with ElevenLabs: Swiftee is Sayali, the Frozen Rush lines are Vardaan
+  (docs/VO-MARATHI.md). `tools/make-vo-marathi.js` calls the paid API (ask first, CLAUDE.md) and
+  writes the masters to `assets/VO-MR/`; `tools/build-vo-marathi.js` cuts them, free, into
+  `assets/vo/mr/` and Part 2's `vo-lines-mr`. Neither the masters nor the API key ship.
+
 ## How it fits together
 
 ```

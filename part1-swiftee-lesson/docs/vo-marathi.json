@@ -1,0 +1,5781 @@
+{
+ "note": "The Marathi voice-over, generated with ElevenLabs (tools/make-vo-marathi.js) into assets/VO-MR/<id>.mp3. words: where each word shown falls in its file, in seconds, from the API's character alignment (an em dash is null). credits: the request's character-cost header. tools/build-vo-marathi.js cuts the game's clips from this.",
+ "model": "eleven_v4",
+ "settings": {
+  "stability": 0.6,
+  "similarity_boost": 0.8,
+  "speed": 0.92
+ },
+ "seed": 4107,
+ "voices": {
+  "swiftee": {
+   "name": "Sayali",
+   "id": "ObcUVfo3RbQv9i2RBbAe",
+   "library": "Sayali - Marathi User Onboarding Agent (warm, clear, welcoming)"
+  },
+  "popo": {
+   "name": "Vardaan",
+   "id": "ritE7mWIE55SDe0J11Kk",
+   "library": "Vardaan - Expressive Marathi Care Agent (bright, upbeat)"
+  }
+ },
+ "recordings": [
+  {
+   "id": "p01",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p01.mp3",
+   "text": "नमस्कार! मी स्विफ्टी आहे.",
+   "spoken": "नमस्कार! मी स्विफ्टी आहे.",
+   "words_count": 4,
+   "chars": 25,
+   "credits": 12,
+   "request_id": "tbT3vT1mGM4pdCpeASgS",
+   "seconds": 2.273,
+   "generated_ms": 1547,
+   "words": [
+    {
+     "w": "नमस्कार!",
+     "start": 0,
+     "end": 0.64
+    },
+    {
+     "w": "मी",
+     "start": 1.08,
+     "end": 1.2
+    },
+    {
+     "w": "स्विफ्टी",
+     "start": 1.28,
+     "end": 1.72
+    },
+    {
+     "w": "आहे.",
+     "start": 1.76,
+     "end": 2.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p02",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p02.mp3",
+   "text": "आठवते ना, आपण आधी बहुभुजाकृतींबद्दल शिकलो होतो.",
+   "spoken": "आठवते ना, आपण आधी बहुभुजाकृतींबद्दल शिकलो होतो.",
+   "words_count": 7,
+   "chars": 47,
+   "credits": 23,
+   "request_id": "QotV17cPcww5XOqikUKd",
+   "seconds": 3.866,
+   "generated_ms": 1659,
+   "words": [
+    {
+     "w": "आठवते",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "ना,",
+     "start": 0.48,
+     "end": 0.64
+    },
+    {
+     "w": "आपण",
+     "start": 1.04,
+     "end": 1.28
+    },
+    {
+     "w": "आधी",
+     "start": 1.32,
+     "end": 1.6
+    },
+    {
+     "w": "बहुभुजाकृतींबद्दल",
+     "start": 1.76,
+     "end": 2.96
+    },
+    {
+     "w": "शिकलो",
+     "start": 3.04,
+     "end": 3.32
+    },
+    {
+     "w": "होतो.",
+     "start": 3.36,
+     "end": 3.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p03",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p03.mp3",
+   "text": "बहुभुजाकृती म्हणजे सरळ रेषांनी बनलेल्या बंद आकृती.",
+   "spoken": "बहुभुजाकृती म्हणजे सरळ रेषांनी बनलेल्या बंद आकृती.",
+   "words_count": 7,
+   "chars": 50,
+   "credits": 24,
+   "request_id": "7jbmOknIEcOSqUcLKXRn",
+   "seconds": 4.754,
+   "generated_ms": 2245,
+   "words": [
+    {
+     "w": "बहुभुजाकृती",
+     "start": 0,
+     "end": 1.04
+    },
+    {
+     "w": "म्हणजे",
+     "start": 1.44,
+     "end": 1.84
+    },
+    {
+     "w": "सरळ",
+     "start": 2.08,
+     "end": 2.4
+    },
+    {
+     "w": "रेषांनी",
+     "start": 2.48,
+     "end": 2.96
+    },
+    {
+     "w": "बनलेल्या",
+     "start": 3.04,
+     "end": 3.52
+    },
+    {
+     "w": "बंद",
+     "start": 3.68,
+     "end": 4
+    },
+    {
+     "w": "आकृती.",
+     "start": 4.08,
+     "end": 4.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p04",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p04.mp3",
+   "text": "यांपैकी कोणत्या बहुभुजाकृती आहेत?",
+   "spoken": "यांपैकी कोणत्या बहुभुजाकृती आहेत?",
+   "words_count": 4,
+   "chars": 33,
+   "credits": 16,
+   "request_id": "AgJwgxJ4oyMO0tPEoGtd",
+   "seconds": 2.769,
+   "generated_ms": 1557,
+   "words": [
+    {
+     "w": "यांपैकी",
+     "start": 0,
+     "end": 0.64
+    },
+    {
+     "w": "कोणत्या",
+     "start": 0.8,
+     "end": 1.2
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 1.28,
+     "end": 2.08
+    },
+    {
+     "w": "आहेत?",
+     "start": 2.16,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p05",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p05.mp3",
+   "text": "चला, याच्याशी खेळूया.",
+   "spoken": "चला, याच्याशी खेळूया.",
+   "words_count": 3,
+   "chars": 21,
+   "credits": 10,
+   "request_id": "rSxVXv1rJ2tSbMC9wX2w",
+   "seconds": 1.881,
+   "generated_ms": 1151,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "याच्याशी",
+     "start": 0.64,
+     "end": 1.12
+    },
+    {
+     "w": "खेळूया.",
+     "start": 1.16,
+     "end": 1.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p06",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p06.mp3",
+   "text": "कोणताही एक शिरोबिंदू निवडा.",
+   "spoken": "कोणताही एक शिरोबिंदू निवडा.",
+   "words_count": 4,
+   "chars": 27,
+   "credits": 13,
+   "request_id": "mHBP9DpPXiFwEQ8GKgFW",
+   "seconds": 2.351,
+   "generated_ms": 1137,
+   "words": [
+    {
+     "w": "कोणताही",
+     "start": 0,
+     "end": 0.64
+    },
+    {
+     "w": "एक",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "शिरोबिंदू",
+     "start": 1.12,
+     "end": 1.68
+    },
+    {
+     "w": "निवडा.",
+     "start": 1.76,
+     "end": 2.32
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p07i",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p07i.mp3",
+   "text": "चला, याला दुसऱ्या शिरोबिंदूशी जोडूया.",
+   "spoken": "चला, याला दुसऱ्या शिरोबिंदूशी जोडूया.",
+   "words_count": 5,
+   "chars": 37,
+   "credits": 18,
+   "request_id": "7CT8bldJQDVQqfe0lAf1",
+   "seconds": 2.769,
+   "generated_ms": 1287,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "याला",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "दुसऱ्या",
+     "start": 1.04,
+     "end": 1.36
+    },
+    {
+     "w": "शिरोबिंदूशी",
+     "start": 1.44,
+     "end": 2.08
+    },
+    {
+     "w": "जोडूया.",
+     "start": 2.16,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p09",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p09.mp3",
+   "text": "ही बहुभुजाकृतीची एक बाजू आहे.",
+   "spoken": "ही बहुभुजाकृतीची एक बाजू आहे.",
+   "words_count": 5,
+   "chars": 29,
+   "credits": 14,
+   "request_id": "Azc1rm6ZB8uQ3HQJRacY",
+   "seconds": 2.691,
+   "generated_ms": 1395,
+   "words": [
+    {
+     "w": "ही",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "बहुभुजाकृतीची",
+     "start": 0.32,
+     "end": 1.52
+    },
+    {
+     "w": "एक",
+     "start": 1.6,
+     "end": 1.76
+    },
+    {
+     "w": "बाजू",
+     "start": 1.84,
+     "end": 2.16
+    },
+    {
+     "w": "आहे.",
+     "start": 2.24,
+     "end": 2.48
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p10i",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p10i.mp3",
+   "text": "चला, याला वेगळ्या शिरोबिंदूशी जोडूया.",
+   "spoken": "चला, याला वेगळ्या शिरोबिंदूशी जोडूया.",
+   "words_count": 5,
+   "chars": 37,
+   "credits": 18,
+   "request_id": "Q149qjd1VpHTbikRs7UI",
+   "seconds": 2.769,
+   "generated_ms": 1356,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "याला",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "वेगळ्या",
+     "start": 1.04,
+     "end": 1.36
+    },
+    {
+     "w": "शिरोबिंदूशी",
+     "start": 1.44,
+     "end": 2.08
+    },
+    {
+     "w": "जोडूया.",
+     "start": 2.16,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p12",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p12.mp3",
+   "text": "व्वा! तुम्ही एक कर्ण तयार केला!",
+   "spoken": "व्वा! तुम्ही एक कर्ण तयार केला!",
+   "words_count": 6,
+   "chars": 31,
+   "credits": 15,
+   "request_id": "POQED8EDyTluBQosXAZg",
+   "seconds": 2.847,
+   "generated_ms": 1144,
+   "words": [
+    {
+     "w": "व्वा!",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "तुम्ही",
+     "start": 0.92,
+     "end": 1.16
+    },
+    {
+     "w": "एक",
+     "start": 1.2,
+     "end": 1.44
+    },
+    {
+     "w": "कर्ण",
+     "start": 1.52,
+     "end": 1.84
+    },
+    {
+     "w": "तयार",
+     "start": 1.92,
+     "end": 2.16
+    },
+    {
+     "w": "केला!",
+     "start": 2.24,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p13",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p13.mp3",
+   "text": "दोन लगत नसलेल्या शिरोबिंदूंना जोडणारा रेषाखंड म्हणजे कर्ण.",
+   "spoken": "दोन लगत नसलेल्या शिरोबिंदूंना जोडणारा रेषाखंड म्हणजे कर्ण.",
+   "words_count": 8,
+   "chars": 58,
+   "credits": 28,
+   "request_id": "CVRzTuLBSNm2CRnxC6HP",
+   "seconds": 4.754,
+   "generated_ms": 1948,
+   "words": [
+    {
+     "w": "दोन",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "लगत",
+     "start": 0.48,
+     "end": 0.8
+    },
+    {
+     "w": "नसलेल्या",
+     "start": 0.84,
+     "end": 1.28
+    },
+    {
+     "w": "शिरोबिंदूंना",
+     "start": 1.36,
+     "end": 2.08
+    },
+    {
+     "w": "जोडणारा",
+     "start": 2.16,
+     "end": 2.68
+    },
+    {
+     "w": "रेषाखंड",
+     "start": 2.72,
+     "end": 3.52
+    },
+    {
+     "w": "म्हणजे",
+     "start": 3.76,
+     "end": 4.08
+    },
+    {
+     "w": "कर्ण.",
+     "start": 4.16,
+     "end": 4.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p14i",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p14i.mp3",
+   "text": "चला, त्याच शिरोबिंदूपासून आणखी एक कर्ण काढूया.",
+   "spoken": "चला, त्याच शिरोबिंदूपासून आणखी एक कर्ण काढूया.",
+   "words_count": 7,
+   "chars": 46,
+   "credits": 22,
+   "request_id": "CmPeBhFc6mrvlS6EAJxj",
+   "seconds": 3.971,
+   "generated_ms": 1537,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "त्याच",
+     "start": 0.8,
+     "end": 1.12
+    },
+    {
+     "w": "शिरोबिंदूपासून",
+     "start": 1.16,
+     "end": 2.32
+    },
+    {
+     "w": "आणखी",
+     "start": 2.4,
+     "end": 2.72
+    },
+    {
+     "w": "एक",
+     "start": 2.8,
+     "end": 2.96
+    },
+    {
+     "w": "कर्ण",
+     "start": 3,
+     "end": 3.28
+    },
+    {
+     "w": "काढूया.",
+     "start": 3.32,
+     "end": 3.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p14r",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p14r.mp3",
+   "text": "कर्ण लगत नसलेल्या शिरोबिंदूंना जोडतो.",
+   "spoken": "कर्ण लगत नसलेल्या शिरोबिंदूंना जोडतो.",
+   "words_count": 5,
+   "chars": 37,
+   "credits": 18,
+   "request_id": "l26usOWgr70s1MZcuuHP",
+   "seconds": 2.926,
+   "generated_ms": 1503,
+   "words": [
+    {
+     "w": "कर्ण",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "लगत",
+     "start": 0.4,
+     "end": 0.72
+    },
+    {
+     "w": "नसलेल्या",
+     "start": 0.8,
+     "end": 1.28
+    },
+    {
+     "w": "शिरोबिंदूंना",
+     "start": 1.36,
+     "end": 2.16
+    },
+    {
+     "w": "जोडतो.",
+     "start": 2.24,
+     "end": 2.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p15",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p15.mp3",
+   "text": "आता तुमची पाळी! चला, या शिरोबिंदूपासून सर्व कर्ण काढूया.",
+   "spoken": "आता तुमची पाळी! चला, या शिरोबिंदूपासून सर्व कर्ण काढूया.",
+   "words_count": 9,
+   "chars": 56,
+   "credits": 27,
+   "request_id": "re9GBg9CNT8NMzRqnS0d",
+   "seconds": 4.833,
+   "generated_ms": 2005,
+   "words": [
+    {
+     "w": "आता",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "तुमची",
+     "start": 0.4,
+     "end": 0.72
+    },
+    {
+     "w": "पाळी!",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "चला,",
+     "start": 1.52,
+     "end": 1.76
+    },
+    {
+     "w": "या",
+     "start": 2.16,
+     "end": 2.32
+    },
+    {
+     "w": "शिरोबिंदूपासून",
+     "start": 2.4,
+     "end": 3.44
+    },
+    {
+     "w": "सर्व",
+     "start": 3.6,
+     "end": 3.84
+    },
+    {
+     "w": "कर्ण",
+     "start": 3.92,
+     "end": 4.16
+    },
+    {
+     "w": "काढूया.",
+     "start": 4.24,
+     "end": 4.64
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p15i",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p15i.mp3",
+   "text": "चला, या शिरोबिंदूपासून सर्व कर्ण काढूया.",
+   "spoken": "चला, या शिरोबिंदूपासून सर्व कर्ण काढूया.",
+   "words_count": 6,
+   "chars": 40,
+   "credits": 19,
+   "request_id": "wbHvEFCWr5dt9EGKqk75",
+   "seconds": 3.553,
+   "generated_ms": 1600,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "या",
+     "start": 0.76,
+     "end": 0.96
+    },
+    {
+     "w": "शिरोबिंदूपासून",
+     "start": 1,
+     "end": 2.16
+    },
+    {
+     "w": "सर्व",
+     "start": 2.24,
+     "end": 2.48
+    },
+    {
+     "w": "कर्ण",
+     "start": 2.56,
+     "end": 2.88
+    },
+    {
+     "w": "काढूया.",
+     "start": 2.907,
+     "end": 3.52
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p16b",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p16b.mp3",
+   "text": "चला, या पंचकोनाचे कर्ण पाहूया.",
+   "spoken": "चला, या पंचकोनाचे कर्ण पाहूया.",
+   "words_count": 5,
+   "chars": 30,
+   "credits": 15,
+   "request_id": "Mt7wTiUqiWSkhYXjF3r9",
+   "seconds": 2.847,
+   "generated_ms": 1398,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "या",
+     "start": 0.72,
+     "end": 0.88
+    },
+    {
+     "w": "पंचकोनाचे",
+     "start": 0.96,
+     "end": 1.76
+    },
+    {
+     "w": "कर्ण",
+     "start": 1.84,
+     "end": 2.08
+    },
+    {
+     "w": "पाहूया.",
+     "start": 2.16,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p17i",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p17i.mp3",
+   "text": "कर्ण आत आहेत की बाहेर?",
+   "spoken": "कर्ण आत आहेत की बाहेर?",
+   "words_count": 5,
+   "chars": 22,
+   "credits": 11,
+   "request_id": "VTAyLgGx5hK1uM9Nc0sA",
+   "seconds": 2.038,
+   "generated_ms": 1140,
+   "words": [
+    {
+     "w": "कर्ण",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "आत",
+     "start": 0.48,
+     "end": 0.8
+    },
+    {
+     "w": "आहेत",
+     "start": 0.88,
+     "end": 1.2
+    },
+    {
+     "w": "की",
+     "start": 1.28,
+     "end": 1.36
+    },
+    {
+     "w": "बाहेर?",
+     "start": 1.44,
+     "end": 1.84
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb54",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb54.mp3",
+   "text": "कर्ण आत आहेत.",
+   "spoken": "कर्ण आत आहेत.",
+   "words_count": 3,
+   "chars": 13,
+   "credits": 6,
+   "request_id": "OoY91yeFao4c3DZC4I9m",
+   "seconds": 1.411,
+   "generated_ms": 964,
+   "words": [
+    {
+     "w": "कर्ण",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "आत",
+     "start": 0.48,
+     "end": 0.72
+    },
+    {
+     "w": "आहेत.",
+     "start": 0.8,
+     "end": 1.2
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p18",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p18.mp3",
+   "text": "चला, थोडा बदल करूया.",
+   "spoken": "चला, थोडा बदल करूया.",
+   "words_count": 4,
+   "chars": 20,
+   "credits": 10,
+   "request_id": "1CBuhrB5LzVPNhA5vP8T",
+   "seconds": 1.959,
+   "generated_ms": 1103,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "थोडा",
+     "start": 0.68,
+     "end": 0.96
+    },
+    {
+     "w": "बदल",
+     "start": 1.04,
+     "end": 1.28
+    },
+    {
+     "w": "करूया.",
+     "start": 1.36,
+     "end": 1.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p19i",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p19i.mp3",
+   "text": "हा शिरोबिंदू आत ओढायला मला मदत करा.",
+   "spoken": "हा शिरोबिंदू आत ओढायला मला मदत करा.",
+   "words_count": 7,
+   "chars": 35,
+   "credits": 17,
+   "request_id": "Gx1jCyfRijVQwqHAS9aU",
+   "seconds": 3.082,
+   "generated_ms": 1429,
+   "words": [
+    {
+     "w": "हा",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "शिरोबिंदू",
+     "start": 0.24,
+     "end": 0.88
+    },
+    {
+     "w": "आत",
+     "start": 1.04,
+     "end": 1.28
+    },
+    {
+     "w": "ओढायला",
+     "start": 1.36,
+     "end": 1.84
+    },
+    {
+     "w": "मला",
+     "start": 1.92,
+     "end": 2.16
+    },
+    {
+     "w": "मदत",
+     "start": 2.2,
+     "end": 2.48
+    },
+    {
+     "w": "करा.",
+     "start": 2.56,
+     "end": 2.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p20",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p20.mp3",
+   "text": "अरेच्चा! एक कर्ण बाहेर गेला.",
+   "spoken": "अरेच्चा! एक कर्ण बाहेर गेला.",
+   "words_count": 5,
+   "chars": 28,
+   "credits": 14,
+   "request_id": "LPRsX9NkuddqMpg27K8P",
+   "seconds": 2.926,
+   "generated_ms": 1320,
+   "words": [
+    {
+     "w": "अरेच्चा!",
+     "start": 0,
+     "end": 0.96
+    },
+    {
+     "w": "एक",
+     "start": 1.36,
+     "end": 1.68
+    },
+    {
+     "w": "कर्ण",
+     "start": 1.76,
+     "end": 2
+    },
+    {
+     "w": "बाहेर",
+     "start": 2.08,
+     "end": 2.36
+    },
+    {
+     "w": "गेला.",
+     "start": 2.4,
+     "end": 2.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb52",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb52.mp3",
+   "text": "अरेच्चा! काही कर्ण बाहेर गेले.",
+   "spoken": "अरेच्चा! काही कर्ण बाहेर गेले.",
+   "words_count": 5,
+   "chars": 30,
+   "credits": 15,
+   "request_id": "DmL2qmvhFXx3TCYxWNKK",
+   "seconds": 2.847,
+   "generated_ms": 1197,
+   "words": [
+    {
+     "w": "अरेच्चा!",
+     "start": 0,
+     "end": 0.88
+    },
+    {
+     "w": "काही",
+     "start": 1.28,
+     "end": 1.6
+    },
+    {
+     "w": "कर्ण",
+     "start": 1.68,
+     "end": 2
+    },
+    {
+     "w": "बाहेर",
+     "start": 2.04,
+     "end": 2.32
+    },
+    {
+     "w": "गेले.",
+     "start": 2.36,
+     "end": 2.64
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p21",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p21.mp3",
+   "text": "चला, दोन्ही पंचकोनांच्या कर्णांची तुलना करूया.",
+   "spoken": "चला, दोन्ही पंचकोनांच्या कर्णांची तुलना करूया.",
+   "words_count": 6,
+   "chars": 46,
+   "credits": 22,
+   "request_id": "ZftNZpKmfJVsO3IIglio",
+   "seconds": 3.631,
+   "generated_ms": 1959,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "दोन्ही",
+     "start": 0.8,
+     "end": 1.12
+    },
+    {
+     "w": "पंचकोनांच्या",
+     "start": 1.2,
+     "end": 1.96
+    },
+    {
+     "w": "कर्णांची",
+     "start": 2,
+     "end": 2.56
+    },
+    {
+     "w": "तुलना",
+     "start": 2.64,
+     "end": 2.96
+    },
+    {
+     "w": "करूया.",
+     "start": 3.04,
+     "end": 3.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p22",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p22.mp3",
+   "text": "याचे सर्व कर्ण आत आहेत.",
+   "spoken": "याचे सर्व कर्ण आत आहेत.",
+   "words_count": 5,
+   "chars": 23,
+   "credits": 11,
+   "request_id": "TjSfWinm3TkbEYoTn6CD",
+   "seconds": 2.273,
+   "generated_ms": 1129,
+   "words": [
+    {
+     "w": "याचे",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "सर्व",
+     "start": 0.48,
+     "end": 0.8
+    },
+    {
+     "w": "कर्ण",
+     "start": 0.88,
+     "end": 1.28
+    },
+    {
+     "w": "आत",
+     "start": 1.36,
+     "end": 1.6
+    },
+    {
+     "w": "आहेत.",
+     "start": 1.68,
+     "end": 2.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p23",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p23.mp3",
+   "text": "पण याचा किमान एक कर्ण बाहेर आहे.",
+   "spoken": "पण याचा किमान एक कर्ण बाहेर आहे.",
+   "words_count": 7,
+   "chars": 32,
+   "credits": 16,
+   "request_id": "8AAtZBX5eS4g2GSwB8HD",
+   "seconds": 2.586,
+   "generated_ms": 1265,
+   "words": [
+    {
+     "w": "पण",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "याचा",
+     "start": 0.2,
+     "end": 0.48
+    },
+    {
+     "w": "किमान",
+     "start": 0.56,
+     "end": 1.12
+    },
+    {
+     "w": "एक",
+     "start": 1.2,
+     "end": 1.44
+    },
+    {
+     "w": "कर्ण",
+     "start": 1.48,
+     "end": 1.76
+    },
+    {
+     "w": "बाहेर",
+     "start": 1.84,
+     "end": 2.16
+    },
+    {
+     "w": "आहे.",
+     "start": 2.2,
+     "end": 2.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p24",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p24.mp3",
+   "text": "सर्व कर्ण आत असतील, तर ती बहिर्वक्र बहुभुजाकृती आहे.",
+   "spoken": "सर्व कर्ण आत असतील, तर ती बहिर्वक्र बहुभुजाकृती आहे.",
+   "words_count": 9,
+   "chars": 52,
+   "credits": 25,
+   "request_id": "BIDFvk6v8bzX3kdZ9klY",
+   "seconds": 4.598,
+   "generated_ms": 1833,
+   "words": [
+    {
+     "w": "सर्व",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "कर्ण",
+     "start": 0.48,
+     "end": 0.72
+    },
+    {
+     "w": "आत",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "असतील,",
+     "start": 1.08,
+     "end": 1.52
+    },
+    {
+     "w": "तर",
+     "start": 1.84,
+     "end": 2
+    },
+    {
+     "w": "ती",
+     "start": 2.08,
+     "end": 2.16
+    },
+    {
+     "w": "बहिर्वक्र",
+     "start": 2.32,
+     "end": 3.04
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 3.12,
+     "end": 4.08
+    },
+    {
+     "w": "आहे.",
+     "start": 4.16,
+     "end": 4.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p25",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p25.mp3",
+   "text": "किमान एक कर्ण बाहेर असेल, तर ती अंतर्वक्र बहुभुजाकृती आहे.",
+   "spoken": "किमान एक कर्ण बाहेर असेल, तर ती अंतर्वक्र बहुभुजाकृती आहे.",
+   "words_count": 10,
+   "chars": 58,
+   "credits": 28,
+   "request_id": "UJ8SXLrPOB0wK02bjsTB",
+   "seconds": 4.833,
+   "generated_ms": 1936,
+   "words": [
+    {
+     "w": "किमान",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "एक",
+     "start": 0.56,
+     "end": 0.72
+    },
+    {
+     "w": "कर्ण",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "बाहेर",
+     "start": 1.12,
+     "end": 1.4
+    },
+    {
+     "w": "असेल,",
+     "start": 1.44,
+     "end": 1.92
+    },
+    {
+     "w": "तर",
+     "start": 2.12,
+     "end": 2.24
+    },
+    {
+     "w": "ती",
+     "start": 2.32,
+     "end": 2.56
+    },
+    {
+     "w": "अंतर्वक्र",
+     "start": 2.6,
+     "end": 3.36
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 3.44,
+     "end": 4.32
+    },
+    {
+     "w": "आहे.",
+     "start": 4.4,
+     "end": 4.68
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p26i",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p26i.mp3",
+   "text": "ही बहुभुजाकृती अंतर्वक्र करण्यासाठी कोणताही शिरोबिंदू ओढा.",
+   "spoken": "ही बहुभुजाकृती अंतर्वक्र करण्यासाठी कोणताही शिरोबिंदू ओढा.",
+   "words_count": 7,
+   "chars": 58,
+   "credits": 28,
+   "request_id": "PpuOFkPEwwI4BX157F9m",
+   "seconds": 4.989,
+   "generated_ms": 2183,
+   "words": [
+    {
+     "w": "ही",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 0.32,
+     "end": 1.28
+    },
+    {
+     "w": "अंतर्वक्र",
+     "start": 1.36,
+     "end": 2
+    },
+    {
+     "w": "करण्यासाठी",
+     "start": 2.08,
+     "end": 2.8
+    },
+    {
+     "w": "कोणताही",
+     "start": 3.04,
+     "end": 3.6
+    },
+    {
+     "w": "शिरोबिंदू",
+     "start": 3.76,
+     "end": 4.32
+    },
+    {
+     "w": "ओढा.",
+     "start": 4.48,
+     "end": 4.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb32",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb32.mp3",
+   "text": "पुन्हा प्रयत्न करा!",
+   "spoken": "पुन्हा प्रयत्न करा!",
+   "words_count": 3,
+   "chars": 19,
+   "credits": 9,
+   "request_id": "t7MNem1c5xcsCcY57Pwh",
+   "seconds": 1.306,
+   "generated_ms": 1020,
+   "words": [
+    {
+     "w": "पुन्हा",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "प्रयत्न",
+     "start": 0.4,
+     "end": 0.8
+    },
+    {
+     "w": "करा!",
+     "start": 0.84,
+     "end": 1.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p26r1",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p26r1.mp3",
+   "text": "कर्ण अजूनही आकृतीच्या आत आहेत, म्हणून ती अजूनही बहिर्वक्र आहे.",
+   "spoken": "कर्ण अजूनही आकृतीच्या आत आहेत, म्हणून ती अजूनही बहिर्वक्र आहे.",
+   "words_count": 10,
+   "chars": 62,
+   "credits": 30,
+   "request_id": "MGQgxGv5zrFrelbvv3NW",
+   "seconds": 5.407,
+   "generated_ms": 2069,
+   "words": [
+    {
+     "w": "कर्ण",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "अजूनही",
+     "start": 0.4,
+     "end": 0.88
+    },
+    {
+     "w": "आकृतीच्या",
+     "start": 1.04,
+     "end": 1.76
+    },
+    {
+     "w": "आत",
+     "start": 1.84,
+     "end": 2
+    },
+    {
+     "w": "आहेत,",
+     "start": 2.08,
+     "end": 2.4
+    },
+    {
+     "w": "म्हणून",
+     "start": 2.88,
+     "end": 3.28
+    },
+    {
+     "w": "ती",
+     "start": 3.44,
+     "end": 3.6
+    },
+    {
+     "w": "अजूनही",
+     "start": 3.68,
+     "end": 4.24
+    },
+    {
+     "w": "बहिर्वक्र",
+     "start": 4.28,
+     "end": 4.88
+    },
+    {
+     "w": "आहे.",
+     "start": 4.92,
+     "end": 5.2
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb53",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb53.mp3",
+   "text": "चला, मी तुम्हाला दाखवू. हा कोपरा पाहा.",
+   "spoken": "चला, मी तुम्हाला दाखवू. हा कोपरा पाहा.",
+   "words_count": 7,
+   "chars": 38,
+   "credits": 18,
+   "request_id": "rMfnVEdvtCQKmoZh67YT",
+   "seconds": 2.926,
+   "generated_ms": 1302,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "मी",
+     "start": 0.64,
+     "end": 0.72
+    },
+    {
+     "w": "तुम्हाला",
+     "start": 0.747,
+     "end": 1.04
+    },
+    {
+     "w": "दाखवू.",
+     "start": 1.08,
+     "end": 1.44
+    },
+    {
+     "w": "हा",
+     "start": 1.92,
+     "end": 2
+    },
+    {
+     "w": "कोपरा",
+     "start": 2.08,
+     "end": 2.4
+    },
+    {
+     "w": "पाहा.",
+     "start": 2.48,
+     "end": 2.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p26r2",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p26r2.mp3",
+   "text": "आता एक कर्ण बाहेर जातो, म्हणून ही बहुभुजाकृती अंतर्वक्र आहे.",
+   "spoken": "आता एक कर्ण बाहेर जातो, म्हणून ही बहुभुजाकृती अंतर्वक्र आहे.",
+   "words_count": 10,
+   "chars": 60,
+   "credits": 29,
+   "request_id": "epNfJ8kqwWv40f69YW3i",
+   "seconds": 5.486,
+   "generated_ms": 2254,
+   "words": [
+    {
+     "w": "आता",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "एक",
+     "start": 0.64,
+     "end": 0.88
+    },
+    {
+     "w": "कर्ण",
+     "start": 0.92,
+     "end": 1.2
+    },
+    {
+     "w": "बाहेर",
+     "start": 1.28,
+     "end": 1.64
+    },
+    {
+     "w": "जातो,",
+     "start": 1.68,
+     "end": 2
+    },
+    {
+     "w": "म्हणून",
+     "start": 2.48,
+     "end": 2.88
+    },
+    {
+     "w": "ही",
+     "start": 2.96,
+     "end": 3.12
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 3.2,
+     "end": 4.08
+    },
+    {
+     "w": "अंतर्वक्र",
+     "start": 4.24,
+     "end": 4.96
+    },
+    {
+     "w": "आहे.",
+     "start": 5,
+     "end": 5.2
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb03",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb03.mp3",
+   "text": "खूप छान!",
+   "spoken": "खूप छान!",
+   "words_count": 2,
+   "chars": 8,
+   "credits": 4,
+   "request_id": "dTIihYS0BLmUv7nS6hRn",
+   "seconds": 1.149,
+   "generated_ms": 879,
+   "words": [
+    {
+     "w": "खूप",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "छान!",
+     "start": 0.56,
+     "end": 0.96
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p27",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p27.mp3",
+   "text": "तुम्ही या बहुभुजाकृतींची बहिर्वक्र आणि अंतर्वक्र अशी वर्गवारी करू शकता का?",
+   "spoken": "तुम्ही या बहुभुजाकृतींची बहिर्वक्र आणि अंतर्वक्र अशी वर्गवारी करू शकता का?",
+   "words_count": 11,
+   "chars": 74,
+   "credits": 36,
+   "request_id": "xwvHXfY671HJiNOIKn4O",
+   "seconds": 6.113,
+   "generated_ms": 2188,
+   "words": [
+    {
+     "w": "तुम्ही",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "या",
+     "start": 0.36,
+     "end": 0.56
+    },
+    {
+     "w": "बहुभुजाकृतींची",
+     "start": 0.64,
+     "end": 2
+    },
+    {
+     "w": "बहिर्वक्र",
+     "start": 2.08,
+     "end": 2.88
+    },
+    {
+     "w": "आणि",
+     "start": 2.92,
+     "end": 3.2
+    },
+    {
+     "w": "अंतर्वक्र",
+     "start": 3.24,
+     "end": 4
+    },
+    {
+     "w": "अशी",
+     "start": 4.32,
+     "end": 4.56
+    },
+    {
+     "w": "वर्गवारी",
+     "start": 4.6,
+     "end": 5.12
+    },
+    {
+     "w": "करू",
+     "start": 5.16,
+     "end": 5.333
+    },
+    {
+     "w": "शकता",
+     "start": 5.36,
+     "end": 5.68
+    },
+    {
+     "w": "का?",
+     "start": 5.76,
+     "end": 5.92
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p27c",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p27c.mp3",
+   "text": "पाहा! हा कोपरा आत वळतो.",
+   "spoken": "पाहा! हा कोपरा आत वळतो.",
+   "words_count": 5,
+   "chars": 23,
+   "credits": 11,
+   "request_id": "ztLrFVWijFUPKjF0Yoio",
+   "seconds": 2.429,
+   "generated_ms": 1110,
+   "words": [
+    {
+     "w": "पाहा!",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "हा",
+     "start": 0.72,
+     "end": 0.8
+    },
+    {
+     "w": "कोपरा",
+     "start": 0.88,
+     "end": 1.44
+    },
+    {
+     "w": "आत",
+     "start": 1.52,
+     "end": 1.76
+    },
+    {
+     "w": "वळतो.",
+     "start": 1.8,
+     "end": 2.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p27v",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p27v.mp3",
+   "text": "पाहा! कोणताही कोपरा आत वळत नाही.",
+   "spoken": "पाहा! कोणताही कोपरा आत वळत नाही.",
+   "words_count": 6,
+   "chars": 32,
+   "credits": 16,
+   "request_id": "Alv1ix8k2aBEzpErm0ES",
+   "seconds": 3.082,
+   "generated_ms": 1357,
+   "words": [
+    {
+     "w": "पाहा!",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "कोणताही",
+     "start": 0.76,
+     "end": 1.36
+    },
+    {
+     "w": "कोपरा",
+     "start": 1.4,
+     "end": 1.92
+    },
+    {
+     "w": "आत",
+     "start": 2,
+     "end": 2.24
+    },
+    {
+     "w": "वळत",
+     "start": 2.28,
+     "end": 2.56
+    },
+    {
+     "w": "नाही.",
+     "start": 2.6,
+     "end": 2.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p28",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p28.mp3",
+   "text": "हम्म… सगळ्या बाजू जरा जास्तच सारख्या दिसत आहेत.",
+   "spoken": "हम्म… सगळ्या बाजू जरा जास्तच सारख्या दिसत आहेत.",
+   "words_count": 8,
+   "chars": 47,
+   "credits": 23,
+   "request_id": "KXIzrixpLYo9cnRnXQJz",
+   "seconds": 4.284,
+   "generated_ms": 1747,
+   "words": [
+    {
+     "w": "हम्म…",
+     "start": 0,
+     "end": 0.64
+    },
+    {
+     "w": "सगळ्या",
+     "start": 1.12,
+     "end": 1.52
+    },
+    {
+     "w": "बाजू",
+     "start": 1.6,
+     "end": 2
+    },
+    {
+     "w": "जरा",
+     "start": 2.08,
+     "end": 2.32
+    },
+    {
+     "w": "जास्तच",
+     "start": 2.4,
+     "end": 2.96
+    },
+    {
+     "w": "सारख्या",
+     "start": 3,
+     "end": 3.4
+    },
+    {
+     "w": "दिसत",
+     "start": 3.44,
+     "end": 3.68
+    },
+    {
+     "w": "आहेत.",
+     "start": 3.76,
+     "end": 4.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p29s",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p29s.mp3",
+   "text": "चला, बाजू मोजूया.",
+   "spoken": "चला, बाजू मोजूया.",
+   "words_count": 3,
+   "chars": 17,
+   "credits": 8,
+   "request_id": "nzjHPkU3z7Tfb5r4xxA5",
+   "seconds": 1.646,
+   "generated_ms": 949,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "बाजू",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "मोजूया.",
+     "start": 1.04,
+     "end": 1.44
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p30",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p30.mp3",
+   "text": "प्रत्येक बाजू समान आहे. पण कोनांचे काय?",
+   "spoken": "प्रत्येक बाजू समान आहे. पण कोनांचे काय?",
+   "words_count": 7,
+   "chars": 39,
+   "credits": 19,
+   "request_id": "Cc8020OHJhJWd7UizIvG",
+   "seconds": 3.239,
+   "generated_ms": 1413,
+   "words": [
+    {
+     "w": "प्रत्येक",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "बाजू",
+     "start": 0.52,
+     "end": 0.827
+    },
+    {
+     "w": "समान",
+     "start": 0.88,
+     "end": 1.2
+    },
+    {
+     "w": "आहे.",
+     "start": 1.28,
+     "end": 1.44
+    },
+    {
+     "w": "पण",
+     "start": 1.92,
+     "end": 2.08
+    },
+    {
+     "w": "कोनांचे",
+     "start": 2.16,
+     "end": 2.72
+    },
+    {
+     "w": "काय?",
+     "start": 2.76,
+     "end": 3.04
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p31m",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p31m.mp3",
+   "text": "चला, कोन मोजूया.",
+   "spoken": "चला, कोन मोजूया.",
+   "words_count": 3,
+   "chars": 16,
+   "credits": 8,
+   "request_id": "jTuxDtl779YAjtkMcy7y",
+   "seconds": 1.646,
+   "generated_ms": 925,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "कोन",
+     "start": 0.72,
+     "end": 0.88
+    },
+    {
+     "w": "मोजूया.",
+     "start": 0.96,
+     "end": 1.44
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p31",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p31.mp3",
+   "text": "कोनही जुळतात!",
+   "spoken": "कोनही जुळतात!",
+   "words_count": 2,
+   "chars": 13,
+   "credits": 6,
+   "request_id": "0e6q0CR7gPe7X7myxpMD",
+   "seconds": 1.306,
+   "generated_ms": 926,
+   "words": [
+    {
+     "w": "कोनही",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "जुळतात!",
+     "start": 0.56,
+     "end": 1.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32a",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p32a.mp3",
+   "text": "हा कोपरा ताणायला मला मदत करा. चला पाहूया, बाजू आणि कोनांचे काय होते.",
+   "spoken": "हा कोपरा ताणायला मला मदत करा. चला पाहूया, बाजू आणि कोनांचे काय होते.",
+   "words_count": 13,
+   "chars": 68,
+   "credits": 33,
+   "request_id": "xl1jtTldlcG6ycd9sIai",
+   "seconds": 5.642,
+   "generated_ms": 2300,
+   "words": [
+    {
+     "w": "हा",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "कोपरा",
+     "start": 0.24,
+     "end": 0.64
+    },
+    {
+     "w": "ताणायला",
+     "start": 0.72,
+     "end": 1.2
+    },
+    {
+     "w": "मला",
+     "start": 1.28,
+     "end": 1.52
+    },
+    {
+     "w": "मदत",
+     "start": 1.56,
+     "end": 1.84
+    },
+    {
+     "w": "करा.",
+     "start": 1.88,
+     "end": 2.08
+    },
+    {
+     "w": "चला",
+     "start": 2.56,
+     "end": 2.8
+    },
+    {
+     "w": "पाहूया,",
+     "start": 2.84,
+     "end": 3.4
+    },
+    {
+     "w": "बाजू",
+     "start": 3.68,
+     "end": 4.08
+    },
+    {
+     "w": "आणि",
+     "start": 4.16,
+     "end": 4.32
+    },
+    {
+     "w": "कोनांचे",
+     "start": 4.4,
+     "end": 4.88
+    },
+    {
+     "w": "काय",
+     "start": 4.907,
+     "end": 5.04
+    },
+    {
+     "w": "होते.",
+     "start": 5.12,
+     "end": 5.48
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32ai",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p32ai.mp3",
+   "text": "उजळलेला शिरोबिंदू ओढा.",
+   "spoken": "उजळलेला शिरोबिंदू ओढा.",
+   "words_count": 3,
+   "chars": 22,
+   "credits": 11,
+   "request_id": "pHQeVPsFJyBS4O6AjyXQ",
+   "seconds": 2.273,
+   "generated_ms": 1156,
+   "words": [
+    {
+     "w": "उजळलेला",
+     "start": 0,
+     "end": 0.64
+    },
+    {
+     "w": "शिरोबिंदू",
+     "start": 0.8,
+     "end": 1.44
+    },
+    {
+     "w": "ओढा.",
+     "start": 1.6,
+     "end": 2
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32b",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p32b.mp3",
+   "text": "हा अजूनही पंचकोनच आहे. पण बाजू आणि कोन अजूनही समान आहेत का?",
+   "spoken": "हा अजूनही पंचकोनच आहे. पण बाजू आणि कोन अजूनही समान आहेत का?",
+   "words_count": 12,
+   "chars": 59,
+   "credits": 29,
+   "request_id": "2rMQ58iS3Q5sP5ofy0IT",
+   "seconds": 6.034,
+   "generated_ms": 2134,
+   "words": [
+    {
+     "w": "हा",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "अजूनही",
+     "start": 0.32,
+     "end": 0.8
+    },
+    {
+     "w": "पंचकोनच",
+     "start": 0.88,
+     "end": 1.6
+    },
+    {
+     "w": "आहे.",
+     "start": 1.64,
+     "end": 1.84
+    },
+    {
+     "w": "पण",
+     "start": 2.4,
+     "end": 2.72
+    },
+    {
+     "w": "बाजू",
+     "start": 3.04,
+     "end": 3.52
+    },
+    {
+     "w": "आणि",
+     "start": 3.6,
+     "end": 3.76
+    },
+    {
+     "w": "कोन",
+     "start": 3.92,
+     "end": 4.32
+    },
+    {
+     "w": "अजूनही",
+     "start": 4.48,
+     "end": 4.96
+    },
+    {
+     "w": "समान",
+     "start": 5.04,
+     "end": 5.36
+    },
+    {
+     "w": "आहेत",
+     "start": 5.4,
+     "end": 5.6
+    },
+    {
+     "w": "का?",
+     "start": 5.68,
+     "end": 5.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32bi",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p32bi.mp3",
+   "text": "बाजू आणि कोन अजूनही समान आहेत का?",
+   "spoken": "बाजू आणि कोन अजूनही समान आहेत का?",
+   "words_count": 7,
+   "chars": 33,
+   "credits": 16,
+   "request_id": "JaNFFz0g3HX5rrXFcVvF",
+   "seconds": 2.926,
+   "generated_ms": 1616,
+   "words": [
+    {
+     "w": "बाजू",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "आणि",
+     "start": 0.56,
+     "end": 0.72
+    },
+    {
+     "w": "कोन",
+     "start": 0.8,
+     "end": 1.2
+    },
+    {
+     "w": "अजूनही",
+     "start": 1.36,
+     "end": 1.84
+    },
+    {
+     "w": "समान",
+     "start": 1.92,
+     "end": 2.24
+    },
+    {
+     "w": "आहेत",
+     "start": 2.32,
+     "end": 2.48
+    },
+    {
+     "w": "का?",
+     "start": 2.56,
+     "end": 2.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32r",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p32r.mp3",
+   "text": "बाजू आणि कोन बदलले, म्हणून ते समान नाहीत.",
+   "spoken": "बाजू आणि कोन बदलले, म्हणून ते समान नाहीत.",
+   "words_count": 8,
+   "chars": 41,
+   "credits": 20,
+   "request_id": "j72rm5lmQ5AO9hdcxsuB",
+   "seconds": 3.709,
+   "generated_ms": 1627,
+   "words": [
+    {
+     "w": "बाजू",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "आणि",
+     "start": 0.64,
+     "end": 0.8
+    },
+    {
+     "w": "कोन",
+     "start": 0.96,
+     "end": 1.2
+    },
+    {
+     "w": "बदलले,",
+     "start": 1.28,
+     "end": 1.76
+    },
+    {
+     "w": "म्हणून",
+     "start": 2.24,
+     "end": 2.48
+    },
+    {
+     "w": "ते",
+     "start": 2.56,
+     "end": 2.64
+    },
+    {
+     "w": "समान",
+     "start": 2.72,
+     "end": 3.04
+    },
+    {
+     "w": "नाहीत.",
+     "start": 3.08,
+     "end": 3.68
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb55",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb55.mp3",
+   "text": "चला, या दोन पंचकोनांची तुलना करूया.",
+   "spoken": "चला, या दोन पंचकोनांची तुलना करूया.",
+   "words_count": 6,
+   "chars": 35,
+   "credits": 17,
+   "request_id": "gC1127iImtfnrKi612kB",
+   "seconds": 3.161,
+   "generated_ms": 1423,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "या",
+     "start": 0.72,
+     "end": 0.88
+    },
+    {
+     "w": "दोन",
+     "start": 0.96,
+     "end": 1.2
+    },
+    {
+     "w": "पंचकोनांची",
+     "start": 1.28,
+     "end": 2.08
+    },
+    {
+     "w": "तुलना",
+     "start": 2.16,
+     "end": 2.48
+    },
+    {
+     "w": "करूया.",
+     "start": 2.56,
+     "end": 3
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb56",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb56.mp3",
+   "text": "या पंचकोनाच्या सर्व बाजू आणि सर्व कोन समान आहेत.",
+   "spoken": "या पंचकोनाच्या सर्व बाजू आणि सर्व कोन समान आहेत.",
+   "words_count": 9,
+   "chars": 48,
+   "credits": 23,
+   "request_id": "Kzm9mJYSJWsyPEJK2nUq",
+   "seconds": 4.206,
+   "generated_ms": 1741,
+   "words": [
+    {
+     "w": "या",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "पंचकोनाच्या",
+     "start": 0.28,
+     "end": 1.12
+    },
+    {
+     "w": "सर्व",
+     "start": 1.2,
+     "end": 1.52
+    },
+    {
+     "w": "बाजू",
+     "start": 1.6,
+     "end": 2
+    },
+    {
+     "w": "आणि",
+     "start": 2.16,
+     "end": 2.32
+    },
+    {
+     "w": "सर्व",
+     "start": 2.48,
+     "end": 2.72
+    },
+    {
+     "w": "कोन",
+     "start": 2.88,
+     "end": 3.12
+    },
+    {
+     "w": "समान",
+     "start": 3.28,
+     "end": 3.6
+    },
+    {
+     "w": "आहेत.",
+     "start": 3.68,
+     "end": 4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb57",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb57.mp3",
+   "text": "पण या पंचकोनाच्या बाजू आणि कोन असमान आहेत.",
+   "spoken": "पण या पंचकोनाच्या बाजू आणि कोन असमान आहेत.",
+   "words_count": 8,
+   "chars": 42,
+   "credits": 20,
+   "request_id": "VdeqU8R53DyjxiwHWOUr",
+   "seconds": 3.866,
+   "generated_ms": 1599,
+   "words": [
+    {
+     "w": "पण",
+     "start": 0,
+     "end": 0.2
+    },
+    {
+     "w": "या",
+     "start": 0.24,
+     "end": 0.4
+    },
+    {
+     "w": "पंचकोनाच्या",
+     "start": 0.44,
+     "end": 1.28
+    },
+    {
+     "w": "बाजू",
+     "start": 1.32,
+     "end": 1.76
+    },
+    {
+     "w": "आणि",
+     "start": 2,
+     "end": 2.16
+    },
+    {
+     "w": "कोन",
+     "start": 2.32,
+     "end": 2.72
+    },
+    {
+     "w": "असमान",
+     "start": 2.8,
+     "end": 3.28
+    },
+    {
+     "w": "आहेत.",
+     "start": 3.36,
+     "end": 3.68
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb58",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb58.mp3",
+   "text": "सर्व बाजू आणि कोन समान असतील, तर ती सुसम बहुभुजाकृती आहे. बाजू आणि कोन असमान असतील, तर ती असुसम बहुभुजाकृती आहे.",
+   "spoken": "सर्व बाजू आणि कोन समान असतील, तर ती सुसम बहुभुजाकृती आहे. बाजू आणि कोन असमान असतील, तर ती असुसम बहुभुजाकृती आहे.",
+   "words_count": 21,
+   "chars": 112,
+   "credits": 54,
+   "request_id": "oYOCk0MX9pKU3XY7ejIJ",
+   "seconds": 10.266,
+   "generated_ms": 3640,
+   "words": [
+    {
+     "w": "सर्व",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "बाजू",
+     "start": 0.48,
+     "end": 0.8
+    },
+    {
+     "w": "आणि",
+     "start": 0.88,
+     "end": 1.04
+    },
+    {
+     "w": "कोन",
+     "start": 1.2,
+     "end": 1.44
+    },
+    {
+     "w": "समान",
+     "start": 1.52,
+     "end": 1.92
+    },
+    {
+     "w": "असतील,",
+     "start": 1.96,
+     "end": 2.4
+    },
+    {
+     "w": "तर",
+     "start": 2.72,
+     "end": 2.8
+    },
+    {
+     "w": "ती",
+     "start": 2.88,
+     "end": 3.04
+    },
+    {
+     "w": "सुसम",
+     "start": 3.12,
+     "end": 3.52
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 3.6,
+     "end": 4.4
+    },
+    {
+     "w": "आहे.",
+     "start": 4.48,
+     "end": 4.72
+    },
+    {
+     "w": "बाजू",
+     "start": 5.28,
+     "end": 5.76
+    },
+    {
+     "w": "आणि",
+     "start": 5.84,
+     "end": 6
+    },
+    {
+     "w": "कोन",
+     "start": 6.16,
+     "end": 6.4
+    },
+    {
+     "w": "असमान",
+     "start": 6.56,
+     "end": 7.04
+    },
+    {
+     "w": "असतील,",
+     "start": 7.12,
+     "end": 7.44
+    },
+    {
+     "w": "तर",
+     "start": 7.84,
+     "end": 7.92
+    },
+    {
+     "w": "ती",
+     "start": 8,
+     "end": 8.16
+    },
+    {
+     "w": "असुसम",
+     "start": 8.32,
+     "end": 8.88
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 8.96,
+     "end": 9.76
+    },
+    {
+     "w": "आहे.",
+     "start": 9.84,
+     "end": 10.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p33",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p33.mp3",
+   "text": "ही बहुभुजाकृती कोणत्या गटात जाईल?",
+   "spoken": "ही बहुभुजाकृती कोणत्या गटात जाईल?",
+   "words_count": 5,
+   "chars": 33,
+   "credits": 16,
+   "request_id": "DS3QWgogyUSMZm1hTQes",
+   "seconds": 2.769,
+   "generated_ms": 1308,
+   "words": [
+    {
+     "w": "ही",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 0.32,
+     "end": 1.28
+    },
+    {
+     "w": "कोणत्या",
+     "start": 1.44,
+     "end": 1.84
+    },
+    {
+     "w": "गटात",
+     "start": 1.92,
+     "end": 2.16
+    },
+    {
+     "w": "जाईल?",
+     "start": 2.24,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb48",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb48.mp3",
+   "text": "ही सुसम आहे. प्रत्येक बाजू समान आहे आणि प्रत्येक कोनही समान आहे.",
+   "spoken": "ही सुसम आहे. प्रत्येक बाजू समान आहे आणि प्रत्येक कोनही समान आहे.",
+   "words_count": 12,
+   "chars": 64,
+   "credits": 31,
+   "request_id": "K1mWeuJW7tL5kBUy60TZ",
+   "seconds": 5.878,
+   "generated_ms": 2223,
+   "words": [
+    {
+     "w": "ही",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "सुसम",
+     "start": 0.24,
+     "end": 0.72
+    },
+    {
+     "w": "आहे.",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "प्रत्येक",
+     "start": 1.52,
+     "end": 1.92
+    },
+    {
+     "w": "बाजू",
+     "start": 2,
+     "end": 2.32
+    },
+    {
+     "w": "समान",
+     "start": 2.4,
+     "end": 2.8
+    },
+    {
+     "w": "आहे",
+     "start": 2.84,
+     "end": 3.04
+    },
+    {
+     "w": "आणि",
+     "start": 3.36,
+     "end": 3.6
+    },
+    {
+     "w": "प्रत्येक",
+     "start": 3.68,
+     "end": 4.16
+    },
+    {
+     "w": "कोनही",
+     "start": 4.24,
+     "end": 4.8
+    },
+    {
+     "w": "समान",
+     "start": 4.96,
+     "end": 5.36
+    },
+    {
+     "w": "आहे.",
+     "start": 5.4,
+     "end": 5.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb49",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb49.mp3",
+   "text": "ही असुसम आहे. हिच्या सर्व बाजू सारख्या लांबीच्या नाहीत.",
+   "spoken": "ही असुसम आहे. हिच्या सर्व बाजू सारख्या लांबीच्या नाहीत.",
+   "words_count": 9,
+   "chars": 55,
+   "credits": 27,
+   "request_id": "3sbtrxFCOLaNXPHWguF3",
+   "seconds": 4.441,
+   "generated_ms": 1743,
+   "words": [
+    {
+     "w": "ही",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "असुसम",
+     "start": 0.32,
+     "end": 0.8
+    },
+    {
+     "w": "आहे.",
+     "start": 0.88,
+     "end": 1.12
+    },
+    {
+     "w": "हिच्या",
+     "start": 1.56,
+     "end": 1.84
+    },
+    {
+     "w": "सर्व",
+     "start": 1.92,
+     "end": 2.24
+    },
+    {
+     "w": "बाजू",
+     "start": 2.32,
+     "end": 2.72
+    },
+    {
+     "w": "सारख्या",
+     "start": 2.8,
+     "end": 3.24
+    },
+    {
+     "w": "लांबीच्या",
+     "start": 3.28,
+     "end": 3.76
+    },
+    {
+     "w": "नाहीत.",
+     "start": 3.8,
+     "end": 4.24
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb50",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb50.mp3",
+   "text": "ही असुसम आहे. हिच्या बाजू जुळतात, पण सर्व कोन समान नाहीत.",
+   "spoken": "ही असुसम आहे. हिच्या बाजू जुळतात, पण सर्व कोन समान नाहीत.",
+   "words_count": 11,
+   "chars": 57,
+   "credits": 28,
+   "request_id": "AdDLZHjNSpkRyqeZXlLP",
+   "seconds": 4.989,
+   "generated_ms": 1809,
+   "words": [
+    {
+     "w": "ही",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "असुसम",
+     "start": 0.24,
+     "end": 0.72
+    },
+    {
+     "w": "आहे.",
+     "start": 0.76,
+     "end": 0.96
+    },
+    {
+     "w": "हिच्या",
+     "start": 1.48,
+     "end": 1.76
+    },
+    {
+     "w": "बाजू",
+     "start": 1.84,
+     "end": 2.133
+    },
+    {
+     "w": "जुळतात,",
+     "start": 2.16,
+     "end": 2.84
+    },
+    {
+     "w": "पण",
+     "start": 3,
+     "end": 3.2
+    },
+    {
+     "w": "सर्व",
+     "start": 3.28,
+     "end": 3.6
+    },
+    {
+     "w": "कोन",
+     "start": 3.68,
+     "end": 3.92
+    },
+    {
+     "w": "समान",
+     "start": 4,
+     "end": 4.4
+    },
+    {
+     "w": "नाहीत.",
+     "start": 4.44,
+     "end": 4.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb51",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb51.mp3",
+   "text": "ही असुसम आहे. हिच्या बाजू समान नाहीत आणि कोनही समान नाहीत.",
+   "spoken": "ही असुसम आहे. हिच्या बाजू समान नाहीत आणि कोनही समान नाहीत.",
+   "words_count": 11,
+   "chars": 58,
+   "credits": 28,
+   "request_id": "7r5k4n8bmOSuwtcOL2JH",
+   "seconds": 4.989,
+   "generated_ms": 2120,
+   "words": [
+    {
+     "w": "ही",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "असुसम",
+     "start": 0.32,
+     "end": 0.8
+    },
+    {
+     "w": "आहे.",
+     "start": 0.88,
+     "end": 1.24
+    },
+    {
+     "w": "हिच्या",
+     "start": 1.52,
+     "end": 1.76
+    },
+    {
+     "w": "बाजू",
+     "start": 1.8,
+     "end": 2
+    },
+    {
+     "w": "समान",
+     "start": 2.16,
+     "end": 2.48
+    },
+    {
+     "w": "नाहीत",
+     "start": 2.56,
+     "end": 2.96
+    },
+    {
+     "w": "आणि",
+     "start": 3.2,
+     "end": 3.36
+    },
+    {
+     "w": "कोनही",
+     "start": 3.52,
+     "end": 4
+    },
+    {
+     "w": "समान",
+     "start": 4.08,
+     "end": 4.4
+    },
+    {
+     "w": "नाहीत.",
+     "start": 4.44,
+     "end": 4.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37o",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37o.mp3",
+   "text": "चला, आज आपण काय शिकलो ते आठवूया.",
+   "spoken": "चला, आज आपण काय शिकलो ते आठवूया.",
+   "words_count": 7,
+   "chars": 32,
+   "credits": 16,
+   "request_id": "nRpGtEtZ7b6xBUUZcBsO",
+   "seconds": 3.082,
+   "generated_ms": 1274,
+   "words": [
+    {
+     "w": "चला,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "आज",
+     "start": 0.8,
+     "end": 0.96
+    },
+    {
+     "w": "आपण",
+     "start": 1.04,
+     "end": 1.36
+    },
+    {
+     "w": "काय",
+     "start": 1.4,
+     "end": 1.6
+    },
+    {
+     "w": "शिकलो",
+     "start": 1.68,
+     "end": 2.08
+    },
+    {
+     "w": "ते",
+     "start": 2.16,
+     "end": 2.32
+    },
+    {
+     "w": "आठवूया.",
+     "start": 2.36,
+     "end": 2.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37a",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37a.mp3",
+   "text": "शिरोबिंदू म्हणजे जिथे दोन बाजू मिळतात तो कोपरा.",
+   "spoken": "शिरोबिंदू म्हणजे जिथे दोन बाजू मिळतात तो कोपरा.",
+   "words_count": 8,
+   "chars": 47,
+   "credits": 23,
+   "request_id": "HPlrKK2Tg3aTOBcNhceH",
+   "seconds": 4.049,
+   "generated_ms": 1846,
+   "words": [
+    {
+     "w": "शिरोबिंदू",
+     "start": 0,
+     "end": 0.8
+    },
+    {
+     "w": "म्हणजे",
+     "start": 1.2,
+     "end": 1.6
+    },
+    {
+     "w": "जिथे",
+     "start": 1.76,
+     "end": 2.08
+    },
+    {
+     "w": "दोन",
+     "start": 2.16,
+     "end": 2.4
+    },
+    {
+     "w": "बाजू",
+     "start": 2.48,
+     "end": 2.72
+    },
+    {
+     "w": "मिळतात",
+     "start": 2.76,
+     "end": 3.2
+    },
+    {
+     "w": "तो",
+     "start": 3.28,
+     "end": 3.44
+    },
+    {
+     "w": "कोपरा.",
+     "start": 3.48,
+     "end": 3.84
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37b",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37b.mp3",
+   "text": "बाजू म्हणजे दोन शिरोबिंदूंना जोडणारी सरळ रेषा.",
+   "spoken": "बाजू म्हणजे दोन शिरोबिंदूंना जोडणारी सरळ रेषा.",
+   "words_count": 7,
+   "chars": 46,
+   "credits": 22,
+   "request_id": "M1X84apxsTEVWuC9AXll",
+   "seconds": 4.362,
+   "generated_ms": 1816,
+   "words": [
+    {
+     "w": "बाजू",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "म्हणजे",
+     "start": 0.96,
+     "end": 1.36
+    },
+    {
+     "w": "दोन",
+     "start": 1.6,
+     "end": 1.84
+    },
+    {
+     "w": "शिरोबिंदूंना",
+     "start": 1.92,
+     "end": 2.72
+    },
+    {
+     "w": "जोडणारी",
+     "start": 2.8,
+     "end": 3.36
+    },
+    {
+     "w": "सरळ",
+     "start": 3.44,
+     "end": 3.68
+    },
+    {
+     "w": "रेषा.",
+     "start": 3.76,
+     "end": 4.16
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37c",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37c.mp3",
+   "text": "जिथे दोन बाजू मिळतात, तिथे कोन तयार होतो.",
+   "spoken": "जिथे दोन बाजू मिळतात, तिथे कोन तयार होतो.",
+   "words_count": 8,
+   "chars": 41,
+   "credits": 20,
+   "request_id": "vrhhsVUGiX0k9FdoSLaf",
+   "seconds": 3.318,
+   "generated_ms": 1754,
+   "words": [
+    {
+     "w": "जिथे",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "दोन",
+     "start": 0.48,
+     "end": 0.72
+    },
+    {
+     "w": "बाजू",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "मिळतात,",
+     "start": 1.12,
+     "end": 1.6
+    },
+    {
+     "w": "तिथे",
+     "start": 1.8,
+     "end": 2.08
+    },
+    {
+     "w": "कोन",
+     "start": 2.16,
+     "end": 2.4
+    },
+    {
+     "w": "तयार",
+     "start": 2.48,
+     "end": 2.72
+    },
+    {
+     "w": "होतो.",
+     "start": 2.8,
+     "end": 3.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37d",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37d.mp3",
+   "text": "कर्ण दोन लगत नसलेल्या शिरोबिंदूंना जोडतो.",
+   "spoken": "कर्ण दोन लगत नसलेल्या शिरोबिंदूंना जोडतो.",
+   "words_count": 6,
+   "chars": 41,
+   "credits": 20,
+   "request_id": "Gs1FdIGOfurK0hPqzpxw",
+   "seconds": 3.318,
+   "generated_ms": 1568,
+   "words": [
+    {
+     "w": "कर्ण",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "दोन",
+     "start": 0.48,
+     "end": 0.8
+    },
+    {
+     "w": "लगत",
+     "start": 0.88,
+     "end": 1.2
+    },
+    {
+     "w": "नसलेल्या",
+     "start": 1.24,
+     "end": 1.76
+    },
+    {
+     "w": "शिरोबिंदूंना",
+     "start": 1.84,
+     "end": 2.56
+    },
+    {
+     "w": "जोडतो.",
+     "start": 2.64,
+     "end": 3.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37e",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37e.mp3",
+   "text": "बहिर्वक्र बहुभुजाकृतीत सर्व कर्ण आत राहतात.",
+   "spoken": "बहिर्वक्र बहुभुजाकृतीत सर्व कर्ण आत राहतात.",
+   "words_count": 6,
+   "chars": 43,
+   "credits": 21,
+   "request_id": "hnJPmZoM9rVAjoP30gna",
+   "seconds": 4.206,
+   "generated_ms": 1678,
+   "words": [
+    {
+     "w": "बहिर्वक्र",
+     "start": 0,
+     "end": 0.8
+    },
+    {
+     "w": "बहुभुजाकृतीत",
+     "start": 0.88,
+     "end": 2.16
+    },
+    {
+     "w": "सर्व",
+     "start": 2.32,
+     "end": 2.64
+    },
+    {
+     "w": "कर्ण",
+     "start": 2.72,
+     "end": 3.04
+    },
+    {
+     "w": "आत",
+     "start": 3.2,
+     "end": 3.44
+    },
+    {
+     "w": "राहतात.",
+     "start": 3.48,
+     "end": 4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37f",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37f.mp3",
+   "text": "अंतर्वक्र बहुभुजाकृतीत किमान एक कर्ण बाहेर जातो.",
+   "spoken": "अंतर्वक्र बहुभुजाकृतीत किमान एक कर्ण बाहेर जातो.",
+   "words_count": 7,
+   "chars": 48,
+   "credits": 23,
+   "request_id": "4AthHrp6ISY5bnxgzvTn",
+   "seconds": 4.441,
+   "generated_ms": 1749,
+   "words": [
+    {
+     "w": "अंतर्वक्र",
+     "start": 0,
+     "end": 0.8
+    },
+    {
+     "w": "बहुभुजाकृतीत",
+     "start": 0.88,
+     "end": 2
+    },
+    {
+     "w": "किमान",
+     "start": 2.24,
+     "end": 2.72
+    },
+    {
+     "w": "एक",
+     "start": 2.8,
+     "end": 3.04
+    },
+    {
+     "w": "कर्ण",
+     "start": 3.12,
+     "end": 3.44
+    },
+    {
+     "w": "बाहेर",
+     "start": 3.52,
+     "end": 3.84
+    },
+    {
+     "w": "जातो.",
+     "start": 3.88,
+     "end": 4.16
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37g",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37g.mp3",
+   "text": "सुसम बहुभुजाकृतीच्या सर्व बाजू आणि सर्व कोन समान असतात.",
+   "spoken": "सुसम बहुभुजाकृतीच्या सर्व बाजू आणि सर्व कोन समान असतात.",
+   "words_count": 9,
+   "chars": 55,
+   "credits": 27,
+   "request_id": "aGU5DNvhXs0MKVNIEHkK",
+   "seconds": 5.407,
+   "generated_ms": 2123,
+   "words": [
+    {
+     "w": "सुसम",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "बहुभुजाकृतीच्या",
+     "start": 0.96,
+     "end": 2.08
+    },
+    {
+     "w": "सर्व",
+     "start": 2.24,
+     "end": 2.56
+    },
+    {
+     "w": "बाजू",
+     "start": 2.64,
+     "end": 3.04
+    },
+    {
+     "w": "आणि",
+     "start": 3.2,
+     "end": 3.36
+    },
+    {
+     "w": "सर्व",
+     "start": 3.52,
+     "end": 3.84
+    },
+    {
+     "w": "कोन",
+     "start": 3.92,
+     "end": 4.16
+    },
+    {
+     "w": "समान",
+     "start": 4.32,
+     "end": 4.68
+    },
+    {
+     "w": "असतात.",
+     "start": 4.72,
+     "end": 5.2
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37h",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37h.mp3",
+   "text": "सर्व बाजू किंवा कोन समान नसतील, तर बहुभुजाकृती असुसम असते.",
+   "spoken": "सर्व बाजू किंवा कोन समान नसतील, तर बहुभुजाकृती असुसम असते.",
+   "words_count": 10,
+   "chars": 58,
+   "credits": 28,
+   "request_id": "YK8jFdmxWBA1bqbdtg71",
+   "seconds": 5.407,
+   "generated_ms": 2173,
+   "words": [
+    {
+     "w": "सर्व",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "बाजू",
+     "start": 0.48,
+     "end": 0.88
+    },
+    {
+     "w": "किंवा",
+     "start": 0.96,
+     "end": 1.2
+    },
+    {
+     "w": "कोन",
+     "start": 1.36,
+     "end": 1.6
+    },
+    {
+     "w": "समान",
+     "start": 1.68,
+     "end": 2
+    },
+    {
+     "w": "नसतील,",
+     "start": 2.08,
+     "end": 2.48
+    },
+    {
+     "w": "तर",
+     "start": 2.92,
+     "end": 3.12
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 3.16,
+     "end": 4.24
+    },
+    {
+     "w": "असुसम",
+     "start": 4.32,
+     "end": 4.8
+    },
+    {
+     "w": "असते.",
+     "start": 4.84,
+     "end": 5.36
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37i",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p37i.mp3",
+   "text": "अद्भुत! तुम्ही बहुभुजाकृतींच्या या सगळ्या कल्पना शोधल्या!",
+   "spoken": "अद्भुत! तुम्ही बहुभुजाकृतींच्या या सगळ्या कल्पना शोधल्या!",
+   "words_count": 7,
+   "chars": 57,
+   "credits": 28,
+   "request_id": "rQEn0slHJFmpWDJJeJLg",
+   "seconds": 4.519,
+   "generated_ms": 1882,
+   "words": [
+    {
+     "w": "अद्भुत!",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "तुम्ही",
+     "start": 1.147,
+     "end": 1.44
+    },
+    {
+     "w": "बहुभुजाकृतींच्या",
+     "start": 1.52,
+     "end": 2.6
+    },
+    {
+     "w": "या",
+     "start": 2.64,
+     "end": 2.8
+    },
+    {
+     "w": "सगळ्या",
+     "start": 2.88,
+     "end": 3.28
+    },
+    {
+     "w": "कल्पना",
+     "start": 3.36,
+     "end": 3.76
+    },
+    {
+     "w": "शोधल्या!",
+     "start": 3.84,
+     "end": 4.36
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p39",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p39.mp3",
+   "text": "आता तुम्हाला बहुभुजाकृतींबद्दल सर्व काही माहीत आहे. तुम्ही मोमोला मदत करायला तयार आहात.",
+   "spoken": "आता तुम्हाला बहुभुजाकृतींबद्दल सर्व काही माहीत आहे. तुम्ही मोमोला मदत करायला तयार आहात.",
+   "words_count": 13,
+   "chars": 87,
+   "credits": 42,
+   "request_id": "0qlCNturJ8xHh9SyCjhE",
+   "seconds": 6.113,
+   "generated_ms": 2223,
+   "words": [
+    {
+     "w": "आता",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "तुम्हाला",
+     "start": 0.28,
+     "end": 0.72
+    },
+    {
+     "w": "बहुभुजाकृतींबद्दल",
+     "start": 0.8,
+     "end": 2.16
+    },
+    {
+     "w": "सर्व",
+     "start": 2.24,
+     "end": 2.48
+    },
+    {
+     "w": "काही",
+     "start": 2.56,
+     "end": 2.8
+    },
+    {
+     "w": "माहीत",
+     "start": 2.84,
+     "end": 3.12
+    },
+    {
+     "w": "आहे.",
+     "start": 3.16,
+     "end": 3.48
+    },
+    {
+     "w": "तुम्ही",
+     "start": 3.76,
+     "end": 4
+    },
+    {
+     "w": "मोमोला",
+     "start": 4.04,
+     "end": 4.48
+    },
+    {
+     "w": "मदत",
+     "start": 4.52,
+     "end": 4.8
+    },
+    {
+     "w": "करायला",
+     "start": 4.84,
+     "end": 5.2
+    },
+    {
+     "w": "तयार",
+     "start": 5.28,
+     "end": 5.52
+    },
+    {
+     "w": "आहात.",
+     "start": 5.6,
+     "end": 5.92
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb46",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb46.mp3",
+   "text": "असेच पुढे चला!",
+   "spoken": "असेच पुढे चला!",
+   "words_count": 3,
+   "chars": 14,
+   "credits": 7,
+   "request_id": "pRwBdF8EwKUVE7W2oi3Y",
+   "seconds": 1.306,
+   "generated_ms": 848,
+   "words": [
+    {
+     "w": "असेच",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "पुढे",
+     "start": 0.48,
+     "end": 0.72
+    },
+    {
+     "w": "चला!",
+     "start": 0.8,
+     "end": 1.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb47",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb47.mp3",
+   "text": "अद्भुत!",
+   "spoken": "अद्भुत!",
+   "words_count": 1,
+   "chars": 7,
+   "credits": 3,
+   "request_id": "woTRuYh2X47hpQm1iwvc",
+   "seconds": 0.993,
+   "generated_ms": 750,
+   "words": [
+    {
+     "w": "अद्भुत!",
+     "start": 0,
+     "end": 0.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb44",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb44.mp3",
+   "text": "अगदी बरोबर नाही. वर्तुळ वक्र असते. बहुभुजाकृतीच्या सर्व बाजू सरळ असतात.",
+   "spoken": "अगदी बरोबर नाही. वर्तुळ वक्र असते. बहुभुजाकृतीच्या सर्व बाजू सरळ असतात.",
+   "words_count": 11,
+   "chars": 71,
+   "credits": 34,
+   "request_id": "o91rHZC6stadCsqNATar",
+   "seconds": 6.687,
+   "generated_ms": 2354,
+   "words": [
+    {
+     "w": "अगदी",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "बरोबर",
+     "start": 0.48,
+     "end": 0.84
+    },
+    {
+     "w": "नाही.",
+     "start": 0.88,
+     "end": 1.12
+    },
+    {
+     "w": "वर्तुळ",
+     "start": 1.68,
+     "end": 2.16
+    },
+    {
+     "w": "वक्र",
+     "start": 2.24,
+     "end": 2.56
+    },
+    {
+     "w": "असते.",
+     "start": 2.64,
+     "end": 2.96
+    },
+    {
+     "w": "बहुभुजाकृतीच्या",
+     "start": 3.52,
+     "end": 4.64
+    },
+    {
+     "w": "सर्व",
+     "start": 4.72,
+     "end": 5.04
+    },
+    {
+     "w": "बाजू",
+     "start": 5.12,
+     "end": 5.52
+    },
+    {
+     "w": "सरळ",
+     "start": 5.68,
+     "end": 5.92
+    },
+    {
+     "w": "असतात.",
+     "start": 6,
+     "end": 6.48
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb45",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb45.mp3",
+   "text": "अगदी बरोबर नाही. ही आकृती उघडी आहे. बहुभुजाकृती बंद असली पाहिजे.",
+   "spoken": "अगदी बरोबर नाही. ही आकृती उघडी आहे. बहुभुजाकृती बंद असली पाहिजे.",
+   "words_count": 11,
+   "chars": 64,
+   "credits": 31,
+   "request_id": "8l6Y0LipCpnehFJkuIkw",
+   "seconds": 6.766,
+   "generated_ms": 2263,
+   "words": [
+    {
+     "w": "अगदी",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "बरोबर",
+     "start": 0.44,
+     "end": 0.88
+    },
+    {
+     "w": "नाही.",
+     "start": 1.44,
+     "end": 1.84
+    },
+    {
+     "w": "ही",
+     "start": 2.28,
+     "end": 2.4
+    },
+    {
+     "w": "आकृती",
+     "start": 2.48,
+     "end": 3.04
+    },
+    {
+     "w": "उघडी",
+     "start": 3.12,
+     "end": 3.44
+    },
+    {
+     "w": "आहे.",
+     "start": 3.52,
+     "end": 3.76
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 4.32,
+     "end": 5.36
+    },
+    {
+     "w": "बंद",
+     "start": 5.52,
+     "end": 5.84
+    },
+    {
+     "w": "असली",
+     "start": 5.88,
+     "end": 6.12
+    },
+    {
+     "w": "पाहिजे.",
+     "start": 6.16,
+     "end": 6.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb41",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb41.mp3",
+   "text": "पुन्हा प्रयत्न करा! आता बाजू आणि कोनांची तुलना करा.",
+   "spoken": "पुन्हा प्रयत्न करा! आता बाजू आणि कोनांची तुलना करा.",
+   "words_count": 9,
+   "chars": 51,
+   "credits": 25,
+   "request_id": "nw3L9ZvKNFYV1o9PzNVB",
+   "seconds": 4.127,
+   "generated_ms": 1800,
+   "words": [
+    {
+     "w": "पुन्हा",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "प्रयत्न",
+     "start": 0.36,
+     "end": 0.72
+    },
+    {
+     "w": "करा!",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "आता",
+     "start": 1.6,
+     "end": 1.84
+    },
+    {
+     "w": "बाजू",
+     "start": 1.92,
+     "end": 2.32
+    },
+    {
+     "w": "आणि",
+     "start": 2.48,
+     "end": 2.64
+    },
+    {
+     "w": "कोनांची",
+     "start": 2.72,
+     "end": 3.2
+    },
+    {
+     "w": "तुलना",
+     "start": 3.28,
+     "end": 3.6
+    },
+    {
+     "w": "करा.",
+     "start": 3.68,
+     "end": 3.92
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p38b",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/p38b.mp3",
+   "text": "तुम्ही बहुभुजाकृतींचे साहसवीर आहात!",
+   "spoken": "तुम्ही बहुभुजाकृतींचे साहसवीर आहात!",
+   "words_count": 4,
+   "chars": 35,
+   "credits": 17,
+   "request_id": "2QzXkfFeN3LXAQw91kOb",
+   "seconds": 3.082,
+   "generated_ms": 1428,
+   "words": [
+    {
+     "w": "तुम्ही",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "बहुभुजाकृतींचे",
+     "start": 0.48,
+     "end": 1.68
+    },
+    {
+     "w": "साहसवीर",
+     "start": 1.76,
+     "end": 2.48
+    },
+    {
+     "w": "आहात!",
+     "start": 2.52,
+     "end": 2.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb15",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb15.mp3",
+   "text": "हे एखाद्या कोपऱ्यावर सोडा!",
+   "spoken": "हे एखाद्या कोपऱ्यावर सोडा!",
+   "words_count": 4,
+   "chars": 26,
+   "credits": 13,
+   "request_id": "BoIGYiGVGQgJY2HBT68P",
+   "seconds": 1.881,
+   "generated_ms": 1056,
+   "words": [
+    {
+     "w": "हे",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "एखाद्या",
+     "start": 0.24,
+     "end": 0.64
+    },
+    {
+     "w": "कोपऱ्यावर",
+     "start": 0.72,
+     "end": 1.28
+    },
+    {
+     "w": "सोडा!",
+     "start": 1.32,
+     "end": 1.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb11",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb11.mp3",
+   "text": "हे आणखी आत ओढा!",
+   "spoken": "हे आणखी आत ओढा!",
+   "words_count": 4,
+   "chars": 15,
+   "credits": 7,
+   "request_id": "fpCIrYMMCRMn4fHAXjtd",
+   "seconds": 1.646,
+   "generated_ms": 1006,
+   "words": [
+    {
+     "w": "हे",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "आणखी",
+     "start": 0.32,
+     "end": 0.72
+    },
+    {
+     "w": "आत",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "ओढा!",
+     "start": 1.12,
+     "end": 1.44
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb40",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb40.mp3",
+   "text": "पुन्हा प्रयत्न करा! कोपरा थोडा आणखी ताणा.",
+   "spoken": "पुन्हा प्रयत्न करा! कोपरा थोडा आणखी ताणा.",
+   "words_count": 7,
+   "chars": 41,
+   "credits": 20,
+   "request_id": "WXqNbet2CcoKGhsk84pa",
+   "seconds": 3.396,
+   "generated_ms": 1519,
+   "words": [
+    {
+     "w": "पुन्हा",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "प्रयत्न",
+     "start": 0.4,
+     "end": 0.72
+    },
+    {
+     "w": "करा!",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "कोपरा",
+     "start": 1.52,
+     "end": 1.92
+    },
+    {
+     "w": "थोडा",
+     "start": 1.96,
+     "end": 2.32
+    },
+    {
+     "w": "आणखी",
+     "start": 2.4,
+     "end": 2.72
+    },
+    {
+     "w": "ताणा.",
+     "start": 2.8,
+     "end": 3.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb35",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb35.mp3",
+   "text": "पुन्हा प्रयत्न करा! प्रत्येक बाजू आणि प्रत्येक कोन समान आहे.",
+   "spoken": "पुन्हा प्रयत्न करा! प्रत्येक बाजू आणि प्रत्येक कोन समान आहे.",
+   "words_count": 10,
+   "chars": 60,
+   "credits": 29,
+   "request_id": "nU68U137DwdcjgLHC1Br",
+   "seconds": 4.754,
+   "generated_ms": 1924,
+   "words": [
+    {
+     "w": "पुन्हा",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "प्रयत्न",
+     "start": 0.4,
+     "end": 0.72
+    },
+    {
+     "w": "करा!",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "प्रत्येक",
+     "start": 1.56,
+     "end": 2
+    },
+    {
+     "w": "बाजू",
+     "start": 2.08,
+     "end": 2.48
+    },
+    {
+     "w": "आणि",
+     "start": 2.64,
+     "end": 2.8
+    },
+    {
+     "w": "प्रत्येक",
+     "start": 2.88,
+     "end": 3.44
+    },
+    {
+     "w": "कोन",
+     "start": 3.48,
+     "end": 3.76
+    },
+    {
+     "w": "समान",
+     "start": 3.92,
+     "end": 4.24
+    },
+    {
+     "w": "आहे.",
+     "start": 4.32,
+     "end": 4.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb36",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb36.mp3",
+   "text": "पुन्हा प्रयत्न करा! सर्व बाजू समान नाहीत.",
+   "spoken": "पुन्हा प्रयत्न करा! सर्व बाजू समान नाहीत.",
+   "words_count": 7,
+   "chars": 41,
+   "credits": 20,
+   "request_id": "J6ROspWzSh1VSTGUrLAG",
+   "seconds": 3.474,
+   "generated_ms": 1616,
+   "words": [
+    {
+     "w": "पुन्हा",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "प्रयत्न",
+     "start": 0.4,
+     "end": 0.72
+    },
+    {
+     "w": "करा!",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "सर्व",
+     "start": 1.6,
+     "end": 1.92
+    },
+    {
+     "w": "बाजू",
+     "start": 1.96,
+     "end": 2.32
+    },
+    {
+     "w": "समान",
+     "start": 2.4,
+     "end": 2.72
+    },
+    {
+     "w": "नाहीत.",
+     "start": 2.8,
+     "end": 3.28
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb37",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb37.mp3",
+   "text": "पुन्हा प्रयत्न करा! सर्व कोन समान नाहीत.",
+   "spoken": "पुन्हा प्रयत्न करा! सर्व कोन समान नाहीत.",
+   "words_count": 7,
+   "chars": 40,
+   "credits": 19,
+   "request_id": "9EMLvU65nk0masEeQNKf",
+   "seconds": 3.239,
+   "generated_ms": 1504,
+   "words": [
+    {
+     "w": "पुन्हा",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "प्रयत्न",
+     "start": 0.4,
+     "end": 0.72
+    },
+    {
+     "w": "करा!",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "सर्व",
+     "start": 1.52,
+     "end": 1.84
+    },
+    {
+     "w": "कोन",
+     "start": 1.92,
+     "end": 2.08
+    },
+    {
+     "w": "समान",
+     "start": 2.16,
+     "end": 2.56
+    },
+    {
+     "w": "नाहीत.",
+     "start": 2.6,
+     "end": 3.04
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb38",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/fb38.mp3",
+   "text": "पुन्हा प्रयत्न करा! सर्व बाजू आणि कोन समान नाहीत.",
+   "spoken": "पुन्हा प्रयत्न करा! सर्व बाजू आणि कोन समान नाहीत.",
+   "words_count": 9,
+   "chars": 49,
+   "credits": 24,
+   "request_id": "qOdxqRS23nYYUJNwtnEv",
+   "seconds": 4.284,
+   "generated_ms": 1948,
+   "words": [
+    {
+     "w": "पुन्हा",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "प्रयत्न",
+     "start": 0.4,
+     "end": 0.72
+    },
+    {
+     "w": "करा!",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "सर्व",
+     "start": 1.6,
+     "end": 1.92
+    },
+    {
+     "w": "बाजू",
+     "start": 2,
+     "end": 2.4
+    },
+    {
+     "w": "आणि",
+     "start": 2.48,
+     "end": 2.64
+    },
+    {
+     "w": "कोन",
+     "start": 2.72,
+     "end": 3.04
+    },
+    {
+     "w": "समान",
+     "start": 3.2,
+     "end": 3.52
+    },
+    {
+     "w": "नाहीत.",
+     "start": 3.6,
+     "end": 4.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-1-meet",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/tut-1-meet.mp3",
+   "text": "हा मोमो आहे. त्याला त्याच्या मित्राला शोधायचे आहे.",
+   "spoken": "हा मोमो आहे. त्याला त्याच्या मित्राला शोधायचे आहे.",
+   "words_count": 8,
+   "chars": 50,
+   "credits": 24,
+   "request_id": "Nna5Q6XINleOIRjK2HhI",
+   "seconds": 3.318,
+   "generated_ms": 1871,
+   "words": [
+    {
+     "w": "हा",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "मोमो",
+     "start": 0.24,
+     "end": 0.56
+    },
+    {
+     "w": "आहे.",
+     "start": 0.64,
+     "end": 0.88
+    },
+    {
+     "w": "त्याला",
+     "start": 1.3,
+     "end": 1.52
+    },
+    {
+     "w": "त्याच्या",
+     "start": 1.6,
+     "end": 1.88
+    },
+    {
+     "w": "मित्राला",
+     "start": 1.92,
+     "end": 2.32
+    },
+    {
+     "w": "शोधायचे",
+     "start": 2.4,
+     "end": 2.8
+    },
+    {
+     "w": "आहे.",
+     "start": 2.88,
+     "end": 3.04
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-2-goal",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/tut-2-goal.mp3",
+   "text": "मोमोला बर्फाळ खिंड पार करायला मदत करा!",
+   "spoken": "मोमोला बर्फाळ खिंड पार करायला मदत करा!",
+   "words_count": 7,
+   "chars": 38,
+   "credits": 18,
+   "request_id": "MfijKzAUOdnyCWns7q8H",
+   "seconds": 2.847,
+   "generated_ms": 1313,
+   "words": [
+    {
+     "w": "मोमोला",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "बर्फाळ",
+     "start": 0.56,
+     "end": 0.96
+    },
+    {
+     "w": "खिंड",
+     "start": 1.04,
+     "end": 1.28
+    },
+    {
+     "w": "पार",
+     "start": 1.36,
+     "end": 1.52
+    },
+    {
+     "w": "करायला",
+     "start": 1.6,
+     "end": 2
+    },
+    {
+     "w": "मदत",
+     "start": 2.08,
+     "end": 2.32
+    },
+    {
+     "w": "करा!",
+     "start": 2.4,
+     "end": 2.64
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-3-watch",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/tut-3-watch.mp3",
+   "text": "सावधान!",
+   "spoken": "सावधान!",
+   "words_count": 1,
+   "chars": 7,
+   "credits": 3,
+   "request_id": "Fgad8ASrtboYG6bgY5Mf",
+   "seconds": 0.914,
+   "generated_ms": 813,
+   "words": [
+    {
+     "w": "सावधान!",
+     "start": 0,
+     "end": 0.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-4-jump",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/tut-4-jump.mp3",
+   "text": "अडथळ्यांवरून उडी मारण्यासाठी टॅप करा.",
+   "spoken": "अडथळ्यांवरून उडी मारण्यासाठी टॅप करा.",
+   "words_count": 5,
+   "chars": 37,
+   "credits": 18,
+   "request_id": "jhrdN05UgCdJNIJIlRFB",
+   "seconds": 2.586,
+   "generated_ms": 1272,
+   "words": [
+    {
+     "w": "अडथळ्यांवरून",
+     "start": 0,
+     "end": 0.88
+    },
+    {
+     "w": "उडी",
+     "start": 0.92,
+     "end": 1.12
+    },
+    {
+     "w": "मारण्यासाठी",
+     "start": 1.16,
+     "end": 1.76
+    },
+    {
+     "w": "टॅप",
+     "start": 1.92,
+     "end": 2.16
+    },
+    {
+     "w": "करा.",
+     "start": 2.2,
+     "end": 2.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-5-broken",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/tut-5-broken.mp3",
+   "text": "अरे बापरे! रस्ता तुटला आहे.",
+   "spoken": "अरे बापरे! रस्ता तुटला आहे.",
+   "words_count": 5,
+   "chars": 27,
+   "credits": 13,
+   "request_id": "vYiLGzNCP3VCeAwWKahx",
+   "seconds": 2.586,
+   "generated_ms": 1241,
+   "words": [
+    {
+     "w": "अरे",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "बापरे!",
+     "start": 0.4,
+     "end": 0.88
+    },
+    {
+     "w": "रस्ता",
+     "start": 1.36,
+     "end": 1.68
+    },
+    {
+     "w": "तुटला",
+     "start": 1.76,
+     "end": 2.08
+    },
+    {
+     "w": "आहे.",
+     "start": 2.16,
+     "end": 2.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-6-use",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/tut-6-use.mp3",
+   "text": "रस्ता दुरुस्त करण्यासाठी योग्य बर्फाचा तुकडा वापरा.",
+   "spoken": "रस्ता दुरुस्त करण्यासाठी योग्य बर्फाचा तुकडा वापरा.",
+   "words_count": 7,
+   "chars": 51,
+   "credits": 25,
+   "request_id": "NlWgLT1OsSUKTdW7HR9K",
+   "seconds": 3.553,
+   "generated_ms": 1831,
+   "words": [
+    {
+     "w": "रस्ता",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "दुरुस्त",
+     "start": 0.48,
+     "end": 0.88
+    },
+    {
+     "w": "करण्यासाठी",
+     "start": 0.92,
+     "end": 1.68
+    },
+    {
+     "w": "योग्य",
+     "start": 1.76,
+     "end": 2.08
+    },
+    {
+     "w": "बर्फाचा",
+     "start": 2.16,
+     "end": 2.64
+    },
+    {
+     "w": "तुकडा",
+     "start": 2.72,
+     "end": 2.96
+    },
+    {
+     "w": "वापरा.",
+     "start": 3.04,
+     "end": 3.36
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-6b-piece",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/tut-6b-piece.mp3",
+   "text": "रस्ता दुरुस्त करण्यासाठी योग्य तुकडा वापरा.",
+   "spoken": "रस्ता दुरुस्त करण्यासाठी योग्य तुकडा वापरा.",
+   "words_count": 6,
+   "chars": 43,
+   "credits": 21,
+   "request_id": "EKCDMSF4RtvjPGKOQBgR",
+   "seconds": 3.082,
+   "generated_ms": 1595,
+   "words": [
+    {
+     "w": "रस्ता",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "दुरुस्त",
+     "start": 0.48,
+     "end": 0.88
+    },
+    {
+     "w": "करण्यासाठी",
+     "start": 0.92,
+     "end": 1.68
+    },
+    {
+     "w": "योग्य",
+     "start": 1.72,
+     "end": 2.08
+    },
+    {
+     "w": "तुकडा",
+     "start": 2.16,
+     "end": 2.4
+    },
+    {
+     "w": "वापरा.",
+     "start": 2.48,
+     "end": 2.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-7-fit",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/tut-7-fit.mp3",
+   "text": "अगदी बरोबर बसले! असेच पुढे चला!",
+   "spoken": "अगदी बरोबर बसले! असेच पुढे चला!",
+   "words_count": 6,
+   "chars": 31,
+   "credits": 15,
+   "request_id": "4nAcmMTzItipWffQpLBX",
+   "seconds": 3.004,
+   "generated_ms": 1373,
+   "words": [
+    {
+     "w": "अगदी",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "बरोबर",
+     "start": 0.64,
+     "end": 1.12
+    },
+    {
+     "w": "बसले!",
+     "start": 1.2,
+     "end": 1.52
+    },
+    {
+     "w": "असेच",
+     "start": 1.96,
+     "end": 2.24
+    },
+    {
+     "w": "पुढे",
+     "start": 2.28,
+     "end": 2.48
+    },
+    {
+     "w": "चला!",
+     "start": 2.52,
+     "end": 2.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-1-diagonal",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/p2-1-diagonal.mp3",
+   "text": "एका कर्णावरून कापा.",
+   "spoken": "एका कर्णावरून कापा.",
+   "words_count": 3,
+   "chars": 19,
+   "credits": 9,
+   "request_id": "aMJMMI3ScLYc1dNQn0SG",
+   "seconds": 1.724,
+   "generated_ms": 1061,
+   "words": [
+    {
+     "w": "एका",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "कर्णावरून",
+     "start": 0.4,
+     "end": 1.04
+    },
+    {
+     "w": "कापा.",
+     "start": 1.08,
+     "end": 1.44
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-2-diagonals",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/p2-2-diagonals.mp3",
+   "text": "सर्व कर्ण काढा.",
+   "spoken": "सर्व कर्ण काढा.",
+   "words_count": 3,
+   "chars": 15,
+   "credits": 7,
+   "request_id": "scgz8Hk7tKjkWDg4jP8a",
+   "seconds": 1.306,
+   "generated_ms": 968,
+   "words": [
+    {
+     "w": "सर्व",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "कर्ण",
+     "start": 0.48,
+     "end": 0.72
+    },
+    {
+     "w": "काढा.",
+     "start": 0.8,
+     "end": 1.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-3-samevertex",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/p2-3-samevertex.mp3",
+   "text": "एकाच शिरोबिंदूपासून 2 कर्ण काढा.",
+   "spoken": "एकाच शिरोबिंदूपासून दोन कर्ण काढा.",
+   "words_count": 5,
+   "chars": 34,
+   "credits": 16,
+   "request_id": "2MP0y2lrOKRhcZcmvrn6",
+   "seconds": 2.691,
+   "generated_ms": 1314,
+   "words": [
+    {
+     "w": "एकाच",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "शिरोबिंदूपासून",
+     "start": 0.56,
+     "end": 1.6
+    },
+    {
+     "w": "2",
+     "start": 1.64,
+     "end": 1.84
+    },
+    {
+     "w": "कर्ण",
+     "start": 1.92,
+     "end": 2.16
+    },
+    {
+     "w": "काढा.",
+     "start": 2.2,
+     "end": 2.48
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-4-concave",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/p2-4-concave.mp3",
+   "text": "अंतर्वक्र बहुभुजाकृती कापा.",
+   "spoken": "अंतर्वक्र बहुभुजाकृती कापा.",
+   "words_count": 3,
+   "chars": 27,
+   "credits": 13,
+   "request_id": "2gvMzF9LrHI7DDZnaaID",
+   "seconds": 2.847,
+   "generated_ms": 1220,
+   "words": [
+    {
+     "w": "अंतर्वक्र",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 0.8,
+     "end": 1.68
+    },
+    {
+     "w": "कापा.",
+     "start": 2.16,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-5-convex",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/p2-5-convex.mp3",
+   "text": "बहिर्वक्र बहुभुजाकृती कापा.",
+   "spoken": "बहिर्वक्र बहुभुजाकृती कापा.",
+   "words_count": 3,
+   "chars": 27,
+   "credits": 13,
+   "request_id": "wRO2YIxFLOt6cg3Le7ky",
+   "seconds": 2.691,
+   "generated_ms": 1263,
+   "words": [
+    {
+     "w": "बहिर्वक्र",
+     "start": 0,
+     "end": 0.8
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 0.96,
+     "end": 1.84
+    },
+    {
+     "w": "कापा.",
+     "start": 2,
+     "end": 2.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-6-concave-pentagon",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/p2-6-concave-pentagon.mp3",
+   "text": "अंतर्वक्र पंचकोन कापा.",
+   "spoken": "अंतर्वक्र पंचकोन कापा.",
+   "words_count": 3,
+   "chars": 22,
+   "credits": 11,
+   "request_id": "PoGICxERsxrLs5GEX5q8",
+   "seconds": 2.038,
+   "generated_ms": 1126,
+   "words": [
+    {
+     "w": "अंतर्वक्र",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "पंचकोन",
+     "start": 0.8,
+     "end": 1.36
+    },
+    {
+     "w": "कापा.",
+     "start": 1.44,
+     "end": 1.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-7-convex-hexagon",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/p2-7-convex-hexagon.mp3",
+   "text": "बहिर्वक्र षटकोन कापा.",
+   "spoken": "बहिर्वक्र षटकोन कापा.",
+   "words_count": 3,
+   "chars": 21,
+   "credits": 10,
+   "request_id": "qLjjmfHrvzsQ6nrdfI8x",
+   "seconds": 1.881,
+   "generated_ms": 1086,
+   "words": [
+    {
+     "w": "बहिर्वक्र",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "षटकोन",
+     "start": 0.8,
+     "end": 1.2
+    },
+    {
+     "w": "कापा.",
+     "start": 1.28,
+     "end": 1.68
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-8-all-concave",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/p2-8-all-concave.mp3",
+   "text": "सर्व अंतर्वक्र बहुभुजाकृती कापा.",
+   "spoken": "सर्व अंतर्वक्र बहुभुजाकृती कापा.",
+   "words_count": 4,
+   "chars": 32,
+   "credits": 16,
+   "request_id": "975PSDRxUsEjo5XyeObp",
+   "seconds": 3.004,
+   "generated_ms": 1331,
+   "words": [
+    {
+     "w": "सर्व",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "अंतर्वक्र",
+     "start": 0.48,
+     "end": 1.2
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 1.28,
+     "end": 2.24
+    },
+    {
+     "w": "कापा.",
+     "start": 2.32,
+     "end": 2.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-9-all-convex",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/p2-9-all-convex.mp3",
+   "text": "सर्व बहिर्वक्र बहुभुजाकृती कापा.",
+   "spoken": "सर्व बहिर्वक्र बहुभुजाकृती कापा.",
+   "words_count": 4,
+   "chars": 32,
+   "credits": 16,
+   "request_id": "vfONaUeSw6J6LQZrJ6vy",
+   "seconds": 3.239,
+   "generated_ms": 1434,
+   "words": [
+    {
+     "w": "सर्व",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "बहिर्वक्र",
+     "start": 0.48,
+     "end": 1.2
+    },
+    {
+     "w": "बहुभुजाकृती",
+     "start": 1.52,
+     "end": 2.48
+    },
+    {
+     "w": "कापा.",
+     "start": 2.56,
+     "end": 2.96
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-corners",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/hint-corners.mp3",
+   "text": "दोन शिरोबिंदू जोडा.",
+   "spoken": "दोन शिरोबिंदू जोडा.",
+   "words_count": 3,
+   "chars": 19,
+   "credits": 9,
+   "request_id": "xewNXthwd5v7aBlDbF2E",
+   "seconds": 1.646,
+   "generated_ms": 1043,
+   "words": [
+    {
+     "w": "दोन",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "शिरोबिंदू",
+     "start": 0.4,
+     "end": 0.96
+    },
+    {
+     "w": "जोडा.",
+     "start": 1.04,
+     "end": 1.36
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-side",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/hint-side.mp3",
+   "text": "ही एक बाजू आहे — कर्ण काढून पाहा.",
+   "spoken": "ही एक बाजू आहे — कर्ण काढून पाहा.",
+   "words_count": 7,
+   "chars": 33,
+   "credits": 16,
+   "request_id": "Sh4YHlWLijy65v34wvN5",
+   "seconds": 2.769,
+   "generated_ms": 1299,
+   "words": [
+    {
+     "w": "ही",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "एक",
+     "start": 0.32,
+     "end": 0.48
+    },
+    {
+     "w": "बाजू",
+     "start": 0.56,
+     "end": 0.8
+    },
+    {
+     "w": "आहे",
+     "start": 0.88,
+     "end": 1.04
+    },
+    {
+     "w": "—",
+     "start": null,
+     "end": null
+    },
+    {
+     "w": "कर्ण",
+     "start": 1.52,
+     "end": 1.76
+    },
+    {
+     "w": "काढून",
+     "start": 1.92,
+     "end": 2.24
+    },
+    {
+     "w": "पाहा.",
+     "start": 2.28,
+     "end": 2.48
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-short",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/hint-short.mp3",
+   "text": "अगदी आरपार कापा, एका शिरोबिंदूपासून समोरच्या शिरोबिंदूपर्यंत.",
+   "spoken": "अगदी आरपार कापा, एका शिरोबिंदूपासून समोरच्या शिरोबिंदूपर्यंत.",
+   "words_count": 7,
+   "chars": 61,
+   "credits": 30,
+   "request_id": "xqIyR3Vm0P20XkgcXqO1",
+   "seconds": 4.911,
+   "generated_ms": 2123,
+   "words": [
+    {
+     "w": "अगदी",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "आरपार",
+     "start": 0.56,
+     "end": 1.04
+    },
+    {
+     "w": "कापा,",
+     "start": 1.12,
+     "end": 1.6
+    },
+    {
+     "w": "एका",
+     "start": 1.92,
+     "end": 2.08
+    },
+    {
+     "w": "शिरोबिंदूपासून",
+     "start": 2.24,
+     "end": 3.12
+    },
+    {
+     "w": "समोरच्या",
+     "start": 3.28,
+     "end": 3.76
+    },
+    {
+     "w": "शिरोबिंदूपर्यंत.",
+     "start": 3.84,
+     "end": 4.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-already",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/hint-already.mp3",
+   "text": "तो तर झाला — दुसरा शोधा.",
+   "spoken": "तो तर झाला — दुसरा शोधा.",
+   "words_count": 5,
+   "chars": 24,
+   "credits": 12,
+   "request_id": "5gJdBJeBZ12Y6WZ82k3i",
+   "seconds": 2.038,
+   "generated_ms": 1015,
+   "words": [
+    {
+     "w": "तो",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "तर",
+     "start": 0.2,
+     "end": 0.32
+    },
+    {
+     "w": "झाला",
+     "start": 0.4,
+     "end": 0.88
+    },
+    {
+     "w": "—",
+     "start": null,
+     "end": null
+    },
+    {
+     "w": "दुसरा",
+     "start": 1.2,
+     "end": 1.48
+    },
+    {
+     "w": "शोधा.",
+     "start": 1.52,
+     "end": 1.84
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-samevertex",
+   "speaker": "popo",
+   "voice": "Vardaan",
+   "voice_id": "ritE7mWIE55SDe0J11Kk",
+   "file": "assets/VO-MR/hint-samevertex.mp3",
+   "text": "हाही त्याच शिरोबिंदूपासून सुरू करा.",
+   "spoken": "हाही त्याच शिरोबिंदूपासून सुरू करा.",
+   "words_count": 5,
+   "chars": 35,
+   "credits": 17,
+   "request_id": "f0l5d7m4Adxo0ay7V9vH",
+   "seconds": 2.429,
+   "generated_ms": 1276,
+   "words": [
+    {
+     "w": "हाही",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "त्याच",
+     "start": 0.48,
+     "end": 0.8
+    },
+    {
+     "w": "शिरोबिंदूपासून",
+     "start": 0.88,
+     "end": 1.68
+    },
+    {
+     "w": "सुरू",
+     "start": 1.76,
+     "end": 1.92
+    },
+    {
+     "w": "करा.",
+     "start": 2,
+     "end": 2.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "sw1",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/sw1.mp3",
+   "text": "मोमोला तुमच्या मदतीची गरज आहे.",
+   "spoken": "मोमोला तुमच्या मदतीची गरज आहे.",
+   "words_count": 5,
+   "chars": 30,
+   "credits": 15,
+   "request_id": "A8blupRZreJn0noqSfql",
+   "seconds": 2.429,
+   "generated_ms": 1253,
+   "words": [
+    {
+     "w": "मोमोला",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "तुमच्या",
+     "start": 0.64,
+     "end": 0.96
+    },
+    {
+     "w": "मदतीची",
+     "start": 1,
+     "end": 1.52
+    },
+    {
+     "w": "गरज",
+     "start": 1.6,
+     "end": 1.92
+    },
+    {
+     "w": "आहे.",
+     "start": 1.96,
+     "end": 2.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "sw2",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/sw2.mp3",
+   "text": "पण मोमोला मदत करण्यासाठी, तुम्हाला बहुभुजाकृतींबद्दल शिकावे लागेल.",
+   "spoken": "पण मोमोला मदत करण्यासाठी, तुम्हाला बहुभुजाकृतींबद्दल शिकावे लागेल.",
+   "words_count": 8,
+   "chars": 66,
+   "credits": 32,
+   "request_id": "zFT7kTot3LgztoIZi8c6",
+   "seconds": 4.989,
+   "generated_ms": 2275,
+   "words": [
+    {
+     "w": "पण",
+     "start": 0,
+     "end": 0.2
+    },
+    {
+     "w": "मोमोला",
+     "start": 0.24,
+     "end": 0.72
+    },
+    {
+     "w": "मदत",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "करण्यासाठी,",
+     "start": 1.12,
+     "end": 1.84
+    },
+    {
+     "w": "तुम्हाला",
+     "start": 2.12,
+     "end": 2.48
+    },
+    {
+     "w": "बहुभुजाकृतींबद्दल",
+     "start": 2.64,
+     "end": 3.92
+    },
+    {
+     "w": "शिकावे",
+     "start": 4,
+     "end": 4.4
+    },
+    {
+     "w": "लागेल.",
+     "start": 4.44,
+     "end": 4.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "sw3",
+   "speaker": "swiftee",
+   "voice": "Sayali",
+   "voice_id": "ObcUVfo3RbQv9i2RBbAe",
+   "file": "assets/VO-MR/sw3.mp3",
+   "text": "आता चला, मोमोला मदत करूया.",
+   "spoken": "आता चला, मोमोला मदत करूया.",
+   "words_count": 5,
+   "chars": 26,
+   "credits": 13,
+   "request_id": "akwwKe3CHtd5ViAJSONu",
+   "seconds": 2.351,
+   "generated_ms": 1279,
+   "words": [
+    {
+     "w": "आता",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "चला,",
+     "start": 0.32,
+     "end": 0.56
+    },
+    {
+     "w": "मोमोला",
+     "start": 0.96,
+     "end": 1.36
+    },
+    {
+     "w": "मदत",
+     "start": 1.44,
+     "end": 1.68
+    },
+    {
+     "w": "करूया.",
+     "start": 1.76,
+     "end": 2.32
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  }
+ ]
+}

@@ -40,6 +40,9 @@ START GAME.bat
 /part1-swiftee-lesson/assets/swiftee/*.json
 # the user's Hindi recordings: tools/build-vo-hindi.js cuts them into assets/vo/hi (and Part 2's vo-lines-hi)
 /part1-swiftee-lesson/assets/vo-part-1-hindi
+# the ElevenLabs Marathi masters: tools/build-vo-marathi.js cuts them into assets/vo/mr (and Part 2's vo-lines-mr)
+/part1-swiftee-lesson/assets/VO-MR
+/part1-swiftee-lesson/assets/vo/mr/word-timings.json
 /part1-swiftee-lesson/swiftee-in-use
 /part1-swiftee-lesson/preview
 

@@ -20,7 +20,7 @@ function walk(dir) {
 const rel = (p) => path.relative(ROOT, p).split(path.sep).join('/');
 
 const sizes = {};
-walk(path.join(ROOT, 'assets')).map(rel).filter((f) => !/^assets\/source\//.test(f) && !/\.(wav|opus)$/i.test(f) && !/(^|\/)\.[^/]+$/.test(f)).sort()
+walk(path.join(ROOT, 'assets')).map(rel).filter((f) => !/^assets\/(source|VO-MR)\//.test(f) && !/\.(wav|opus)$/i.test(f) && !/(^|\/)\.[^/]+$/.test(f)).sort()
   .forEach((f) => { sizes[f] = fs.statSync(path.join(ROOT, f)).size; });
 
 const sources = [path.join(ROOT, 'index.html')].concat(walk(path.join(ROOT, 'src')).filter((f) => /\.js$/.test(f) && f !== OUT && !/lesson\.min\.js$/.test(f)));
