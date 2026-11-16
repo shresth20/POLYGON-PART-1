@@ -3553,13 +3553,6 @@ export function createGame(canvas, hooks = {}) {
   function currentCharacter() {
     return CFG.characters.find(c => c.id === characterId) || CFG.characters[0];
   }
-  /** Swap the explorer. Kept out of the run states so it can only happen up front. */
-  function setCharacter(id) {
-    if (!CFG.characters.some(c => c.id === id)) return false;
-    characterId = id;
-    if (mammoth) { mammoth.setCharacter(currentCharacter(), images); mammoth.reset(); }
-    return true;
-  }
 
   /* ---- asset loading ---- */
   function loadImg(src) {
@@ -7265,7 +7258,6 @@ export function createGame(canvas, hooks = {}) {
       swing: rigSwing(), swayRad: CFG.comedy.swayRad,
       bows: ((G.l1 && G.l1.shapes) || []).filter(s => s.state === 'hang').map(s => ropeBow(s))
     }),
-    _cutGuide: i => { const L = G.l1; const sh = L && L.shapes[i]; return sh ? cutGuide(sh) : null; },
     _snow: () => ({
       far: atmos.far.length, mid: atmos.mid.length, near: atmos.near.length,
       sprite: !!Atmosphere.flake(),
@@ -7280,8 +7272,6 @@ export function createGame(canvas, hooks = {}) {
     _ground: () => ground,
     _obstacles: () => obstacles,
     _particles: () => particles,
-    _voBytes: () => !!audio.voBytes,
-    _voErr: () => audio.voErr || '',
     _voice: () => ({ ready: !!(audio.vo || audio.voEl), saying: !!audio.saying, dur: G.voDur || 0,
                      ctx: audio.ctx ? audio.ctx.state : 'none', said: (audio.saidLog || []).slice(),
                      lines: Object.keys((CFG.vo && CFG.vo.lines) || {}).length }),

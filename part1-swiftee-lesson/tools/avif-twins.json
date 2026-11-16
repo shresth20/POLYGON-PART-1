@@ -31,7 +31,7 @@
   },
   "assets/swiftee/swiftee-angle-intact-v4.webp": {
     "q": 86,
-    "webp": "0086e8a1",
+    "webp": "540a1b21",
     "avif": "c75abed1"
   },
   "assets/swiftee/swiftee-inspect-flight.webp": {
@@ -46,72 +46,72 @@
   },
   "assets/ui/bin-concave.webp": {
     "q": 78,
-    "webp": "182f77d5",
+    "webp": "5572e0af",
     "avif": "aac17c8a"
   },
   "assets/ui/bin-convex.webp": {
     "q": 82,
-    "webp": "3da12bf1",
+    "webp": "45ed616e",
     "avif": "f8936457"
   },
   "assets/ui/btn-uiDanger.webp": {
     "q": 84,
-    "webp": "13d5490e",
+    "webp": "16ffe0af",
     "avif": "c2c85bb2"
   },
   "assets/ui/btn-uiNav.webp": {
     "q": 84,
-    "webp": "dbbb52c5",
+    "webp": "608e9eb9",
     "avif": "0530955a"
   },
   "assets/ui/btn-uiPrimary.webp": {
     "q": 83,
-    "webp": "d8ec3af2",
+    "webp": "328ccb02",
     "avif": "d8f6defc"
   },
   "assets/ui/btn-uiSuccess.webp": {
     "q": 84,
-    "webp": "708e08a2",
+    "webp": "dcdfb097",
     "avif": "520b2707"
   },
   "assets/ui/card.webp": {
     "q": 82,
-    "webp": "bcc5169a",
+    "webp": "795fe2f4",
     "avif": "222c8340"
   },
   "assets/ui/compare.webp": {
     "q": 68,
-    "webp": "7cc66c2b",
+    "webp": "9a720dd3",
     "avif": "76d4907c"
   },
   "assets/ui/hand.webp": {
     "q": 83,
-    "webp": "53c5fa4e",
+    "webp": "11d8c19b",
     "avif": "e8bc3ee8"
   },
   "assets/ui/measure.webp": {
     "q": 80,
-    "webp": "6f507de8",
+    "webp": "23cc2e55",
     "avif": "5bc8d8dc"
   },
   "assets/ui/panel.webp": {
     "q": 82,
-    "webp": "0e45767f",
+    "webp": "bb3784fa",
     "avif": "366d16e6"
   },
   "assets/ui/plank.webp": {
     "q": 84,
-    "webp": "ef53d389",
+    "webp": "4b707797",
     "avif": "cc10196e"
   },
   "assets/ui/zone-irregular.webp": {
     "q": 70,
-    "webp": "3aed40b0",
+    "webp": "29be1603",
     "avif": "664ceb71"
   },
   "assets/ui/zone-regular.webp": {
     "q": 72,
-    "webp": "b52e2d9d",
+    "webp": "0370b72d",
     "avif": "aa47cc12"
   }
 }

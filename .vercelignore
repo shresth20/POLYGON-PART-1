@@ -5,7 +5,8 @@
 node_modules
 .claude
 .vercel
-README.md
+# notes (README.md, CLAUDE.md, ...): nothing the game fetches is Markdown
+*.md
 package.json
 package-lock.json
 serve.js

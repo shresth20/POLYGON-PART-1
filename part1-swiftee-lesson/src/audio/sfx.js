@@ -220,13 +220,6 @@
       }
     },
 
-    /** Wood or rope taking weight: a short, low, bowed groan. */
-    creak: function (o) {
-      var f = (o && o.f) || 150;
-      tone({ f: f, to: f * 0.82, dur: 0.4, type: 'sawtooth', gain: 0.03, attack: 0.06, glide: 'exp' });
-      noise({ f: f * 6, to: f * 4, dur: 0.36, q: 9, gain: 0.05, attack: 0.05 });
-    },
-
     /** Ice ringing: two high partials and a long soft tail. */
     chime: function () {
       tone({ f: note(4, 2), dur: 1.1, type: 'sine', gain: 0.07 });
