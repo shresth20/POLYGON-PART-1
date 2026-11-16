@@ -13,6 +13,7 @@ export const ORDER = [
   'option-shapes.js',
   'vo-hi.js',
   'vo-mr.js',
+  'vo-gu.js',
   'engine.js',
   'bubble.js',
   'hud.js',

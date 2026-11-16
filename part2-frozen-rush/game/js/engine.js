@@ -5,8 +5,9 @@ import { optionShapes } from './option-shapes.js';
 import { ASSET_V, ASSET_SIZE } from './asset-versions.js';
 import { VO_HI } from './vo-hi.js';
 import { VO_MR } from './vo-mr.js';
+import { VO_GU } from './vo-gu.js';
 
-const VO_TAKES = { hi: VO_HI, mr: VO_MR };
+const VO_TAKES = { hi: VO_HI, mr: VO_MR, gu: VO_GU };
 const VO_I18N = typeof globalThis !== 'undefined' ? globalThis.I18N : null;
 const VO_TAKE = VO_I18N && VO_I18N.on && VO_I18N.voice ? VO_TAKES[VO_I18N.lang] || null : null;
 const SILENT_VO = !!(VO_I18N && VO_I18N.on && !VO_TAKE);

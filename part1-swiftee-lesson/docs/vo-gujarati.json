@@ -1,0 +1,6106 @@
+{
+ "note": "The Gujarati voice-over, generated with ElevenLabs (tools/make-vo-gujarati.js) into assets/VO-GU/<id>.mp3. words: where each word shown falls in its file, in seconds, from the API's character alignment (an em dash is null). credits: the request's character-cost header. tools/build-vo-gujarati.js cuts the game's clips from this.",
+ "model": "eleven_v4",
+ "settings": {
+  "stability": 0.6,
+  "similarity_boost": 0.8,
+  "speed": 0.92
+ },
+ "seed": 4107,
+ "voices": {
+  "swiftee": {
+   "name": "Hetalben",
+   "id": "1wX3DrX9Q7x2fkeiljyg",
+   "library": "Hetalben - Young Gujarati Customer Care (bright, warm, young)"
+  },
+  "popo": {
+   "name": "Bhavesh Bhai",
+   "id": "UHwU6ReRgTsCs68KHc6C",
+   "library": "Bhavesh Bhai - Expressive Gujarati Friend (expressive, made for cartoon characters)"
+  }
+ },
+ "recordings": [
+  {
+   "id": "p01",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p01.mp3",
+   "text": "નમસ્તે! હું સ્વિફ્ટી છું.",
+   "spoken": "નમસ્તે! હું સ્વિફ્ટી છું.",
+   "words_count": 4,
+   "chars": 25,
+   "credits": 12,
+   "request_id": "RtYKA2wJbUfeEQXy78LA",
+   "seconds": 2.273,
+   "generated_ms": 3377,
+   "words": [
+    {
+     "w": "નમસ્તે!",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "હું",
+     "start": 1.12,
+     "end": 1.28
+    },
+    {
+     "w": "સ્વિફ્ટી",
+     "start": 1.36,
+     "end": 1.76
+    },
+    {
+     "w": "છું.",
+     "start": 1.84,
+     "end": 2.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p02",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p02.mp3",
+   "text": "યાદ છે, આપણે પહેલાં બહુકોણ વિશે શીખ્યા હતા.",
+   "spoken": "યાદ છે, આપણે પહેલાં બહુકોણ વિશે શીખ્યા હતા.",
+   "words_count": 8,
+   "chars": 43,
+   "credits": 21,
+   "request_id": "zvaNCpsJq679pyTLGX6B",
+   "seconds": 3.474,
+   "generated_ms": 5861,
+   "words": [
+    {
+     "w": "યાદ",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "છે,",
+     "start": 0.373,
+     "end": 0.56
+    },
+    {
+     "w": "આપણે",
+     "start": 0.96,
+     "end": 1.2
+    },
+    {
+     "w": "પહેલાં",
+     "start": 1.28,
+     "end": 1.76
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 1.84,
+     "end": 2.32
+    },
+    {
+     "w": "વિશે",
+     "start": 2.36,
+     "end": 2.56
+    },
+    {
+     "w": "શીખ્યા",
+     "start": 2.64,
+     "end": 2.933
+    },
+    {
+     "w": "હતા.",
+     "start": 2.96,
+     "end": 3.28
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p03",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p03.mp3",
+   "text": "બહુકોણ એ સીધી રેખાઓથી બનેલા બંધ આકાર છે.",
+   "spoken": "બહુકોણ એ સીધી રેખાઓથી બનેલા બંધ આકાર છે.",
+   "words_count": 8,
+   "chars": 40,
+   "credits": 19,
+   "request_id": "txMgVwtfdU7w1pXtMKto",
+   "seconds": 3.788,
+   "generated_ms": 4598,
+   "words": [
+    {
+     "w": "બહુકોણ",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "એ",
+     "start": 0.773,
+     "end": 0.88
+    },
+    {
+     "w": "સીધી",
+     "start": 0.96,
+     "end": 1.333
+    },
+    {
+     "w": "રેખાઓથી",
+     "start": 1.36,
+     "end": 1.92
+    },
+    {
+     "w": "બનેલા",
+     "start": 2,
+     "end": 2.4
+    },
+    {
+     "w": "બંધ",
+     "start": 2.56,
+     "end": 2.88
+    },
+    {
+     "w": "આકાર",
+     "start": 2.96,
+     "end": 3.28
+    },
+    {
+     "w": "છે.",
+     "start": 3.36,
+     "end": 3.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p04",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p04.mp3",
+   "text": "આમાંથી કયા બહુકોણ છે?",
+   "spoken": "આમાંથી કયા બહુકોણ છે?",
+   "words_count": 4,
+   "chars": 21,
+   "credits": 10,
+   "request_id": "nUQFpMxlcOGUdEEvXsRJ",
+   "seconds": 1.959,
+   "generated_ms": 2550,
+   "words": [
+    {
+     "w": "આમાંથી",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "કયા",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 1.04,
+     "end": 1.52
+    },
+    {
+     "w": "છે?",
+     "start": 1.573,
+     "end": 1.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p05",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p05.mp3",
+   "text": "ચાલો, આની સાથે રમીએ.",
+   "spoken": "ચાલો, આની સાથે રમીએ.",
+   "words_count": 4,
+   "chars": 20,
+   "credits": 10,
+   "request_id": "orBZP4lGtz65DURGcW6p",
+   "seconds": 1.802,
+   "generated_ms": 2750,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "આની",
+     "start": 0.72,
+     "end": 0.933
+    },
+    {
+     "w": "સાથે",
+     "start": 0.96,
+     "end": 1.253
+    },
+    {
+     "w": "રમીએ.",
+     "start": 1.28,
+     "end": 1.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p06",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p06.mp3",
+   "text": "કોઈ પણ એક શિરોબિંદુ પસંદ કરો.",
+   "spoken": "કોઈ પણ એક શિરોબિંદુ પસંદ કરો.",
+   "words_count": 6,
+   "chars": 29,
+   "credits": 14,
+   "request_id": "beup96bvDLp5mN3kBrZd",
+   "seconds": 2.273,
+   "generated_ms": 1845,
+   "words": [
+    {
+     "w": "કોઈ",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "પણ",
+     "start": 0.24,
+     "end": 0.48
+    },
+    {
+     "w": "એક",
+     "start": 0.56,
+     "end": 0.8
+    },
+    {
+     "w": "શિરોબિંદુ",
+     "start": 0.827,
+     "end": 1.44
+    },
+    {
+     "w": "પસંદ",
+     "start": 1.52,
+     "end": 1.76
+    },
+    {
+     "w": "કરો.",
+     "start": 1.84,
+     "end": 2.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p07i",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p07i.mp3",
+   "text": "ચાલો, તેને બીજા શિરોબિંદુ સાથે જોડીએ.",
+   "spoken": "ચાલો, તેને બીજા શિરોબિંદુ સાથે જોડીએ.",
+   "words_count": 6,
+   "chars": 37,
+   "credits": 18,
+   "request_id": "bTHpNJYaXSEo5A9NkQIQ",
+   "seconds": 2.926,
+   "generated_ms": 1959,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "તેને",
+     "start": 0.76,
+     "end": 1.04
+    },
+    {
+     "w": "બીજા",
+     "start": 1.067,
+     "end": 1.36
+    },
+    {
+     "w": "શિરોબિંદુ",
+     "start": 1.44,
+     "end": 1.92
+    },
+    {
+     "w": "સાથે",
+     "start": 2,
+     "end": 2.24
+    },
+    {
+     "w": "જોડીએ.",
+     "start": 2.32,
+     "end": 2.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p09",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p09.mp3",
+   "text": "આ બહુકોણની એક બાજુ છે.",
+   "spoken": "આ બહુકોણની એક બાજુ છે.",
+   "words_count": 5,
+   "chars": 22,
+   "credits": 11,
+   "request_id": "blpIvaUkZKAo2SGnXQC6",
+   "seconds": 2.194,
+   "generated_ms": 1455,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "બહુકોણની",
+     "start": 0.24,
+     "end": 1.04
+    },
+    {
+     "w": "એક",
+     "start": 1.12,
+     "end": 1.36
+    },
+    {
+     "w": "બાજુ",
+     "start": 1.387,
+     "end": 1.68
+    },
+    {
+     "w": "છે.",
+     "start": 1.76,
+     "end": 2.16
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p10i",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p10i.mp3",
+   "text": "ચાલો, તેને જુદા શિરોબિંદુ સાથે જોડીએ.",
+   "spoken": "ચાલો, તેને જુદા શિરોબિંદુ સાથે જોડીએ.",
+   "words_count": 6,
+   "chars": 37,
+   "credits": 18,
+   "request_id": "Gl5HeUtbX1ekvcbOtUe5",
+   "seconds": 2.926,
+   "generated_ms": 1718,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "તેને",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "જુદા",
+     "start": 1.12,
+     "end": 1.36
+    },
+    {
+     "w": "શિરોબિંદુ",
+     "start": 1.44,
+     "end": 1.92
+    },
+    {
+     "w": "સાથે",
+     "start": 2,
+     "end": 2.293
+    },
+    {
+     "w": "જોડીએ.",
+     "start": 2.32,
+     "end": 2.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p12",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p12.mp3",
+   "text": "વાહ! તમે એક વિકર્ણ બનાવ્યો!",
+   "spoken": "વાહ! તમે એક વિકર્ણ બનાવ્યો!",
+   "words_count": 5,
+   "chars": 27,
+   "credits": 13,
+   "request_id": "zyTe3WPjNnoRO1bIjxVq",
+   "seconds": 2.586,
+   "generated_ms": 1458,
+   "words": [
+    {
+     "w": "વાહ!",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "તમે",
+     "start": 0.88,
+     "end": 1.093
+    },
+    {
+     "w": "એક",
+     "start": 1.12,
+     "end": 1.28
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 1.36,
+     "end": 1.76
+    },
+    {
+     "w": "બનાવ્યો!",
+     "start": 1.84,
+     "end": 2.32
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p13",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p13.mp3",
+   "text": "પાસપાસે ન હોય તેવાં બે શિરોબિંદુઓને જોડતો રેખાખંડ વિકર્ણ છે.",
+   "spoken": "પાસપાસે ન હોય તેવાં બે શિરોબિંદુઓને જોડતો રેખાખંડ વિકર્ણ છે.",
+   "words_count": 10,
+   "chars": 60,
+   "credits": 29,
+   "request_id": "uiKfhRUdzbRkAy0Apxe7",
+   "seconds": 5.407,
+   "generated_ms": 11667,
+   "words": [
+    {
+     "w": "પાસપાસે",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "ન",
+     "start": 0.8,
+     "end": 0.96
+    },
+    {
+     "w": "હોય",
+     "start": 1.04,
+     "end": 1.36
+    },
+    {
+     "w": "તેવાં",
+     "start": 1.44,
+     "end": 1.787
+    },
+    {
+     "w": "બે",
+     "start": 1.84,
+     "end": 2
+    },
+    {
+     "w": "શિરોબિંદુઓને",
+     "start": 2.08,
+     "end": 2.96
+    },
+    {
+     "w": "જોડતો",
+     "start": 3,
+     "end": 3.467
+    },
+    {
+     "w": "રેખાખંડ",
+     "start": 3.52,
+     "end": 4.32
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 4.4,
+     "end": 4.88
+    },
+    {
+     "w": "છે.",
+     "start": 4.96,
+     "end": 5.36
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p14i",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p14i.mp3",
+   "text": "ચાલો, એ જ શિરોબિંદુથી બીજો એક વિકર્ણ દોરીએ.",
+   "spoken": "ચાલો, એ જ શિરોબિંદુથી બીજો એક વિકર્ણ દોરીએ.",
+   "words_count": 8,
+   "chars": 43,
+   "credits": 21,
+   "request_id": "EnDdQZSgJIAocJ44aMYK",
+   "seconds": 3.788,
+   "generated_ms": 1733,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "એ",
+     "start": 0.88,
+     "end": 1.04
+    },
+    {
+     "w": "જ",
+     "start": 1.08,
+     "end": 1.12
+    },
+    {
+     "w": "શિરોબિંદુથી",
+     "start": 1.2,
+     "end": 2.08
+    },
+    {
+     "w": "બીજો",
+     "start": 2.16,
+     "end": 2.48
+    },
+    {
+     "w": "એક",
+     "start": 2.56,
+     "end": 2.72
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 2.76,
+     "end": 3.12
+    },
+    {
+     "w": "દોરીએ.",
+     "start": 3.2,
+     "end": 3.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p14r",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p14r.mp3",
+   "text": "વિકર્ણ પાસપાસે ન હોય તેવાં શિરોબિંદુઓને જોડે છે.",
+   "spoken": "વિકર્ણ પાસપાસે ન હોય તેવાં શિરોબિંદુઓને જોડે છે.",
+   "words_count": 8,
+   "chars": 48,
+   "credits": 23,
+   "request_id": "sn1Uu9u1RSEiOkT2tTaz",
+   "seconds": 4.127,
+   "generated_ms": 1898,
+   "words": [
+    {
+     "w": "વિકર્ણ",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "પાસપાસે",
+     "start": 0.64,
+     "end": 1.36
+    },
+    {
+     "w": "ન",
+     "start": 1.44,
+     "end": 1.68
+    },
+    {
+     "w": "હોય",
+     "start": 1.72,
+     "end": 2
+    },
+    {
+     "w": "તેવાં",
+     "start": 2.16,
+     "end": 2.507
+    },
+    {
+     "w": "શિરોબિંદુઓને",
+     "start": 2.56,
+     "end": 3.36
+    },
+    {
+     "w": "જોડે",
+     "start": 3.44,
+     "end": 3.68
+    },
+    {
+     "w": "છે.",
+     "start": 3.76,
+     "end": 3.92
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p15",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p15.mp3",
+   "text": "હવે તમારો વારો! ચાલો, આ શિરોબિંદુથી બધા વિકર્ણ દોરીએ.",
+   "spoken": "હવે તમારો વારો! ચાલો, આ શિરોબિંદુથી બધા વિકર્ણ દોરીએ.",
+   "words_count": 9,
+   "chars": 53,
+   "credits": 26,
+   "request_id": "hplDoB1PLerOML4iI9Yl",
+   "seconds": 5.068,
+   "generated_ms": 3082,
+   "words": [
+    {
+     "w": "હવે",
+     "start": 0,
+     "end": 0.347
+    },
+    {
+     "w": "તમારો",
+     "start": 0.4,
+     "end": 0.8
+    },
+    {
+     "w": "વારો!",
+     "start": 0.84,
+     "end": 1.12
+    },
+    {
+     "w": "ચાલો,",
+     "start": 1.573,
+     "end": 1.84
+    },
+    {
+     "w": "આ",
+     "start": 2.4,
+     "end": 2.48
+    },
+    {
+     "w": "શિરોબિંદુથી",
+     "start": 2.56,
+     "end": 3.44
+    },
+    {
+     "w": "બધા",
+     "start": 3.493,
+     "end": 3.92
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 4,
+     "end": 4.4
+    },
+    {
+     "w": "દોરીએ.",
+     "start": 4.427,
+     "end": 4.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p15i",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p15i.mp3",
+   "text": "ચાલો, આ શિરોબિંદુથી બધા વિકર્ણ દોરીએ.",
+   "spoken": "ચાલો, આ શિરોબિંદુથી બધા વિકર્ણ દોરીએ.",
+   "words_count": 6,
+   "chars": 37,
+   "credits": 18,
+   "request_id": "EzdE51pKvMw6bRTK8aom",
+   "seconds": 3.631,
+   "generated_ms": 1868,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "આ",
+     "start": 0.8,
+     "end": 0.96
+    },
+    {
+     "w": "શિરોબિંદુથી",
+     "start": 1.04,
+     "end": 1.92
+    },
+    {
+     "w": "બધા",
+     "start": 2,
+     "end": 2.48
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 2.56,
+     "end": 2.96
+    },
+    {
+     "w": "દોરીએ.",
+     "start": 3.04,
+     "end": 3.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p16b",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p16b.mp3",
+   "text": "ચાલો, આ પંચકોણના વિકર્ણ જોઈએ.",
+   "spoken": "ચાલો, આ પંચકોણના વિકર્ણ જોઈએ.",
+   "words_count": 5,
+   "chars": 29,
+   "credits": 14,
+   "request_id": "lHw8xZuCBEpC0AI2KNCP",
+   "seconds": 3.004,
+   "generated_ms": 1482,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "આ",
+     "start": 0.8,
+     "end": 0.96
+    },
+    {
+     "w": "પંચકોણના",
+     "start": 1.12,
+     "end": 1.84
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 1.92,
+     "end": 2.32
+    },
+    {
+     "w": "જોઈએ.",
+     "start": 2.4,
+     "end": 2.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p17i",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p17i.mp3",
+   "text": "વિકર્ણ અંદર છે કે બહાર?",
+   "spoken": "વિકર્ણ અંદર છે કે બહાર?",
+   "words_count": 5,
+   "chars": 23,
+   "credits": 11,
+   "request_id": "1W7374g01YKLjaWg4pct",
+   "seconds": 2.351,
+   "generated_ms": 1383,
+   "words": [
+    {
+     "w": "વિકર્ણ",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "અંદર",
+     "start": 0.8,
+     "end": 1.2
+    },
+    {
+     "w": "છે",
+     "start": 1.28,
+     "end": 1.52
+    },
+    {
+     "w": "કે",
+     "start": 1.6,
+     "end": 1.68
+    },
+    {
+     "w": "બહાર?",
+     "start": 1.76,
+     "end": 2.32
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb54",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb54.mp3",
+   "text": "વિકર્ણ અંદર છે.",
+   "spoken": "વિકર્ણ અંદર છે.",
+   "words_count": 3,
+   "chars": 15,
+   "credits": 7,
+   "request_id": "YoV7gQ4Bk5D8a8bnAPyX",
+   "seconds": 1.567,
+   "generated_ms": 1500,
+   "words": [
+    {
+     "w": "વિકર્ણ",
+     "start": 0,
+     "end": 0.64
+    },
+    {
+     "w": "અંદર",
+     "start": 0.72,
+     "end": 1.04
+    },
+    {
+     "w": "છે.",
+     "start": 1.12,
+     "end": 1.36
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p18",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p18.mp3",
+   "text": "ચાલો, થોડો ફેરફાર કરીએ.",
+   "spoken": "ચાલો, થોડો ફેરફાર કરીએ.",
+   "words_count": 4,
+   "chars": 23,
+   "credits": 11,
+   "request_id": "5yN1HI1fLcIkOwKQ7oov",
+   "seconds": 2.273,
+   "generated_ms": 1358,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "થોડો",
+     "start": 0.72,
+     "end": 1.12
+    },
+    {
+     "w": "ફેરફાર",
+     "start": 1.28,
+     "end": 1.68
+    },
+    {
+     "w": "કરીએ.",
+     "start": 1.76,
+     "end": 2.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p19i",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p19i.mp3",
+   "text": "આ શિરોબિંદુને અંદર ખેંચવામાં મને મદદ કરો.",
+   "spoken": "આ શિરોબિંદુને અંદર ખેંચવામાં મને મદદ કરો.",
+   "words_count": 7,
+   "chars": 41,
+   "credits": 20,
+   "request_id": "NS9tObZEAIXeMsmmr6l9",
+   "seconds": 3.474,
+   "generated_ms": 2043,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "શિરોબિંદુને",
+     "start": 0.24,
+     "end": 1.12
+    },
+    {
+     "w": "અંદર",
+     "start": 1.147,
+     "end": 1.6
+    },
+    {
+     "w": "ખેંચવામાં",
+     "start": 1.627,
+     "end": 2.32
+    },
+    {
+     "w": "મને",
+     "start": 2.4,
+     "end": 2.64
+    },
+    {
+     "w": "મદદ",
+     "start": 2.68,
+     "end": 2.96
+    },
+    {
+     "w": "કરો.",
+     "start": 3,
+     "end": 3.28
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p20",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p20.mp3",
+   "text": "અરે વાહ! એક વિકર્ણ બહાર ગયો.",
+   "spoken": "અરે વાહ! એક વિકર્ણ બહાર ગયો.",
+   "words_count": 6,
+   "chars": 28,
+   "credits": 14,
+   "request_id": "L4K46OhWQGpjjdTW1CNE",
+   "seconds": 2.769,
+   "generated_ms": 1490,
+   "words": [
+    {
+     "w": "અરે",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "વાહ!",
+     "start": 0.4,
+     "end": 0.64
+    },
+    {
+     "w": "એક",
+     "start": 1.12,
+     "end": 1.36
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 1.44,
+     "end": 1.92
+    },
+    {
+     "w": "બહાર",
+     "start": 1.947,
+     "end": 2.16
+    },
+    {
+     "w": "ગયો.",
+     "start": 2.24,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb52",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb52.mp3",
+   "text": "અરે વાહ! કેટલાક વિકર્ણ બહાર ગયા.",
+   "spoken": "અરે વાહ! કેટલાક વિકર્ણ બહાર ગયા.",
+   "words_count": 6,
+   "chars": 32,
+   "credits": 16,
+   "request_id": "KtGlNtZvfL8KdqdQC202",
+   "seconds": 2.769,
+   "generated_ms": 1469,
+   "words": [
+    {
+     "w": "અરે",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "વાહ!",
+     "start": 0.32,
+     "end": 0.56
+    },
+    {
+     "w": "કેટલાક",
+     "start": 1.04,
+     "end": 1.44
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 1.52,
+     "end": 1.92
+    },
+    {
+     "w": "બહાર",
+     "start": 1.947,
+     "end": 2.24
+    },
+    {
+     "w": "ગયા.",
+     "start": 2.28,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p21",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p21.mp3",
+   "text": "ચાલો, બંને પંચકોણના વિકર્ણની સરખામણી કરીએ.",
+   "spoken": "ચાલો, બંને પંચકોણના વિકર્ણની સરખામણી કરીએ.",
+   "words_count": 6,
+   "chars": 42,
+   "credits": 20,
+   "request_id": "dZQSktuW714rgFuwsHlr",
+   "seconds": 3.709,
+   "generated_ms": 1968,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "બંને",
+     "start": 0.8,
+     "end": 1.12
+    },
+    {
+     "w": "પંચકોણના",
+     "start": 1.2,
+     "end": 1.84
+    },
+    {
+     "w": "વિકર્ણની",
+     "start": 1.92,
+     "end": 2.48
+    },
+    {
+     "w": "સરખામણી",
+     "start": 2.56,
+     "end": 3.12
+    },
+    {
+     "w": "કરીએ.",
+     "start": 3.2,
+     "end": 3.52
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p22",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p22.mp3",
+   "text": "આના બધા વિકર્ણ અંદર છે.",
+   "spoken": "આના બધા વિકર્ણ અંદર છે.",
+   "words_count": 5,
+   "chars": 23,
+   "credits": 11,
+   "request_id": "9l9LwpJPzYCUjrLzEKjk",
+   "seconds": 2.429,
+   "generated_ms": 1826,
+   "words": [
+    {
+     "w": "આના",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "બધા",
+     "start": 0.4,
+     "end": 0.88
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 0.96,
+     "end": 1.52
+    },
+    {
+     "w": "અંદર",
+     "start": 1.6,
+     "end": 2
+    },
+    {
+     "w": "છે.",
+     "start": 2.053,
+     "end": 2.24
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p23",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p23.mp3",
+   "text": "પણ આનો ઓછામાં ઓછો એક વિકર્ણ બહાર છે.",
+   "spoken": "પણ આનો ઓછામાં ઓછો એક વિકર્ણ બહાર છે.",
+   "words_count": 8,
+   "chars": 36,
+   "credits": 17,
+   "request_id": "Rr0VvL05ayfanZyhi4Xn",
+   "seconds": 3.553,
+   "generated_ms": 1855,
+   "words": [
+    {
+     "w": "પણ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "આનો",
+     "start": 0.32,
+     "end": 0.72
+    },
+    {
+     "w": "ઓછામાં",
+     "start": 0.8,
+     "end": 1.28
+    },
+    {
+     "w": "ઓછો",
+     "start": 1.36,
+     "end": 1.68
+    },
+    {
+     "w": "એક",
+     "start": 1.92,
+     "end": 2.16
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 2.24,
+     "end": 2.72
+    },
+    {
+     "w": "બહાર",
+     "start": 2.747,
+     "end": 3.04
+    },
+    {
+     "w": "છે.",
+     "start": 3.12,
+     "end": 3.36
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p24",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p24.mp3",
+   "text": "બધા વિકર્ણ અંદર હોય, તો તે બહિર્મુખ બહુકોણ છે.",
+   "spoken": "બધા વિકર્ણ અંદર હોય, તો તે બહિર્મુખ બહુકોણ છે.",
+   "words_count": 9,
+   "chars": 46,
+   "credits": 22,
+   "request_id": "bJSOdRtgjJcxcmnTLdVN",
+   "seconds": 4.049,
+   "generated_ms": 2388,
+   "words": [
+    {
+     "w": "બધા",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 0.48,
+     "end": 0.96
+    },
+    {
+     "w": "અંદર",
+     "start": 1.04,
+     "end": 1.44
+    },
+    {
+     "w": "હોય,",
+     "start": 1.48,
+     "end": 1.76
+    },
+    {
+     "w": "તો",
+     "start": 2.08,
+     "end": 2.16
+    },
+    {
+     "w": "તે",
+     "start": 2.24,
+     "end": 2.32
+    },
+    {
+     "w": "બહિર્મુખ",
+     "start": 2.4,
+     "end": 2.96
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 3.04,
+     "end": 3.52
+    },
+    {
+     "w": "છે.",
+     "start": 3.6,
+     "end": 3.92
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p25",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p25.mp3",
+   "text": "ઓછામાં ઓછો એક વિકર્ણ બહાર હોય, તો તે અંતર્મુખ બહુકોણ છે.",
+   "spoken": "ઓછામાં ઓછો એક વિકર્ણ બહાર હોય, તો તે અંતર્મુખ બહુકોણ છે.",
+   "words_count": 11,
+   "chars": 56,
+   "credits": 27,
+   "request_id": "VnmvZuLzctjNKDpxtRsv",
+   "seconds": 4.989,
+   "generated_ms": 3385,
+   "words": [
+    {
+     "w": "ઓછામાં",
+     "start": 0,
+     "end": 0.533
+    },
+    {
+     "w": "ઓછો",
+     "start": 0.56,
+     "end": 0.88
+    },
+    {
+     "w": "એક",
+     "start": 1.12,
+     "end": 1.36
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 1.44,
+     "end": 1.84
+    },
+    {
+     "w": "બહાર",
+     "start": 1.92,
+     "end": 2.24
+    },
+    {
+     "w": "હોય,",
+     "start": 2.32,
+     "end": 2.56
+    },
+    {
+     "w": "તો",
+     "start": 2.92,
+     "end": 3.04
+    },
+    {
+     "w": "તે",
+     "start": 3.08,
+     "end": 3.28
+    },
+    {
+     "w": "અંતર્મુખ",
+     "start": 3.307,
+     "end": 4
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 4.027,
+     "end": 4.56
+    },
+    {
+     "w": "છે.",
+     "start": 4.64,
+     "end": 4.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p26i",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p26i.mp3",
+   "text": "આ બહુકોણને અંતર્મુખ બનાવવા માટે કોઈ પણ શિરોબિંદુ ખેંચો.",
+   "spoken": "આ બહુકોણને અંતર્મુખ બનાવવા માટે કોઈ પણ શિરોબિંદુ ખેંચો.",
+   "words_count": 9,
+   "chars": 55,
+   "credits": 27,
+   "request_id": "N14btailgsk5UMe9WhOP",
+   "seconds": 4.441,
+   "generated_ms": 2349,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "બહુકોણને",
+     "start": 0.267,
+     "end": 1.04
+    },
+    {
+     "w": "અંતર્મુખ",
+     "start": 1.067,
+     "end": 1.68
+    },
+    {
+     "w": "બનાવવા",
+     "start": 1.707,
+     "end": 2.08
+    },
+    {
+     "w": "માટે",
+     "start": 2.16,
+     "end": 2.64
+    },
+    {
+     "w": "કોઈ",
+     "start": 2.72,
+     "end": 2.88
+    },
+    {
+     "w": "પણ",
+     "start": 2.96,
+     "end": 3.12
+    },
+    {
+     "w": "શિરોબિંદુ",
+     "start": 3.2,
+     "end": 3.76
+    },
+    {
+     "w": "ખેંચો.",
+     "start": 3.787,
+     "end": 4.16
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb32",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb32.mp3",
+   "text": "ફરી પ્રયાસ કરો!",
+   "spoken": "ફરી પ્રયાસ કરો!",
+   "words_count": 3,
+   "chars": 15,
+   "credits": 7,
+   "request_id": "UtdQYx0SnqChK8hoGlfm",
+   "seconds": 1.411,
+   "generated_ms": 1260,
+   "words": [
+    {
+     "w": "ફરી",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "પ્રયાસ",
+     "start": 0.34,
+     "end": 0.72
+    },
+    {
+     "w": "કરો!",
+     "start": 0.76,
+     "end": 1.04
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p26r1",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p26r1.mp3",
+   "text": "વિકર્ણ હજુ પણ આકારની અંદર છે, તેથી તે હજુ પણ બહિર્મુખ છે.",
+   "spoken": "વિકર્ણ હજુ પણ આકારની અંદર છે, તેથી તે હજુ પણ બહિર્મુખ છે.",
+   "words_count": 12,
+   "chars": 57,
+   "credits": 28,
+   "request_id": "a3anKFL9XkKhUKKmnUEA",
+   "seconds": 5.251,
+   "generated_ms": 3373,
+   "words": [
+    {
+     "w": "વિકર્ણ",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "હજુ",
+     "start": 0.64,
+     "end": 0.88
+    },
+    {
+     "w": "પણ",
+     "start": 0.96,
+     "end": 1.2
+    },
+    {
+     "w": "આકારની",
+     "start": 1.28,
+     "end": 1.76
+    },
+    {
+     "w": "અંદર",
+     "start": 1.787,
+     "end": 2.08
+    },
+    {
+     "w": "છે,",
+     "start": 2.16,
+     "end": 2.64
+    },
+    {
+     "w": "તેથી",
+     "start": 2.88,
+     "end": 3.28
+    },
+    {
+     "w": "તે",
+     "start": 3.36,
+     "end": 3.52
+    },
+    {
+     "w": "હજુ",
+     "start": 3.6,
+     "end": 3.84
+    },
+    {
+     "w": "પણ",
+     "start": 3.92,
+     "end": 4.08
+    },
+    {
+     "w": "બહિર્મુખ",
+     "start": 4.133,
+     "end": 4.72
+    },
+    {
+     "w": "છે.",
+     "start": 4.8,
+     "end": 5.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb53",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb53.mp3",
+   "text": "ચાલો, હું તમને બતાવું. આ ખૂણો જુઓ.",
+   "spoken": "ચાલો, હું તમને બતાવું. આ ખૂણો જુઓ.",
+   "words_count": 7,
+   "chars": 34,
+   "credits": 16,
+   "request_id": "BuG4fI5ETCKaqyZn1nZ1",
+   "seconds": 2.847,
+   "generated_ms": 1464,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "હું",
+     "start": 0.6,
+     "end": 0.72
+    },
+    {
+     "w": "તમને",
+     "start": 0.76,
+     "end": 1.013
+    },
+    {
+     "w": "બતાવું.",
+     "start": 1.04,
+     "end": 1.36
+    },
+    {
+     "w": "આ",
+     "start": 1.92,
+     "end": 2
+    },
+    {
+     "w": "ખૂણો",
+     "start": 2.08,
+     "end": 2.32
+    },
+    {
+     "w": "જુઓ.",
+     "start": 2.4,
+     "end": 2.64
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p26r2",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p26r2.mp3",
+   "text": "હવે એક વિકર્ણ બહાર જાય છે, તેથી આ બહુકોણ અંતર્મુખ છે.",
+   "spoken": "હવે એક વિકર્ણ બહાર જાય છે, તેથી આ બહુકોણ અંતર્મુખ છે.",
+   "words_count": 11,
+   "chars": 53,
+   "credits": 26,
+   "request_id": "OtwNKiCgVwV5H3xOm9oV",
+   "seconds": 4.989,
+   "generated_ms": 2809,
+   "words": [
+    {
+     "w": "હવે",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "એક",
+     "start": 0.427,
+     "end": 0.64
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 0.72,
+     "end": 1.2
+    },
+    {
+     "w": "બહાર",
+     "start": 1.28,
+     "end": 1.6
+    },
+    {
+     "w": "જાય",
+     "start": 1.68,
+     "end": 1.84
+    },
+    {
+     "w": "છે,",
+     "start": 1.92,
+     "end": 2.08
+    },
+    {
+     "w": "તેથી",
+     "start": 2.56,
+     "end": 2.88
+    },
+    {
+     "w": "આ",
+     "start": 2.96,
+     "end": 3.04
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 3.12,
+     "end": 3.84
+    },
+    {
+     "w": "અંતર્મુખ",
+     "start": 3.867,
+     "end": 4.48
+    },
+    {
+     "w": "છે.",
+     "start": 4.56,
+     "end": 4.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb03",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb03.mp3",
+   "text": "ખૂબ સરસ!",
+   "spoken": "ખૂબ સરસ!",
+   "words_count": 2,
+   "chars": 8,
+   "credits": 4,
+   "request_id": "5qouDO5kL2bsSZdksGxk",
+   "seconds": 1.149,
+   "generated_ms": 865,
+   "words": [
+    {
+     "w": "ખૂબ",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "સરસ!",
+     "start": 0.4,
+     "end": 0.96
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p27",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p27.mp3",
+   "text": "શું તમે આ બહુકોણને બહિર્મુખ અને અંતર્મુખમાં અલગ કરી શકો?",
+   "spoken": "શું તમે આ બહુકોણને બહિર્મુખ અને અંતર્મુખમાં અલગ કરી શકો?",
+   "words_count": 10,
+   "chars": 56,
+   "credits": 27,
+   "request_id": "AlTLTtyormUEibC2Ghdd",
+   "seconds": 4.989,
+   "generated_ms": 4275,
+   "words": [
+    {
+     "w": "શું",
+     "start": 0,
+     "end": 0.213
+    },
+    {
+     "w": "તમે",
+     "start": 0.24,
+     "end": 0.64
+    },
+    {
+     "w": "આ",
+     "start": 0.72,
+     "end": 0.88
+    },
+    {
+     "w": "બહુકોણને",
+     "start": 0.96,
+     "end": 1.84
+    },
+    {
+     "w": "બહિર્મુખ",
+     "start": 2,
+     "end": 2.72
+    },
+    {
+     "w": "અને",
+     "start": 2.8,
+     "end": 3.04
+    },
+    {
+     "w": "અંતર્મુખમાં",
+     "start": 3.067,
+     "end": 3.92
+    },
+    {
+     "w": "અલગ",
+     "start": 3.947,
+     "end": 4.24
+    },
+    {
+     "w": "કરી",
+     "start": 4.28,
+     "end": 4.453
+    },
+    {
+     "w": "શકો?",
+     "start": 4.48,
+     "end": 4.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p27c",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p27c.mp3",
+   "text": "જુઓ! આ ખૂણો અંદરની તરફ જાય છે.",
+   "spoken": "જુઓ! આ ખૂણો અંદરની તરફ જાય છે.",
+   "words_count": 7,
+   "chars": 30,
+   "credits": 15,
+   "request_id": "wngupQbBIwMPwke43H5N",
+   "seconds": 3.004,
+   "generated_ms": 1566,
+   "words": [
+    {
+     "w": "જુઓ!",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "આ",
+     "start": 0.8,
+     "end": 0.96
+    },
+    {
+     "w": "ખૂણો",
+     "start": 1.04,
+     "end": 1.52
+    },
+    {
+     "w": "અંદરની",
+     "start": 1.547,
+     "end": 2
+    },
+    {
+     "w": "તરફ",
+     "start": 2.04,
+     "end": 2.32
+    },
+    {
+     "w": "જાય",
+     "start": 2.36,
+     "end": 2.56
+    },
+    {
+     "w": "છે.",
+     "start": 2.613,
+     "end": 2.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p27v",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p27v.mp3",
+   "text": "જુઓ! કોઈ પણ ખૂણો અંદરની તરફ જતો નથી.",
+   "spoken": "જુઓ! કોઈ પણ ખૂણો અંદરની તરફ જતો નથી.",
+   "words_count": 8,
+   "chars": 36,
+   "credits": 17,
+   "request_id": "bNGwgpKtOfJfzjDHcCUA",
+   "seconds": 3.396,
+   "generated_ms": 1859,
+   "words": [
+    {
+     "w": "જુઓ!",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "કોઈ",
+     "start": 0.8,
+     "end": 0.96
+    },
+    {
+     "w": "પણ",
+     "start": 1.04,
+     "end": 1.2
+    },
+    {
+     "w": "ખૂણો",
+     "start": 1.28,
+     "end": 1.76
+    },
+    {
+     "w": "અંદરની",
+     "start": 1.787,
+     "end": 2.24
+    },
+    {
+     "w": "તરફ",
+     "start": 2.28,
+     "end": 2.48
+    },
+    {
+     "w": "જતો",
+     "start": 2.56,
+     "end": 2.8
+    },
+    {
+     "w": "નથી.",
+     "start": 2.827,
+     "end": 3.28
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p28",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p28.mp3",
+   "text": "હમ્મ… બધી બાજુઓ શંકા જાય એટલી સરખી લાગે છે.",
+   "spoken": "હમ્મ… બધી બાજુઓ શંકા જાય એટલી સરખી લાગે છે.",
+   "words_count": 9,
+   "chars": 43,
+   "credits": 21,
+   "request_id": "fzne33jadoVUb7CQo1v2",
+   "seconds": 4.833,
+   "generated_ms": 2828,
+   "words": [
+    {
+     "w": "હમ્મ…",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "બધી",
+     "start": 1.12,
+     "end": 1.6
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 1.68,
+     "end": 2.16
+    },
+    {
+     "w": "શંકા",
+     "start": 2.213,
+     "end": 2.64
+    },
+    {
+     "w": "જાય",
+     "start": 2.72,
+     "end": 3.12
+    },
+    {
+     "w": "એટલી",
+     "start": 3.2,
+     "end": 3.6
+    },
+    {
+     "w": "સરખી",
+     "start": 3.653,
+     "end": 4.053
+    },
+    {
+     "w": "લાગે",
+     "start": 4.08,
+     "end": 4.373
+    },
+    {
+     "w": "છે.",
+     "start": 4.4,
+     "end": 4.64
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p29s",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p29s.mp3",
+   "text": "ચાલો, બાજુઓ માપીએ.",
+   "spoken": "ચાલો, બાજુઓ માપીએ.",
+   "words_count": 3,
+   "chars": 18,
+   "credits": 9,
+   "request_id": "rsD6VNMEeXGGAl57xWRD",
+   "seconds": 1.724,
+   "generated_ms": 1058,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 0.72,
+     "end": 1.12
+    },
+    {
+     "w": "માપીએ.",
+     "start": 1.16,
+     "end": 1.52
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p30",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p30.mp3",
+   "text": "દરેક બાજુ સમાન છે. પણ ખૂણાઓનું શું?",
+   "spoken": "દરેક બાજુ સમાન છે. પણ ખૂણાઓનું શું?",
+   "words_count": 7,
+   "chars": 35,
+   "credits": 17,
+   "request_id": "UbJpNNK8BoIxifxCfqUv",
+   "seconds": 3.553,
+   "generated_ms": 1867,
+   "words": [
+    {
+     "w": "દરેક",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "બાજુ",
+     "start": 0.427,
+     "end": 0.72
+    },
+    {
+     "w": "સમાન",
+     "start": 0.8,
+     "end": 1.12
+    },
+    {
+     "w": "છે.",
+     "start": 1.2,
+     "end": 1.413
+    },
+    {
+     "w": "પણ",
+     "start": 1.84,
+     "end": 2.08
+    },
+    {
+     "w": "ખૂણાઓનું",
+     "start": 2.4,
+     "end": 3.013
+    },
+    {
+     "w": "શું?",
+     "start": 3.04,
+     "end": 3.28
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p31m",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p31m.mp3",
+   "text": "ચાલો, ખૂણા માપીએ.",
+   "spoken": "ચાલો, ખૂણા માપીએ.",
+   "words_count": 3,
+   "chars": 17,
+   "credits": 8,
+   "request_id": "oVkpHDlklEd3f9NVuYC4",
+   "seconds": 1.567,
+   "generated_ms": 1200,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "ખૂણા",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "માપીએ.",
+     "start": 1,
+     "end": 1.36
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p31",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p31.mp3",
+   "text": "ખૂણા પણ સરખા છે!",
+   "spoken": "ખૂણા પણ સરખા છે!",
+   "words_count": 4,
+   "chars": 16,
+   "credits": 8,
+   "request_id": "KOhvtc0F8GuErg7T4euf",
+   "seconds": 1.646,
+   "generated_ms": 1438,
+   "words": [
+    {
+     "w": "ખૂણા",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "પણ",
+     "start": 0.48,
+     "end": 0.613
+    },
+    {
+     "w": "સરખા",
+     "start": 0.64,
+     "end": 1.013
+    },
+    {
+     "w": "છે!",
+     "start": 1.04,
+     "end": 1.28
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32a",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p32a.mp3",
+   "text": "આ ખૂણો ખેંચવામાં મને મદદ કરો. ચાલો જોઈએ, બાજુઓ અને ખૂણાઓનું શું થાય છે.",
+   "spoken": "આ ખૂણો ખેંચવામાં મને મદદ કરો. ચાલો જોઈએ, બાજુઓ અને ખૂણાઓનું શું થાય છે.",
+   "words_count": 14,
+   "chars": 71,
+   "credits": 34,
+   "request_id": "h0oMvTt7haoNAXxhYVCt",
+   "seconds": 6.269,
+   "generated_ms": 5016,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "ખૂણો",
+     "start": 0.24,
+     "end": 0.56
+    },
+    {
+     "w": "ખેંચવામાં",
+     "start": 0.64,
+     "end": 1.253
+    },
+    {
+     "w": "મને",
+     "start": 1.28,
+     "end": 1.52
+    },
+    {
+     "w": "મદદ",
+     "start": 1.56,
+     "end": 1.84
+    },
+    {
+     "w": "કરો.",
+     "start": 1.88,
+     "end": 2.08
+    },
+    {
+     "w": "ચાલો",
+     "start": 2.64,
+     "end": 2.88
+    },
+    {
+     "w": "જોઈએ,",
+     "start": 2.96,
+     "end": 3.52
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 3.76,
+     "end": 4.4
+    },
+    {
+     "w": "અને",
+     "start": 4.427,
+     "end": 4.667
+    },
+    {
+     "w": "ખૂણાઓનું",
+     "start": 4.72,
+     "end": 5.387
+    },
+    {
+     "w": "શું",
+     "start": 5.44,
+     "end": 5.573
+    },
+    {
+     "w": "થાય",
+     "start": 5.6,
+     "end": 5.84
+    },
+    {
+     "w": "છે.",
+     "start": 5.92,
+     "end": 6.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32ai",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p32ai.mp3",
+   "text": "ચમકતા શિરોબિંદુને ખેંચો.",
+   "spoken": "ચમકતા શિરોબિંદુને ખેંચો.",
+   "words_count": 3,
+   "chars": 24,
+   "credits": 12,
+   "request_id": "RGV11TWWssIGuTIdxulH",
+   "seconds": 2.273,
+   "generated_ms": 1791,
+   "words": [
+    {
+     "w": "ચમકતા",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "શિરોબિંદુને",
+     "start": 0.64,
+     "end": 1.52
+    },
+    {
+     "w": "ખેંચો.",
+     "start": 1.547,
+     "end": 2.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32b",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p32b.mp3",
+   "text": "આ હજુ પણ પંચકોણ જ છે. પણ શું બાજુઓ અને ખૂણા હજુ પણ સમાન છે?",
+   "spoken": "આ હજુ પણ પંચકોણ જ છે. પણ શું બાજુઓ અને ખૂણા હજુ પણ સમાન છે?",
+   "words_count": 15,
+   "chars": 59,
+   "credits": 29,
+   "request_id": "gRs9NjR26HOFKC089ock",
+   "seconds": 5.878,
+   "generated_ms": 4105,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "હજુ",
+     "start": 0.24,
+     "end": 0.48
+    },
+    {
+     "w": "પણ",
+     "start": 0.56,
+     "end": 0.747
+    },
+    {
+     "w": "પંચકોણ",
+     "start": 0.8,
+     "end": 1.28
+    },
+    {
+     "w": "જ",
+     "start": 1.36,
+     "end": 1.44
+    },
+    {
+     "w": "છે.",
+     "start": 1.52,
+     "end": 1.733
+    },
+    {
+     "w": "પણ",
+     "start": 2.24,
+     "end": 2.4
+    },
+    {
+     "w": "શું",
+     "start": 2.48,
+     "end": 2.72
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 3.04,
+     "end": 3.68
+    },
+    {
+     "w": "અને",
+     "start": 3.707,
+     "end": 3.92
+    },
+    {
+     "w": "ખૂણા",
+     "start": 4,
+     "end": 4.48
+    },
+    {
+     "w": "હજુ",
+     "start": 4.64,
+     "end": 4.853
+    },
+    {
+     "w": "પણ",
+     "start": 4.88,
+     "end": 5.04
+    },
+    {
+     "w": "સમાન",
+     "start": 5.12,
+     "end": 5.44
+    },
+    {
+     "w": "છે?",
+     "start": 5.52,
+     "end": 5.68
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32bi",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p32bi.mp3",
+   "text": "શું બાજુઓ અને ખૂણા હજુ પણ સમાન છે?",
+   "spoken": "શું બાજુઓ અને ખૂણા હજુ પણ સમાન છે?",
+   "words_count": 8,
+   "chars": 34,
+   "credits": 16,
+   "request_id": "FpybzT8FYPdrndIYzaLW",
+   "seconds": 3.553,
+   "generated_ms": 1836,
+   "words": [
+    {
+     "w": "શું",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 0.72,
+     "end": 1.28
+    },
+    {
+     "w": "અને",
+     "start": 1.36,
+     "end": 1.627
+    },
+    {
+     "w": "ખૂણા",
+     "start": 1.68,
+     "end": 2.16
+    },
+    {
+     "w": "હજુ",
+     "start": 2.32,
+     "end": 2.56
+    },
+    {
+     "w": "પણ",
+     "start": 2.6,
+     "end": 2.72
+    },
+    {
+     "w": "સમાન",
+     "start": 2.8,
+     "end": 3.12
+    },
+    {
+     "w": "છે?",
+     "start": 3.2,
+     "end": 3.36
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p32r",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p32r.mp3",
+   "text": "બાજુઓ અને ખૂણા બદલાઈ ગયા, તેથી તે સમાન નથી.",
+   "spoken": "બાજુઓ અને ખૂણા બદલાઈ ગયા, તેથી તે સમાન નથી.",
+   "words_count": 9,
+   "chars": 43,
+   "credits": 21,
+   "request_id": "F1Qebgp3pytk0DzKouHD",
+   "seconds": 4.049,
+   "generated_ms": 2106,
+   "words": [
+    {
+     "w": "બાજુઓ",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "અને",
+     "start": 0.747,
+     "end": 0.987
+    },
+    {
+     "w": "ખૂણા",
+     "start": 1.04,
+     "end": 1.36
+    },
+    {
+     "w": "બદલાઈ",
+     "start": 1.44,
+     "end": 1.76
+    },
+    {
+     "w": "ગયા,",
+     "start": 1.84,
+     "end": 2.08
+    },
+    {
+     "w": "તેથી",
+     "start": 2.52,
+     "end": 2.8
+    },
+    {
+     "w": "તે",
+     "start": 2.84,
+     "end": 2.96
+    },
+    {
+     "w": "સમાન",
+     "start": 3.04,
+     "end": 3.36
+    },
+    {
+     "w": "નથી.",
+     "start": 3.44,
+     "end": 3.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb55",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb55.mp3",
+   "text": "ચાલો, આ બે પંચકોણની સરખામણી કરીએ.",
+   "spoken": "ચાલો, આ બે પંચકોણની સરખામણી કરીએ.",
+   "words_count": 6,
+   "chars": 33,
+   "credits": 16,
+   "request_id": "dIosy6cgQn0QtUhnWs5T",
+   "seconds": 3.004,
+   "generated_ms": 1904,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "આ",
+     "start": 0.72,
+     "end": 0.88
+    },
+    {
+     "w": "બે",
+     "start": 0.96,
+     "end": 1.12
+    },
+    {
+     "w": "પંચકોણની",
+     "start": 1.2,
+     "end": 1.84
+    },
+    {
+     "w": "સરખામણી",
+     "start": 1.92,
+     "end": 2.4
+    },
+    {
+     "w": "કરીએ.",
+     "start": 2.48,
+     "end": 2.8
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb56",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb56.mp3",
+   "text": "આ પંચકોણની બધી બાજુઓ અને બધા ખૂણા સમાન છે.",
+   "spoken": "આ પંચકોણની બધી બાજુઓ અને બધા ખૂણા સમાન છે.",
+   "words_count": 9,
+   "chars": 42,
+   "credits": 20,
+   "request_id": "xXcbBp2jmb9rh5VSnfne",
+   "seconds": 4.284,
+   "generated_ms": 3084,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "પંચકોણની",
+     "start": 0.24,
+     "end": 0.96
+    },
+    {
+     "w": "બધી",
+     "start": 1.04,
+     "end": 1.36
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 1.44,
+     "end": 1.92
+    },
+    {
+     "w": "અને",
+     "start": 2.16,
+     "end": 2.4
+    },
+    {
+     "w": "બધા",
+     "start": 2.427,
+     "end": 2.8
+    },
+    {
+     "w": "ખૂણા",
+     "start": 2.88,
+     "end": 3.2
+    },
+    {
+     "w": "સમાન",
+     "start": 3.36,
+     "end": 3.76
+    },
+    {
+     "w": "છે.",
+     "start": 3.84,
+     "end": 4.16
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb57",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb57.mp3",
+   "text": "પણ આ પંચકોણની બાજુઓ અને ખૂણા અસમાન છે.",
+   "spoken": "પણ આ પંચકોણની બાજુઓ અને ખૂણા અસમાન છે.",
+   "words_count": 8,
+   "chars": 38,
+   "credits": 18,
+   "request_id": "mZaQrq3XrhtT4UyG7kF1",
+   "seconds": 3.971,
+   "generated_ms": 3092,
+   "words": [
+    {
+     "w": "પણ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "આ",
+     "start": 0.28,
+     "end": 0.32
+    },
+    {
+     "w": "પંચકોણની",
+     "start": 0.36,
+     "end": 1.12
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 1.2,
+     "end": 1.76
+    },
+    {
+     "w": "અને",
+     "start": 1.92,
+     "end": 2.16
+    },
+    {
+     "w": "ખૂણા",
+     "start": 2.213,
+     "end": 2.64
+    },
+    {
+     "w": "અસમાન",
+     "start": 2.88,
+     "end": 3.52
+    },
+    {
+     "w": "છે.",
+     "start": 3.573,
+     "end": 3.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb58",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb58.mp3",
+   "text": "બધી બાજુઓ અને ખૂણા સમાન હોય, તો તે નિયમિત બહુકોણ છે. બાજુઓ અને ખૂણા અસમાન હોય, તો તે અનિયમિત બહુકોણ છે.",
+   "spoken": "બધી બાજુઓ અને ખૂણા સમાન હોય, તો તે નિયમિત બહુકોણ છે. બાજુઓ અને ખૂણા અસમાન હોય, તો તે અનિયમિત બહુકોણ છે.",
+   "words_count": 21,
+   "chars": 103,
+   "credits": 50,
+   "request_id": "XlRc0tngYLCgCjg6zUsn",
+   "seconds": 9.874,
+   "generated_ms": 12896,
+   "words": [
+    {
+     "w": "બધી",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 0.48,
+     "end": 1.12
+    },
+    {
+     "w": "અને",
+     "start": 1.147,
+     "end": 1.387
+    },
+    {
+     "w": "ખૂણા",
+     "start": 1.44,
+     "end": 1.76
+    },
+    {
+     "w": "સમાન",
+     "start": 1.84,
+     "end": 2.24
+    },
+    {
+     "w": "હોય,",
+     "start": 2.32,
+     "end": 2.56
+    },
+    {
+     "w": "તો",
+     "start": 2.96,
+     "end": 3.04
+    },
+    {
+     "w": "તે",
+     "start": 3.12,
+     "end": 3.307
+    },
+    {
+     "w": "નિયમિત",
+     "start": 3.36,
+     "end": 3.76
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 3.84,
+     "end": 4.32
+    },
+    {
+     "w": "છે.",
+     "start": 4.4,
+     "end": 4.56
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 5.2,
+     "end": 5.84
+    },
+    {
+     "w": "અને",
+     "start": 5.867,
+     "end": 6
+    },
+    {
+     "w": "ખૂણા",
+     "start": 6.16,
+     "end": 6.56
+    },
+    {
+     "w": "અસમાન",
+     "start": 6.613,
+     "end": 7.12
+    },
+    {
+     "w": "હોય,",
+     "start": 7.2,
+     "end": 7.44
+    },
+    {
+     "w": "તો",
+     "start": 7.8,
+     "end": 7.92
+    },
+    {
+     "w": "તે",
+     "start": 8,
+     "end": 8.24
+    },
+    {
+     "w": "અનિયમિત",
+     "start": 8.293,
+     "end": 8.88
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 8.907,
+     "end": 9.36
+    },
+    {
+     "w": "છે.",
+     "start": 9.44,
+     "end": 9.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p33",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p33.mp3",
+   "text": "આ બહુકોણ ક્યાં જશે?",
+   "spoken": "આ બહુકોણ ક્યાં જશે?",
+   "words_count": 4,
+   "chars": 19,
+   "credits": 9,
+   "request_id": "9HYAUlDo0cHZMWFzlTpB",
+   "seconds": 1.646,
+   "generated_ms": 1557,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 0.24,
+     "end": 0.72
+    },
+    {
+     "w": "ક્યાં",
+     "start": 0.8,
+     "end": 1.013
+    },
+    {
+     "w": "જશે?",
+     "start": 1.04,
+     "end": 1.44
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb48",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb48.mp3",
+   "text": "આ નિયમિત છે. દરેક બાજુ સમાન છે, અને દરેક ખૂણો પણ સમાન છે.",
+   "spoken": "આ નિયમિત છે. દરેક બાજુ સમાન છે, અને દરેક ખૂણો પણ સમાન છે.",
+   "words_count": 13,
+   "chars": 57,
+   "credits": 28,
+   "request_id": "lfMK49vDl3J2GuPncR2c",
+   "seconds": 5.486,
+   "generated_ms": 4112,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "નિયમિત",
+     "start": 0.267,
+     "end": 0.8
+    },
+    {
+     "w": "છે.",
+     "start": 0.853,
+     "end": 1.04
+    },
+    {
+     "w": "દરેક",
+     "start": 1.6,
+     "end": 1.92
+    },
+    {
+     "w": "બાજુ",
+     "start": 2,
+     "end": 2.32
+    },
+    {
+     "w": "સમાન",
+     "start": 2.4,
+     "end": 2.8
+    },
+    {
+     "w": "છે,",
+     "start": 2.853,
+     "end": 3.227
+    },
+    {
+     "w": "અને",
+     "start": 3.44,
+     "end": 3.68
+    },
+    {
+     "w": "દરેક",
+     "start": 3.707,
+     "end": 4
+    },
+    {
+     "w": "ખૂણો",
+     "start": 4.08,
+     "end": 4.4
+    },
+    {
+     "w": "પણ",
+     "start": 4.44,
+     "end": 4.56
+    },
+    {
+     "w": "સમાન",
+     "start": 4.64,
+     "end": 4.96
+    },
+    {
+     "w": "છે.",
+     "start": 5.04,
+     "end": 5.44
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb49",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb49.mp3",
+   "text": "આ અનિયમિત છે. તેની બધી બાજુઓ સરખી લંબાઈની નથી.",
+   "spoken": "આ અનિયમિત છે. તેની બધી બાજુઓ સરખી લંબાઈની નથી.",
+   "words_count": 9,
+   "chars": 46,
+   "credits": 22,
+   "request_id": "i1oK4MRXQAKlhlyaCqJP",
+   "seconds": 4.598,
+   "generated_ms": 6373,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "અનિયમિત",
+     "start": 0.32,
+     "end": 0.96
+    },
+    {
+     "w": "છે.",
+     "start": 1.013,
+     "end": 1.2
+    },
+    {
+     "w": "તેની",
+     "start": 1.72,
+     "end": 2
+    },
+    {
+     "w": "બધી",
+     "start": 2.08,
+     "end": 2.4
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 2.48,
+     "end": 3.04
+    },
+    {
+     "w": "સરખી",
+     "start": 3.093,
+     "end": 3.44
+    },
+    {
+     "w": "લંબાઈની",
+     "start": 3.52,
+     "end": 3.92
+    },
+    {
+     "w": "નથી.",
+     "start": 4,
+     "end": 4.32
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb50",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb50.mp3",
+   "text": "આ અનિયમિત છે. તેની બાજુઓ સરખી છે, પણ બધા ખૂણા સમાન નથી.",
+   "spoken": "આ અનિયમિત છે. તેની બાજુઓ સરખી છે, પણ બધા ખૂણા સમાન નથી.",
+   "words_count": 12,
+   "chars": 55,
+   "credits": 27,
+   "request_id": "PV9O6wwWu1LzmnlcfRHq",
+   "seconds": 5.486,
+   "generated_ms": 10967,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "અનિયમિત",
+     "start": 0.32,
+     "end": 0.96
+    },
+    {
+     "w": "છે.",
+     "start": 1.013,
+     "end": 1.2
+    },
+    {
+     "w": "તેની",
+     "start": 1.72,
+     "end": 2
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 2.053,
+     "end": 2.48
+    },
+    {
+     "w": "સરખી",
+     "start": 2.56,
+     "end": 2.88
+    },
+    {
+     "w": "છે,",
+     "start": 2.96,
+     "end": 3.387
+    },
+    {
+     "w": "પણ",
+     "start": 3.56,
+     "end": 3.68
+    },
+    {
+     "w": "બધા",
+     "start": 3.76,
+     "end": 4.107
+    },
+    {
+     "w": "ખૂણા",
+     "start": 4.16,
+     "end": 4.48
+    },
+    {
+     "w": "સમાન",
+     "start": 4.56,
+     "end": 4.88
+    },
+    {
+     "w": "નથી.",
+     "start": 4.907,
+     "end": 5.2
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb51",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb51.mp3",
+   "text": "આ અનિયમિત છે. તેની બાજુઓ સમાન નથી, અને ખૂણા પણ સમાન નથી.",
+   "spoken": "આ અનિયમિત છે. તેની બાજુઓ સમાન નથી, અને ખૂણા પણ સમાન નથી.",
+   "words_count": 12,
+   "chars": 56,
+   "credits": 27,
+   "request_id": "PXBwQU7T9aFqaHka8uOa",
+   "seconds": 5.251,
+   "generated_ms": 14186,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "અનિયમિત",
+     "start": 0.32,
+     "end": 0.96
+    },
+    {
+     "w": "છે.",
+     "start": 1.013,
+     "end": 1.2
+    },
+    {
+     "w": "તેની",
+     "start": 1.64,
+     "end": 1.92
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 1.947,
+     "end": 2.4
+    },
+    {
+     "w": "સમાન",
+     "start": 2.48,
+     "end": 2.8
+    },
+    {
+     "w": "નથી,",
+     "start": 2.88,
+     "end": 3.333
+    },
+    {
+     "w": "અને",
+     "start": 3.52,
+     "end": 3.707
+    },
+    {
+     "w": "ખૂણા",
+     "start": 3.76,
+     "end": 4.08
+    },
+    {
+     "w": "પણ",
+     "start": 4.16,
+     "end": 4.24
+    },
+    {
+     "w": "સમાન",
+     "start": 4.32,
+     "end": 4.64
+    },
+    {
+     "w": "નથી.",
+     "start": 4.667,
+     "end": 4.96
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37o",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37o.mp3",
+   "text": "ચાલો, આજે આપણે શું શીખ્યા તે યાદ કરીએ.",
+   "spoken": "ચાલો, આજે આપણે શું શીખ્યા તે યાદ કરીએ.",
+   "words_count": 8,
+   "chars": 38,
+   "credits": 18,
+   "request_id": "qTMlVklHLqRxOo6H3Qq2",
+   "seconds": 3.396,
+   "generated_ms": 1903,
+   "words": [
+    {
+     "w": "ચાલો,",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "આજે",
+     "start": 0.8,
+     "end": 1.093
+    },
+    {
+     "w": "આપણે",
+     "start": 1.12,
+     "end": 1.44
+    },
+    {
+     "w": "શું",
+     "start": 1.6,
+     "end": 1.76
+    },
+    {
+     "w": "શીખ્યા",
+     "start": 1.84,
+     "end": 2.24
+    },
+    {
+     "w": "તે",
+     "start": 2.4,
+     "end": 2.56
+    },
+    {
+     "w": "યાદ",
+     "start": 2.64,
+     "end": 2.88
+    },
+    {
+     "w": "કરીએ.",
+     "start": 2.92,
+     "end": 3.2
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37a",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37a.mp3",
+   "text": "શિરોબિંદુ એ ખૂણો છે જ્યાં બે બાજુઓ મળે છે.",
+   "spoken": "શિરોબિંદુ એ ખૂણો છે જ્યાં બે બાજુઓ મળે છે.",
+   "words_count": 9,
+   "chars": 42,
+   "credits": 20,
+   "request_id": "EGlph7lgtHTd4Ieg34qJ",
+   "seconds": 3.866,
+   "generated_ms": 3619,
+   "words": [
+    {
+     "w": "શિરોબિંદુ",
+     "start": 0,
+     "end": 0.8
+    },
+    {
+     "w": "એ",
+     "start": 0.96,
+     "end": 1.2
+    },
+    {
+     "w": "ખૂણો",
+     "start": 1.227,
+     "end": 1.52
+    },
+    {
+     "w": "છે",
+     "start": 1.6,
+     "end": 1.84
+    },
+    {
+     "w": "જ્યાં",
+     "start": 2.16,
+     "end": 2.427
+    },
+    {
+     "w": "બે",
+     "start": 2.48,
+     "end": 2.64
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 2.72,
+     "end": 3.2
+    },
+    {
+     "w": "મળે",
+     "start": 3.24,
+     "end": 3.44
+    },
+    {
+     "w": "છે.",
+     "start": 3.52,
+     "end": 3.68
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37b",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37b.mp3",
+   "text": "બાજુ એ બે શિરોબિંદુઓને જોડતી સીધી રેખા છે.",
+   "spoken": "બાજુ એ બે શિરોબિંદુઓને જોડતી સીધી રેખા છે.",
+   "words_count": 8,
+   "chars": 42,
+   "credits": 20,
+   "request_id": "jEVhqSCgRpZhytimMQdm",
+   "seconds": 3.866,
+   "generated_ms": 2360,
+   "words": [
+    {
+     "w": "બાજુ",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "એ",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "બે",
+     "start": 0.987,
+     "end": 1.2
+    },
+    {
+     "w": "શિરોબિંદુઓને",
+     "start": 1.28,
+     "end": 2.08
+    },
+    {
+     "w": "જોડતી",
+     "start": 2.16,
+     "end": 2.64
+    },
+    {
+     "w": "સીધી",
+     "start": 2.72,
+     "end": 3.04
+    },
+    {
+     "w": "રેખા",
+     "start": 3.12,
+     "end": 3.44
+    },
+    {
+     "w": "છે.",
+     "start": 3.52,
+     "end": 3.68
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37c",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37c.mp3",
+   "text": "જ્યાં બે બાજુઓ મળે છે, ત્યાં ખૂણો બને છે.",
+   "spoken": "જ્યાં બે બાજુઓ મળે છે, ત્યાં ખૂણો બને છે.",
+   "words_count": 9,
+   "chars": 41,
+   "credits": 20,
+   "request_id": "8VdCRGZ9QA5bjvQheOZz",
+   "seconds": 3.396,
+   "generated_ms": 2710,
+   "words": [
+    {
+     "w": "જ્યાં",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "બે",
+     "start": 0.48,
+     "end": 0.64
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 0.72,
+     "end": 1.12
+    },
+    {
+     "w": "મળે",
+     "start": 1.2,
+     "end": 1.44
+    },
+    {
+     "w": "છે,",
+     "start": 1.52,
+     "end": 1.893
+    },
+    {
+     "w": "ત્યાં",
+     "start": 2.04,
+     "end": 2.267
+    },
+    {
+     "w": "ખૂણો",
+     "start": 2.32,
+     "end": 2.64
+    },
+    {
+     "w": "બને",
+     "start": 2.72,
+     "end": 2.88
+    },
+    {
+     "w": "છે.",
+     "start": 2.96,
+     "end": 3.28
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37d",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37d.mp3",
+   "text": "વિકર્ણ પાસપાસે ન હોય તેવાં બે શિરોબિંદુઓને જોડે છે.",
+   "spoken": "વિકર્ણ પાસપાસે ન હોય તેવાં બે શિરોબિંદુઓને જોડે છે.",
+   "words_count": 9,
+   "chars": 51,
+   "credits": 25,
+   "request_id": "OqYryrAVoMjTFNAPRVHz",
+   "seconds": 4.441,
+   "generated_ms": 2545,
+   "words": [
+    {
+     "w": "વિકર્ણ",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "પાસપાસે",
+     "start": 0.64,
+     "end": 1.28
+    },
+    {
+     "w": "ન",
+     "start": 1.36,
+     "end": 1.6
+    },
+    {
+     "w": "હોય",
+     "start": 1.68,
+     "end": 1.92
+    },
+    {
+     "w": "તેવાં",
+     "start": 2.16,
+     "end": 2.48
+    },
+    {
+     "w": "બે",
+     "start": 2.56,
+     "end": 2.72
+    },
+    {
+     "w": "શિરોબિંદુઓને",
+     "start": 2.8,
+     "end": 3.68
+    },
+    {
+     "w": "જોડે",
+     "start": 3.72,
+     "end": 4
+    },
+    {
+     "w": "છે.",
+     "start": 4.08,
+     "end": 4.24
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37e",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37e.mp3",
+   "text": "બહિર્મુખ બહુકોણમાં બધા વિકર્ણ અંદર રહે છે.",
+   "spoken": "બહિર્મુખ બહુકોણમાં બધા વિકર્ણ અંદર રહે છે.",
+   "words_count": 7,
+   "chars": 42,
+   "credits": 20,
+   "request_id": "6x3TKhYnzegBh8nK9gJX",
+   "seconds": 3.788,
+   "generated_ms": 2230,
+   "words": [
+    {
+     "w": "બહિર્મુખ",
+     "start": 0,
+     "end": 0.64
+    },
+    {
+     "w": "બહુકોણમાં",
+     "start": 0.72,
+     "end": 1.52
+    },
+    {
+     "w": "બધા",
+     "start": 1.68,
+     "end": 2.08
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 2.16,
+     "end": 2.72
+    },
+    {
+     "w": "અંદર",
+     "start": 2.747,
+     "end": 3.12
+    },
+    {
+     "w": "રહે",
+     "start": 3.16,
+     "end": 3.36
+    },
+    {
+     "w": "છે.",
+     "start": 3.44,
+     "end": 3.6
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37f",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37f.mp3",
+   "text": "અંતર્મુખ બહુકોણમાં ઓછામાં ઓછો એક વિકર્ણ બહાર જાય છે.",
+   "spoken": "અંતર્મુખ બહુકોણમાં ઓછામાં ઓછો એક વિકર્ણ બહાર જાય છે.",
+   "words_count": 9,
+   "chars": 52,
+   "credits": 25,
+   "request_id": "0TocjyjXkexqEdzJaHZ3",
+   "seconds": 4.598,
+   "generated_ms": 4597,
+   "words": [
+    {
+     "w": "અંતર્મુખ",
+     "start": 0,
+     "end": 0.64
+    },
+    {
+     "w": "બહુકોણમાં",
+     "start": 0.72,
+     "end": 1.6
+    },
+    {
+     "w": "ઓછામાં",
+     "start": 1.68,
+     "end": 2.213
+    },
+    {
+     "w": "ઓછો",
+     "start": 2.24,
+     "end": 2.56
+    },
+    {
+     "w": "એક",
+     "start": 2.8,
+     "end": 3.04
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 3.12,
+     "end": 3.52
+    },
+    {
+     "w": "બહાર",
+     "start": 3.6,
+     "end": 3.92
+    },
+    {
+     "w": "જાય",
+     "start": 3.96,
+     "end": 4.16
+    },
+    {
+     "w": "છે.",
+     "start": 4.24,
+     "end": 4.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37g",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37g.mp3",
+   "text": "નિયમિત બહુકોણની બધી બાજુઓ અને બધા ખૂણા સમાન હોય છે.",
+   "spoken": "નિયમિત બહુકોણની બધી બાજુઓ અને બધા ખૂણા સમાન હોય છે.",
+   "words_count": 10,
+   "chars": 51,
+   "credits": 25,
+   "request_id": "LSXiaDf8dofaMJbURAhh",
+   "seconds": 4.833,
+   "generated_ms": 10683,
+   "words": [
+    {
+     "w": "નિયમિત",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "બહુકોણની",
+     "start": 0.64,
+     "end": 1.36
+    },
+    {
+     "w": "બધી",
+     "start": 1.44,
+     "end": 1.76
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 1.84,
+     "end": 2.4
+    },
+    {
+     "w": "અને",
+     "start": 2.56,
+     "end": 2.8
+    },
+    {
+     "w": "બધા",
+     "start": 2.827,
+     "end": 3.2
+    },
+    {
+     "w": "ખૂણા",
+     "start": 3.28,
+     "end": 3.6
+    },
+    {
+     "w": "સમાન",
+     "start": 3.76,
+     "end": 4.16
+    },
+    {
+     "w": "હોય",
+     "start": 4.2,
+     "end": 4.4
+    },
+    {
+     "w": "છે.",
+     "start": 4.453,
+     "end": 4.72
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37h",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37h.mp3",
+   "text": "જો બધી બાજુઓ અથવા ખૂણા સમાન ન હોય, તો બહુકોણ અનિયમિત છે.",
+   "spoken": "જો બધી બાજુઓ અથવા ખૂણા સમાન ન હોય, તો બહુકોણ અનિયમિત છે.",
+   "words_count": 12,
+   "chars": 56,
+   "credits": 27,
+   "request_id": "mUdLHTWMzBxCGhWkjJIw",
+   "seconds": 5.642,
+   "generated_ms": 13119,
+   "words": [
+    {
+     "w": "જો",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "બધી",
+     "start": 0.32,
+     "end": 0.64
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 0.72,
+     "end": 1.36
+    },
+    {
+     "w": "અથવા",
+     "start": 1.44,
+     "end": 1.76
+    },
+    {
+     "w": "ખૂણા",
+     "start": 1.92,
+     "end": 2.24
+    },
+    {
+     "w": "સમાન",
+     "start": 2.32,
+     "end": 2.72
+    },
+    {
+     "w": "ન",
+     "start": 2.8,
+     "end": 2.96
+    },
+    {
+     "w": "હોય,",
+     "start": 3.04,
+     "end": 3.28
+    },
+    {
+     "w": "તો",
+     "start": 3.68,
+     "end": 3.76
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 3.84,
+     "end": 4.56
+    },
+    {
+     "w": "અનિયમિત",
+     "start": 4.613,
+     "end": 5.2
+    },
+    {
+     "w": "છે.",
+     "start": 5.253,
+     "end": 5.44
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p37i",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p37i.mp3",
+   "text": "અદભુત! તમે બહુકોણના આ બધા વિચારો શોધી કાઢ્યા!",
+   "spoken": "અદભુત! તમે બહુકોણના આ બધા વિચારો શોધી કાઢ્યા!",
+   "words_count": 8,
+   "chars": 45,
+   "credits": 22,
+   "request_id": "fMO80ReI7aXjGfsYvDMI",
+   "seconds": 4.049,
+   "generated_ms": 2855,
+   "words": [
+    {
+     "w": "અદભુત!",
+     "start": 0,
+     "end": 0.8
+    },
+    {
+     "w": "તમે",
+     "start": 1.2,
+     "end": 1.52
+    },
+    {
+     "w": "બહુકોણના",
+     "start": 1.573,
+     "end": 2.24
+    },
+    {
+     "w": "આ",
+     "start": 2.32,
+     "end": 2.4
+    },
+    {
+     "w": "બધા",
+     "start": 2.427,
+     "end": 2.693
+    },
+    {
+     "w": "વિચારો",
+     "start": 2.72,
+     "end": 3.12
+    },
+    {
+     "w": "શોધી",
+     "start": 3.147,
+     "end": 3.44
+    },
+    {
+     "w": "કાઢ્યા!",
+     "start": 3.48,
+     "end": 3.84
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p39",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p39.mp3",
+   "text": "હવે તમે બહુકોણ વિશે બધું જાણો છો. તમે મોમોને મદદ કરવા તૈયાર છો.",
+   "spoken": "હવે તમે બહુકોણ વિશે બધું જાણો છો. તમે મોમોને મદદ કરવા તૈયાર છો.",
+   "words_count": 13,
+   "chars": 63,
+   "credits": 31,
+   "request_id": "qadifbw2qdlQKlwMx8QV",
+   "seconds": 5.329,
+   "generated_ms": 14632,
+   "words": [
+    {
+     "w": "હવે",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "તમે",
+     "start": 0.28,
+     "end": 0.56
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 0.613,
+     "end": 1.12
+    },
+    {
+     "w": "વિશે",
+     "start": 1.16,
+     "end": 1.52
+    },
+    {
+     "w": "બધું",
+     "start": 1.547,
+     "end": 1.92
+    },
+    {
+     "w": "જાણો",
+     "start": 2,
+     "end": 2.24
+    },
+    {
+     "w": "છો.",
+     "start": 2.32,
+     "end": 2.48
+    },
+    {
+     "w": "તમે",
+     "start": 2.96,
+     "end": 3.2
+    },
+    {
+     "w": "મોમોને",
+     "start": 3.28,
+     "end": 3.76
+    },
+    {
+     "w": "મદદ",
+     "start": 3.84,
+     "end": 4.08
+    },
+    {
+     "w": "કરવા",
+     "start": 4.16,
+     "end": 4.427
+    },
+    {
+     "w": "તૈયાર",
+     "start": 4.48,
+     "end": 4.8
+    },
+    {
+     "w": "છો.",
+     "start": 4.88,
+     "end": 5.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb46",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb46.mp3",
+   "text": "આમ જ આગળ વધો!",
+   "spoken": "આમ જ આગળ વધો!",
+   "words_count": 4,
+   "chars": 13,
+   "credits": 6,
+   "request_id": "L8uqkwOSMYDZxR9YbgM3",
+   "seconds": 1.489,
+   "generated_ms": 1094,
+   "words": [
+    {
+     "w": "આમ",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "જ",
+     "start": 0.4,
+     "end": 0.56
+    },
+    {
+     "w": "આગળ",
+     "start": 0.64,
+     "end": 0.88
+    },
+    {
+     "w": "વધો!",
+     "start": 0.96,
+     "end": 1.44
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb47",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb47.mp3",
+   "text": "અદભુત!",
+   "spoken": "અદભુત!",
+   "words_count": 1,
+   "chars": 6,
+   "credits": 3,
+   "request_id": "A8DOZ87FtMYfViuT07nT",
+   "seconds": 1.306,
+   "generated_ms": 1731,
+   "words": [
+    {
+     "w": "અદભુત!",
+     "start": 0,
+     "end": 0.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb44",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb44.mp3",
+   "text": "બરાબર નથી. વર્તુળ વળાંકવાળું હોય છે. બહુકોણને ફક્ત સીધી બાજુઓ હોય છે.",
+   "spoken": "બરાબર નથી. વર્તુળ વળાંકવાળું હોય છે. બહુકોણને ફક્ત સીધી બાજુઓ હોય છે.",
+   "words_count": 12,
+   "chars": 69,
+   "credits": 33,
+   "request_id": "zPrx4wtPA1sADassLbkc",
+   "seconds": 6.426,
+   "generated_ms": 29094,
+   "words": [
+    {
+     "w": "બરાબર",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "નથી.",
+     "start": 0.587,
+     "end": 0.96
+    },
+    {
+     "w": "વર્તુળ",
+     "start": 1.6,
+     "end": 2.08
+    },
+    {
+     "w": "વળાંકવાળું",
+     "start": 2.16,
+     "end": 2.8
+    },
+    {
+     "w": "હોય",
+     "start": 2.84,
+     "end": 3.013
+    },
+    {
+     "w": "છે.",
+     "start": 3.04,
+     "end": 3.28
+    },
+    {
+     "w": "બહુકોણને",
+     "start": 3.84,
+     "end": 4.48
+    },
+    {
+     "w": "ફક્ત",
+     "start": 4.56,
+     "end": 4.88
+    },
+    {
+     "w": "સીધી",
+     "start": 4.96,
+     "end": 5.28
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 5.36,
+     "end": 5.76
+    },
+    {
+     "w": "હોય",
+     "start": 5.84,
+     "end": 6
+    },
+    {
+     "w": "છે.",
+     "start": 6.053,
+     "end": 6.24
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb45",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb45.mp3",
+   "text": "બરાબર નથી. આ આકાર ખુલ્લો છે. બહુકોણ બંધ હોવો જોઈએ.",
+   "spoken": "બરાબર નથી. આ આકાર ખુલ્લો છે. બહુકોણ બંધ હોવો જોઈએ.",
+   "words_count": 10,
+   "chars": 50,
+   "credits": 24,
+   "request_id": "Jnqc939xGKgJkjWIfvV8",
+   "seconds": 5.068,
+   "generated_ms": 21553,
+   "words": [
+    {
+     "w": "બરાબર",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "નથી.",
+     "start": 0.587,
+     "end": 0.96
+    },
+    {
+     "w": "આ",
+     "start": 1.44,
+     "end": 1.6
+    },
+    {
+     "w": "આકાર",
+     "start": 1.68,
+     "end": 2.08
+    },
+    {
+     "w": "ખુલ્લો",
+     "start": 2.107,
+     "end": 2.48
+    },
+    {
+     "w": "છે.",
+     "start": 2.56,
+     "end": 2.773
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 3.28,
+     "end": 3.92
+    },
+    {
+     "w": "બંધ",
+     "start": 3.947,
+     "end": 4.16
+    },
+    {
+     "w": "હોવો",
+     "start": 4.24,
+     "end": 4.453
+    },
+    {
+     "w": "જોઈએ.",
+     "start": 4.48,
+     "end": 4.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb41",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb41.mp3",
+   "text": "ફરી પ્રયાસ કરો! હવે બાજુઓ અને ખૂણાની સરખામણી કરો.",
+   "spoken": "ફરી પ્રયાસ કરો! હવે બાજુઓ અને ખૂણાની સરખામણી કરો.",
+   "words_count": 9,
+   "chars": 49,
+   "credits": 24,
+   "request_id": "r0BB8XBk6EiIG00ytpC5",
+   "seconds": 4.441,
+   "generated_ms": 4032,
+   "words": [
+    {
+     "w": "ફરી",
+     "start": 0,
+     "end": 0.293
+    },
+    {
+     "w": "પ્રયાસ",
+     "start": 0.32,
+     "end": 0.64
+    },
+    {
+     "w": "કરો!",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "હવે",
+     "start": 1.52,
+     "end": 1.76
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 1.84,
+     "end": 2.48
+    },
+    {
+     "w": "અને",
+     "start": 2.507,
+     "end": 2.747
+    },
+    {
+     "w": "ખૂણાની",
+     "start": 2.8,
+     "end": 3.28
+    },
+    {
+     "w": "સરખામણી",
+     "start": 3.36,
+     "end": 3.92
+    },
+    {
+     "w": "કરો.",
+     "start": 3.96,
+     "end": 4.24
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p38b",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/p38b.mp3",
+   "text": "તમે બહુકોણના સાહસિક છો!",
+   "spoken": "તમે બહુકોણના સાહસિક છો!",
+   "words_count": 4,
+   "chars": 23,
+   "credits": 11,
+   "request_id": "IftJEYZrdoiUeh4IAAjN",
+   "seconds": 2.429,
+   "generated_ms": 2704,
+   "words": [
+    {
+     "w": "તમે",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "બહુકોણના",
+     "start": 0.48,
+     "end": 1.2
+    },
+    {
+     "w": "સાહસિક",
+     "start": 1.36,
+     "end": 1.92
+    },
+    {
+     "w": "છો!",
+     "start": 1.973,
+     "end": 2.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb15",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb15.mp3",
+   "text": "તેને કોઈ ખૂણા પર મૂકો!",
+   "spoken": "તેને કોઈ ખૂણા પર મૂકો!",
+   "words_count": 5,
+   "chars": 22,
+   "credits": 11,
+   "request_id": "q8pvjGOlgrObPVU5JbXc",
+   "seconds": 1.646,
+   "generated_ms": 1382,
+   "words": [
+    {
+     "w": "તેને",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "કોઈ",
+     "start": 0.28,
+     "end": 0.48
+    },
+    {
+     "w": "ખૂણા",
+     "start": 0.56,
+     "end": 0.8
+    },
+    {
+     "w": "પર",
+     "start": 0.88,
+     "end": 1.04
+    },
+    {
+     "w": "મૂકો!",
+     "start": 1.08,
+     "end": 1.52
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb11",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb11.mp3",
+   "text": "તેને હજુ વધુ અંદર ખેંચો!",
+   "spoken": "તેને હજુ વધુ અંદર ખેંચો!",
+   "words_count": 5,
+   "chars": 24,
+   "credits": 12,
+   "request_id": "cIXo3UzYhoxIrstppLzM",
+   "seconds": 2.038,
+   "generated_ms": 1734,
+   "words": [
+    {
+     "w": "તેને",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "હજુ",
+     "start": 0.4,
+     "end": 0.72
+    },
+    {
+     "w": "વધુ",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "અંદર",
+     "start": 1.12,
+     "end": 1.44
+    },
+    {
+     "w": "ખેંચો!",
+     "start": 1.467,
+     "end": 1.84
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb40",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb40.mp3",
+   "text": "ફરી પ્રયાસ કરો! ખૂણાને થોડો વધુ ખેંચો.",
+   "spoken": "ફરી પ્રયાસ કરો! ખૂણાને થોડો વધુ ખેંચો.",
+   "words_count": 7,
+   "chars": 38,
+   "credits": 18,
+   "request_id": "KtPdpvgeCw3lNxLnkOaD",
+   "seconds": 3.396,
+   "generated_ms": 1835,
+   "words": [
+    {
+     "w": "ફરી",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "પ્રયાસ",
+     "start": 0.352,
+     "end": 0.64
+    },
+    {
+     "w": "કરો!",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "ખૂણાને",
+     "start": 1.44,
+     "end": 1.92
+    },
+    {
+     "w": "થોડો",
+     "start": 2,
+     "end": 2.4
+    },
+    {
+     "w": "વધુ",
+     "start": 2.48,
+     "end": 2.72
+    },
+    {
+     "w": "ખેંચો.",
+     "start": 2.747,
+     "end": 3.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb35",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb35.mp3",
+   "text": "ફરી પ્રયાસ કરો! દરેક બાજુ અને દરેક ખૂણો સમાન છે.",
+   "spoken": "ફરી પ્રયાસ કરો! દરેક બાજુ અને દરેક ખૂણો સમાન છે.",
+   "words_count": 10,
+   "chars": 48,
+   "credits": 23,
+   "request_id": "v1q6an5C1YQf5XJCvu9n",
+   "seconds": 4.598,
+   "generated_ms": 19615,
+   "words": [
+    {
+     "w": "ફરી",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "પ્રયાસ",
+     "start": 0.352,
+     "end": 0.72
+    },
+    {
+     "w": "કરો!",
+     "start": 0.76,
+     "end": 0.96
+    },
+    {
+     "w": "દરેક",
+     "start": 1.6,
+     "end": 1.92
+    },
+    {
+     "w": "બાજુ",
+     "start": 2,
+     "end": 2.48
+    },
+    {
+     "w": "અને",
+     "start": 2.507,
+     "end": 2.72
+    },
+    {
+     "w": "દરેક",
+     "start": 2.8,
+     "end": 3.2
+    },
+    {
+     "w": "ખૂણો",
+     "start": 3.28,
+     "end": 3.68
+    },
+    {
+     "w": "સમાન",
+     "start": 3.733,
+     "end": 4.16
+    },
+    {
+     "w": "છે.",
+     "start": 4.213,
+     "end": 4.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb36",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb36.mp3",
+   "text": "ફરી પ્રયાસ કરો! બધી બાજુઓ સમાન નથી.",
+   "spoken": "ફરી પ્રયાસ કરો! બધી બાજુઓ સમાન નથી.",
+   "words_count": 7,
+   "chars": 35,
+   "credits": 17,
+   "request_id": "esEJsGXxUF8qi1oWDQP6",
+   "seconds": 3.318,
+   "generated_ms": 7720,
+   "words": [
+    {
+     "w": "ફરી",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "પ્રયાસ",
+     "start": 0.352,
+     "end": 0.64
+    },
+    {
+     "w": "કરો!",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "બધી",
+     "start": 1.44,
+     "end": 1.733
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 1.76,
+     "end": 2.24
+    },
+    {
+     "w": "સમાન",
+     "start": 2.32,
+     "end": 2.64
+    },
+    {
+     "w": "નથી.",
+     "start": 2.72,
+     "end": 3.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb37",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb37.mp3",
+   "text": "ફરી પ્રયાસ કરો! બધા ખૂણા સમાન નથી.",
+   "spoken": "ફરી પ્રયાસ કરો! બધા ખૂણા સમાન નથી.",
+   "words_count": 7,
+   "chars": 34,
+   "credits": 16,
+   "request_id": "v9Krqb4pqKyAi7aS15y7",
+   "seconds": 3.161,
+   "generated_ms": 4026,
+   "words": [
+    {
+     "w": "ફરી",
+     "start": 0,
+     "end": 0.293
+    },
+    {
+     "w": "પ્રયાસ",
+     "start": 0.32,
+     "end": 0.72
+    },
+    {
+     "w": "કરો!",
+     "start": 0.76,
+     "end": 0.96
+    },
+    {
+     "w": "બધા",
+     "start": 1.44,
+     "end": 1.76
+    },
+    {
+     "w": "ખૂણા",
+     "start": 1.84,
+     "end": 2.16
+    },
+    {
+     "w": "સમાન",
+     "start": 2.213,
+     "end": 2.48
+    },
+    {
+     "w": "નથી.",
+     "start": 2.56,
+     "end": 2.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "fb38",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/fb38.mp3",
+   "text": "ફરી પ્રયાસ કરો! બધી બાજુઓ અને ખૂણા સમાન નથી.",
+   "spoken": "ફરી પ્રયાસ કરો! બધી બાજુઓ અને ખૂણા સમાન નથી.",
+   "words_count": 9,
+   "chars": 44,
+   "credits": 21,
+   "request_id": "Lxu9IgDNe1l3WoiIcGxD",
+   "seconds": 4.206,
+   "generated_ms": 2172,
+   "words": [
+    {
+     "w": "ફરી",
+     "start": 0,
+     "end": 0.293
+    },
+    {
+     "w": "પ્રયાસ",
+     "start": 0.32,
+     "end": 0.64
+    },
+    {
+     "w": "કરો!",
+     "start": 0.72,
+     "end": 0.96
+    },
+    {
+     "w": "બધી",
+     "start": 1.44,
+     "end": 1.76
+    },
+    {
+     "w": "બાજુઓ",
+     "start": 1.84,
+     "end": 2.48
+    },
+    {
+     "w": "અને",
+     "start": 2.507,
+     "end": 2.72
+    },
+    {
+     "w": "ખૂણા",
+     "start": 2.747,
+     "end": 3.12
+    },
+    {
+     "w": "સમાન",
+     "start": 3.2,
+     "end": 3.6
+    },
+    {
+     "w": "નથી.",
+     "start": 3.627,
+     "end": 4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-1-meet",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/tut-1-meet.mp3",
+   "text": "આ મોમો છે. તેને પોતાના મિત્રને શોધવાનો છે.",
+   "spoken": "આ મોમો છે. તેને પોતાના મિત્રને શોધવાનો છે.",
+   "words_count": 8,
+   "chars": 42,
+   "credits": 20,
+   "request_id": "QDsoeZFZbLEPGytSLvIr",
+   "seconds": 3.971,
+   "generated_ms": 3877,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "મોમો",
+     "start": 0.4,
+     "end": 0.8
+    },
+    {
+     "w": "છે.",
+     "start": 0.853,
+     "end": 1.04
+    },
+    {
+     "w": "તેને",
+     "start": 1.6,
+     "end": 1.84
+    },
+    {
+     "w": "પોતાના",
+     "start": 1.88,
+     "end": 2.24
+    },
+    {
+     "w": "મિત્રને",
+     "start": 2.4,
+     "end": 2.88
+    },
+    {
+     "w": "શોધવાનો",
+     "start": 2.96,
+     "end": 3.44
+    },
+    {
+     "w": "છે.",
+     "start": 3.52,
+     "end": 3.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-2-goal",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/tut-2-goal.mp3",
+   "text": "મોમોને બરફીલો ઘાટ પાર કરવામાં મદદ કરો!",
+   "spoken": "મોમોને બરફીલો ઘાટ પાર કરવામાં મદદ કરો!",
+   "words_count": 7,
+   "chars": 38,
+   "credits": 18,
+   "request_id": "q01Lu6dwCXqSk4ZQTH4u",
+   "seconds": 3.474,
+   "generated_ms": 2604,
+   "words": [
+    {
+     "w": "મોમોને",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "બરફીલો",
+     "start": 0.8,
+     "end": 1.36
+    },
+    {
+     "w": "ઘાટ",
+     "start": 1.387,
+     "end": 1.68
+    },
+    {
+     "w": "પાર",
+     "start": 1.76,
+     "end": 2
+    },
+    {
+     "w": "કરવામાં",
+     "start": 2.04,
+     "end": 2.56
+    },
+    {
+     "w": "મદદ",
+     "start": 2.64,
+     "end": 2.96
+    },
+    {
+     "w": "કરો!",
+     "start": 3,
+     "end": 3.28
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-3-watch",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/tut-3-watch.mp3",
+   "text": "સાવધાન!",
+   "spoken": "સાવધાન!",
+   "words_count": 1,
+   "chars": 7,
+   "credits": 3,
+   "request_id": "TmRQQAoTwfRuAsnEismS",
+   "seconds": 1.071,
+   "generated_ms": 1117,
+   "words": [
+    {
+     "w": "સાવધાન!",
+     "start": 0,
+     "end": 0.88
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-4-jump",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/tut-4-jump.mp3",
+   "text": "અવરોધો પરથી કૂદવા માટે ટૅપ કરો.",
+   "spoken": "અવરોધો પરથી કૂદવા માટે ટૅપ કરો.",
+   "words_count": 6,
+   "chars": 31,
+   "credits": 15,
+   "request_id": "eLuPv7ziKeOrlGYPQrQc",
+   "seconds": 2.926,
+   "generated_ms": 1909,
+   "words": [
+    {
+     "w": "અવરોધો",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "પરથી",
+     "start": 0.6,
+     "end": 0.88
+    },
+    {
+     "w": "કૂદવા",
+     "start": 1.04,
+     "end": 1.36
+    },
+    {
+     "w": "માટે",
+     "start": 1.44,
+     "end": 1.76
+    },
+    {
+     "w": "ટૅપ",
+     "start": 2,
+     "end": 2.24
+    },
+    {
+     "w": "કરો.",
+     "start": 2.32,
+     "end": 2.56
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-5-broken",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/tut-5-broken.mp3",
+   "text": "અરે રે! રસ્તો તૂટી ગયો છે.",
+   "spoken": "અરે રે! રસ્તો તૂટી ગયો છે.",
+   "words_count": 6,
+   "chars": 26,
+   "credits": 13,
+   "request_id": "FwIY3kSEBeZ7RdNjhArX",
+   "seconds": 2.586,
+   "generated_ms": 1837,
+   "words": [
+    {
+     "w": "અરે",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "રે!",
+     "start": 0.32,
+     "end": 0.56
+    },
+    {
+     "w": "રસ્તો",
+     "start": 1.04,
+     "end": 1.467
+    },
+    {
+     "w": "તૂટી",
+     "start": 1.52,
+     "end": 1.76
+    },
+    {
+     "w": "ગયો",
+     "start": 1.84,
+     "end": 2.107
+    },
+    {
+     "w": "છે.",
+     "start": 2.16,
+     "end": 2.32
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-6-use",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/tut-6-use.mp3",
+   "text": "રસ્તો ઠીક કરવા માટે સાચો બરફનો ટુકડો વાપરો.",
+   "spoken": "રસ્તો ઠીક કરવા માટે સાચો બરફનો ટુકડો વાપરો.",
+   "words_count": 8,
+   "chars": 43,
+   "credits": 21,
+   "request_id": "dbaOAZoo3XBo9C34JloJ",
+   "seconds": 3.866,
+   "generated_ms": 1837,
+   "words": [
+    {
+     "w": "રસ્તો",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "ઠીક",
+     "start": 0.64,
+     "end": 0.96
+    },
+    {
+     "w": "કરવા",
+     "start": 1,
+     "end": 1.28
+    },
+    {
+     "w": "માટે",
+     "start": 1.36,
+     "end": 1.84
+    },
+    {
+     "w": "સાચો",
+     "start": 1.893,
+     "end": 2.4
+    },
+    {
+     "w": "બરફનો",
+     "start": 2.48,
+     "end": 2.96
+    },
+    {
+     "w": "ટુકડો",
+     "start": 2.976,
+     "end": 3.28
+    },
+    {
+     "w": "વાપરો.",
+     "start": 3.32,
+     "end": 3.68
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-6b-piece",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/tut-6b-piece.mp3",
+   "text": "રસ્તો ઠીક કરવા માટે સાચો ટુકડો વાપરો.",
+   "spoken": "રસ્તો ઠીક કરવા માટે સાચો ટુકડો વાપરો.",
+   "words_count": 7,
+   "chars": 37,
+   "credits": 18,
+   "request_id": "rcXryFkk86GgUstEQNnj",
+   "seconds": 3.318,
+   "generated_ms": 2010,
+   "words": [
+    {
+     "w": "રસ્તો",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "ઠીક",
+     "start": 0.64,
+     "end": 0.96
+    },
+    {
+     "w": "કરવા",
+     "start": 1,
+     "end": 1.28
+    },
+    {
+     "w": "માટે",
+     "start": 1.36,
+     "end": 1.68
+    },
+    {
+     "w": "સાચો",
+     "start": 1.92,
+     "end": 2.32
+    },
+    {
+     "w": "ટુકડો",
+     "start": 2.347,
+     "end": 2.693
+    },
+    {
+     "w": "વાપરો.",
+     "start": 2.72,
+     "end": 3.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "tut-7-fit",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/tut-7-fit.mp3",
+   "text": "એકદમ બરાબર બેઠું! આમ જ આગળ વધો!",
+   "spoken": "એકદમ બરાબર બેઠું! આમ જ આગળ વધો!",
+   "words_count": 7,
+   "chars": 31,
+   "credits": 15,
+   "request_id": "9Byle5lNdCIfdLL9dPrw",
+   "seconds": 3.239,
+   "generated_ms": 1944,
+   "words": [
+    {
+     "w": "એકદમ",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "બરાબર",
+     "start": 0.747,
+     "end": 1.12
+    },
+    {
+     "w": "બેઠું!",
+     "start": 1.2,
+     "end": 1.52
+    },
+    {
+     "w": "આમ",
+     "start": 2,
+     "end": 2.24
+    },
+    {
+     "w": "જ",
+     "start": 2.32,
+     "end": 2.4
+    },
+    {
+     "w": "આગળ",
+     "start": 2.48,
+     "end": 2.72
+    },
+    {
+     "w": "વધો!",
+     "start": 2.76,
+     "end": 3.04
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-1-diagonal",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/p2-1-diagonal.mp3",
+   "text": "એક વિકર્ણ પર કાપો.",
+   "spoken": "એક વિકર્ણ પર કાપો.",
+   "words_count": 4,
+   "chars": 18,
+   "credits": 9,
+   "request_id": "HzA0ibmlmuTcvK1VR32c",
+   "seconds": 1.959,
+   "generated_ms": 1855,
+   "words": [
+    {
+     "w": "એક",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 0.48,
+     "end": 0.96
+    },
+    {
+     "w": "પર",
+     "start": 1.04,
+     "end": 1.2
+    },
+    {
+     "w": "કાપો.",
+     "start": 1.28,
+     "end": 1.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-2-diagonals",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/p2-2-diagonals.mp3",
+   "text": "બધા વિકર્ણ દોરો.",
+   "spoken": "બધા વિકર્ણ દોરો.",
+   "words_count": 3,
+   "chars": 16,
+   "credits": 8,
+   "request_id": "4sSxJszCJD6reL2oaJZU",
+   "seconds": 1.881,
+   "generated_ms": 1251,
+   "words": [
+    {
+     "w": "બધા",
+     "start": 0,
+     "end": 0.48
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 0.64,
+     "end": 1.2
+    },
+    {
+     "w": "દોરો.",
+     "start": 1.28,
+     "end": 1.68
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-3-samevertex",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/p2-3-samevertex.mp3",
+   "text": "એક જ શિરોબિંદુથી 2 વિકર્ણ દોરો.",
+   "spoken": "એક જ શિરોબિંદુથી બે વિકર્ણ દોરો.",
+   "words_count": 6,
+   "chars": 32,
+   "credits": 16,
+   "request_id": "2dptPcPMsk8NMZwzGUNZ",
+   "seconds": 3.396,
+   "generated_ms": 3047,
+   "words": [
+    {
+     "w": "એક",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "જ",
+     "start": 0.4,
+     "end": 0.48
+    },
+    {
+     "w": "શિરોબિંદુથી",
+     "start": 0.56,
+     "end": 1.52
+    },
+    {
+     "w": "2",
+     "start": 1.84,
+     "end": 2.08
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 2.16,
+     "end": 2.72
+    },
+    {
+     "w": "દોરો.",
+     "start": 2.8,
+     "end": 3.12
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-4-concave",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/p2-4-concave.mp3",
+   "text": "અંતર્મુખ બહુકોણ કાપો.",
+   "spoken": "અંતર્મુખ બહુકોણ કાપો.",
+   "words_count": 3,
+   "chars": 21,
+   "credits": 10,
+   "request_id": "bOoyQY4HRodyMvcnO21e",
+   "seconds": 2.194,
+   "generated_ms": 1455,
+   "words": [
+    {
+     "w": "અંતર્મુખ",
+     "start": 0,
+     "end": 0.8
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 0.88,
+     "end": 1.44
+    },
+    {
+     "w": "કાપો.",
+     "start": 1.52,
+     "end": 1.92
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-5-convex",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/p2-5-convex.mp3",
+   "text": "બહિર્મુખ બહુકોણ કાપો.",
+   "spoken": "બહિર્મુખ બહુકોણ કાપો.",
+   "words_count": 3,
+   "chars": 21,
+   "credits": 10,
+   "request_id": "EAQPlNuiMIDV1rqIKC9C",
+   "seconds": 2.194,
+   "generated_ms": 1941,
+   "words": [
+    {
+     "w": "બહિર્મુખ",
+     "start": 0,
+     "end": 0.8
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 0.96,
+     "end": 1.44
+    },
+    {
+     "w": "કાપો.",
+     "start": 1.52,
+     "end": 2
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-6-concave-pentagon",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/p2-6-concave-pentagon.mp3",
+   "text": "અંતર્મુખ પંચકોણ કાપો.",
+   "spoken": "અંતર્મુખ પંચકોણ કાપો.",
+   "words_count": 3,
+   "chars": 21,
+   "credits": 10,
+   "request_id": "kdr0lUeZ6uTjkuywWliT",
+   "seconds": 2.038,
+   "generated_ms": 1406,
+   "words": [
+    {
+     "w": "અંતર્મુખ",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "પંચકોણ",
+     "start": 0.8,
+     "end": 1.36
+    },
+    {
+     "w": "કાપો.",
+     "start": 1.44,
+     "end": 1.84
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-7-convex-hexagon",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/p2-7-convex-hexagon.mp3",
+   "text": "બહિર્મુખ ષટ્કોણ કાપો.",
+   "spoken": "બહિર્મુખ ષટ્કોણ કાપો.",
+   "words_count": 3,
+   "chars": 21,
+   "credits": 10,
+   "request_id": "TH1Nh0GeJbRRcSC4EXgg",
+   "seconds": 1.959,
+   "generated_ms": 1683,
+   "words": [
+    {
+     "w": "બહિર્મુખ",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "ષટ્કોણ",
+     "start": 0.8,
+     "end": 1.28
+    },
+    {
+     "w": "કાપો.",
+     "start": 1.36,
+     "end": 1.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-8-all-concave",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/p2-8-all-concave.mp3",
+   "text": "બધા અંતર્મુખ બહુકોણ કાપો.",
+   "spoken": "બધા અંતર્મુખ બહુકોણ કાપો.",
+   "words_count": 4,
+   "chars": 25,
+   "credits": 12,
+   "request_id": "LLi4xGmqBIg7I7pjPwkW",
+   "seconds": 2.508,
+   "generated_ms": 2033,
+   "words": [
+    {
+     "w": "બધા",
+     "start": 0,
+     "end": 0.56
+    },
+    {
+     "w": "અંતર્મુખ",
+     "start": 0.587,
+     "end": 1.28
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 1.36,
+     "end": 1.84
+    },
+    {
+     "w": "કાપો.",
+     "start": 1.92,
+     "end": 2.32
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "p2-9-all-convex",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/p2-9-all-convex.mp3",
+   "text": "બધા બહિર્મુખ બહુકોણ કાપો.",
+   "spoken": "બધા બહિર્મુખ બહુકોણ કાપો.",
+   "words_count": 4,
+   "chars": 25,
+   "credits": 12,
+   "request_id": "M6mt92khSFF1OKcg4IxV",
+   "seconds": 2.691,
+   "generated_ms": 1684,
+   "words": [
+    {
+     "w": "બધા",
+     "start": 0,
+     "end": 0.4
+    },
+    {
+     "w": "બહિર્મુખ",
+     "start": 0.56,
+     "end": 1.28
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 1.44,
+     "end": 2
+    },
+    {
+     "w": "કાપો.",
+     "start": 2.08,
+     "end": 2.48
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-corners",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/hint-corners.mp3",
+   "text": "બે શિરોબિંદુઓ જોડો.",
+   "spoken": "બે શિરોબિંદુઓ જોડો.",
+   "words_count": 3,
+   "chars": 19,
+   "credits": 9,
+   "request_id": "ztFNf9rsKto1KpDHnZuQ",
+   "seconds": 1.959,
+   "generated_ms": 1231,
+   "words": [
+    {
+     "w": "બે",
+     "start": 0,
+     "end": 0.32
+    },
+    {
+     "w": "શિરોબિંદુઓ",
+     "start": 0.48,
+     "end": 1.28
+    },
+    {
+     "w": "જોડો.",
+     "start": 1.36,
+     "end": 1.76
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-side",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/hint-side.mp3",
+   "text": "આ એક બાજુ છે — વિકર્ણ દોરી જુઓ.",
+   "spoken": "આ એક બાજુ છે — વિકર્ણ દોરી જુઓ.",
+   "words_count": 7,
+   "chars": 31,
+   "credits": 15,
+   "request_id": "ikPfi9DE53DtMtRlUVEK",
+   "seconds": 3.239,
+   "generated_ms": 1633,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "એક",
+     "start": 0.4,
+     "end": 0.64
+    },
+    {
+     "w": "બાજુ",
+     "start": 0.667,
+     "end": 0.96
+    },
+    {
+     "w": "છે",
+     "start": 1.04,
+     "end": 1.2
+    },
+    {
+     "w": "—",
+     "start": null,
+     "end": null
+    },
+    {
+     "w": "વિકર્ણ",
+     "start": 1.84,
+     "end": 2.32
+    },
+    {
+     "w": "દોરી",
+     "start": 2.4,
+     "end": 2.64
+    },
+    {
+     "w": "જુઓ.",
+     "start": 2.72,
+     "end": 3.04
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-short",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/hint-short.mp3",
+   "text": "બરાબર આરપાર કાપો, એક શિરોબિંદુથી સામેના શિરોબિંદુ સુધી.",
+   "spoken": "બરાબર આરપાર કાપો, એક શિરોબિંદુથી સામેના શિરોબિંદુ સુધી.",
+   "words_count": 8,
+   "chars": 55,
+   "credits": 27,
+   "request_id": "D5RWke90VxUSrIEoItQu",
+   "seconds": 5.146,
+   "generated_ms": 5833,
+   "words": [
+    {
+     "w": "બરાબર",
+     "start": 0,
+     "end": 0.72
+    },
+    {
+     "w": "આરપાર",
+     "start": 0.8,
+     "end": 1.36
+    },
+    {
+     "w": "કાપો,",
+     "start": 1.4,
+     "end": 1.68
+    },
+    {
+     "w": "એક",
+     "start": 2.24,
+     "end": 2.4
+    },
+    {
+     "w": "શિરોબિંદુથી",
+     "start": 2.48,
+     "end": 3.52
+    },
+    {
+     "w": "સામેના",
+     "start": 3.547,
+     "end": 4
+    },
+    {
+     "w": "શિરોબિંદુ",
+     "start": 4.08,
+     "end": 4.56
+    },
+    {
+     "w": "સુધી.",
+     "start": 4.64,
+     "end": 4.96
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-already",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/hint-already.mp3",
+   "text": "એ તો થઈ ગયો — બીજો શોધો.",
+   "spoken": "એ તો થઈ ગયો — બીજો શોધો.",
+   "words_count": 6,
+   "chars": 24,
+   "credits": 12,
+   "request_id": "Gw6ehJt5jN4kdgB0i0eM",
+   "seconds": 2.429,
+   "generated_ms": 1691,
+   "words": [
+    {
+     "w": "એ",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "તો",
+     "start": 0.2,
+     "end": 0.32
+    },
+    {
+     "w": "થઈ",
+     "start": 0.373,
+     "end": 0.52
+    },
+    {
+     "w": "ગયો",
+     "start": 0.56,
+     "end": 0.88
+    },
+    {
+     "w": "—",
+     "start": null,
+     "end": null
+    },
+    {
+     "w": "બીજો",
+     "start": 1.44,
+     "end": 1.76
+    },
+    {
+     "w": "શોધો.",
+     "start": 1.84,
+     "end": 2.4
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "hint-samevertex",
+   "speaker": "popo",
+   "voice": "Bhavesh Bhai",
+   "voice_id": "UHwU6ReRgTsCs68KHc6C",
+   "file": "assets/VO-GU/hint-samevertex.mp3",
+   "text": "આ પણ એ જ શિરોબિંદુથી શરૂ કરો.",
+   "spoken": "આ પણ એ જ શિરોબિંદુથી શરૂ કરો.",
+   "words_count": 7,
+   "chars": 29,
+   "credits": 14,
+   "request_id": "eNqph7lXpj2LRAUe1pis",
+   "seconds": 2.691,
+   "generated_ms": 1530,
+   "words": [
+    {
+     "w": "આ",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "પણ",
+     "start": 0.28,
+     "end": 0.56
+    },
+    {
+     "w": "એ",
+     "start": 0.64,
+     "end": 0.8
+    },
+    {
+     "w": "જ",
+     "start": 0.88,
+     "end": 0.96
+    },
+    {
+     "w": "શિરોબિંદુથી",
+     "start": 1.04,
+     "end": 1.84
+    },
+    {
+     "w": "શરૂ",
+     "start": 1.92,
+     "end": 2.16
+    },
+    {
+     "w": "કરો.",
+     "start": 2.2,
+     "end": 2.48
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "sw1",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/sw1.mp3",
+   "text": "મોમોને તમારી મદદની જરૂર છે.",
+   "spoken": "મોમોને તમારી મદદની જરૂર છે.",
+   "words_count": 5,
+   "chars": 27,
+   "credits": 13,
+   "request_id": "shVCnrzcV8WrioMot9g5",
+   "seconds": 2.429,
+   "generated_ms": 2394,
+   "words": [
+    {
+     "w": "મોમોને",
+     "start": 0,
+     "end": 0.64
+    },
+    {
+     "w": "તમારી",
+     "start": 0.72,
+     "end": 1.04
+    },
+    {
+     "w": "મદદની",
+     "start": 1.12,
+     "end": 1.6
+    },
+    {
+     "w": "જરૂર",
+     "start": 1.64,
+     "end": 1.92
+    },
+    {
+     "w": "છે.",
+     "start": 2,
+     "end": 2.24
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "sw2",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/sw2.mp3",
+   "text": "પણ મોમોને મદદ કરવા માટે, તમારે બહુકોણ વિશે શીખવું પડશે.",
+   "spoken": "પણ મોમોને મદદ કરવા માટે, તમારે બહુકોણ વિશે શીખવું પડશે.",
+   "words_count": 10,
+   "chars": 55,
+   "credits": 27,
+   "request_id": "i0VBivBaGebXRUXe2Xd4",
+   "seconds": 4.441,
+   "generated_ms": 2554,
+   "words": [
+    {
+     "w": "પણ",
+     "start": 0,
+     "end": 0.16
+    },
+    {
+     "w": "મોમોને",
+     "start": 0.24,
+     "end": 0.72
+    },
+    {
+     "w": "મદદ",
+     "start": 0.8,
+     "end": 1.04
+    },
+    {
+     "w": "કરવા",
+     "start": 1.12,
+     "end": 1.36
+    },
+    {
+     "w": "માટે,",
+     "start": 1.44,
+     "end": 1.84
+    },
+    {
+     "w": "તમારે",
+     "start": 2.24,
+     "end": 2.64
+    },
+    {
+     "w": "બહુકોણ",
+     "start": 2.667,
+     "end": 3.2
+    },
+    {
+     "w": "વિશે",
+     "start": 3.24,
+     "end": 3.493
+    },
+    {
+     "w": "શીખવું",
+     "start": 3.52,
+     "end": 3.84
+    },
+    {
+     "w": "પડશે.",
+     "start": 3.88,
+     "end": 4.24
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  },
+  {
+   "id": "sw3",
+   "speaker": "swiftee",
+   "voice": "Hetalben",
+   "voice_id": "1wX3DrX9Q7x2fkeiljyg",
+   "file": "assets/VO-GU/sw3.mp3",
+   "text": "હવે ચાલો, મોમોને મદદ કરીએ.",
+   "spoken": "હવે ચાલો, મોમોને મદદ કરીએ.",
+   "words_count": 5,
+   "chars": 26,
+   "credits": 13,
+   "request_id": "JyyvR4yBQbp7T54N2e4t",
+   "seconds": 2.273,
+   "generated_ms": 1433,
+   "words": [
+    {
+     "w": "હવે",
+     "start": 0,
+     "end": 0.24
+    },
+    {
+     "w": "ચાલો,",
+     "start": 0.267,
+     "end": 0.56
+    },
+    {
+     "w": "મોમોને",
+     "start": 0.96,
+     "end": 1.36
+    },
+    {
+     "w": "મદદ",
+     "start": 1.44,
+     "end": 1.68
+    },
+    {
+     "w": "કરીએ.",
+     "start": 1.76,
+     "end": 2.08
+    }
+   ],
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "speed": 0.92
+   }
+  }
+ ]
+}

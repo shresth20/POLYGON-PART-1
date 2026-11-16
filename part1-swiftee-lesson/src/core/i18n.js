@@ -8,7 +8,7 @@
   var HTML_LANG = { en: 'en', hi: 'hi', mr: 'mr', te: 'te', gu: 'gu', od: 'or' };
   var FONT = { hi: 'Baloo 2', mr: 'Baloo 2', te: 'Baloo Tammudu 2', gu: 'Baloo Bhai 2', od: 'Baloo Bhaina 2' };
   var SCRIPT = { hi: 'deva', mr: 'deva', te: 'telu', gu: 'gujr', od: 'orya' };
-  var VOICED = { hi: true, mr: true };
+  var VOICED = { hi: true, mr: true, gu: true };
   var TERM_KEYS = [
     ['irregular', 'termIrregular'], ['polygon', 'termPolygon'], ['vertex', 'termVertex'],
     ['diagonal', 'termDiagonal'], ['side', 'termSide'], ['angle', 'termAngle'],
